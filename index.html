@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anthropoid Cuboid Signed PC Traversals</title>
+  <link rel="stylesheet" href="./assets/styles.css" />
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "./assets/vendor/three.module.min.js",
+      "three/addons/": "./assets/vendor/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Anthropoid cuboid dense-correspondence morphospace</p>
+        <h1>Signed decoded traversal viewer</h1>
+      </div>
+      <div class="run-meta" aria-label="Dataset metadata">
+        <span>411 specimens</span>
+        <span>PC1-PC4</span>
+        <span>41 states per axis</span>
+      </div>
+    </header>
+
+    <section class="control-strip" aria-label="Global controls">
+      <button id="syncSliders" type="button">Sync sliders</button>
+      <button id="syncViews" type="button">Sync viewers</button>
+      <button id="resetViews" type="button">Reset views</button>
+      <label class="toggle-label">
+        <input id="sharedScale" type="checkbox" checked />
+        Shared color scale
+      </label>
+      <div class="scale-key" aria-label="Signed displacement color key">
+        <span class="scale-label">inward</span>
+        <span class="scale-ramp"></span>
+        <span class="scale-label">outward</span>
+      </div>
+    </section>
+
+    <section id="viewerGrid" class="viewer-grid" aria-label="Principal component traversal viewers"></section>
+
+    <section class="pca-context" aria-label="PCA context plots">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Fig 9A context</p>
+          <h2>Species-mean PCA axes with individual specimens projected</h2>
+        </div>
+        <div class="pca-meta">71 species/subspecies means; 391 projected specimens</div>
+      </div>
+      <div id="pcaPlotGrid" class="pca-plot-grid"></div>
+      <div id="pcaLegend" class="pca-legend"></div>
+    </section>
+
+    <section class="provenance">
+      <h2>Source</h2>
+      <p id="sourceLine">Loading source metadata...</p>
+    </section>
+  </main>
+
+  <script type="module" src="./assets/viewer.js"></script>
+</body>
+</html>
