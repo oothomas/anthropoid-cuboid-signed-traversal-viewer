@@ -1,0 +1,35 @@
+{
+  "title": "Dense correspondence and learned biological morphospaces",
+  "status": "Manuscript in preparation | Preliminary results",
+  "introduction": "Biological shape varies across entire surfaces, not only at a small set of anatomical landmarks. This project links dense surface correspondence with a reconstruction-capable morphospace: a statistical representation in which differences between specimens can be examined as changes in three-dimensional anatomy. The current study includes anthropoid cuboids, a non-fossil hominoid cuboid subset, mouse mandibles and mouse humeri.",
+  "sections": [
+    {
+      "heading": "Two complementary stages",
+      "paragraphs": [
+        "Stage 1 establishes dense correspondences between landmarked skeletal surfaces through a network of specimen and template relationships. Landmark-adapted functional maps, correspondence audits and dataset-specific refinement connect anatomical locations across differently shaped meshes. Correspondence quality is a central methodological question, not simply a preprocessing assumption.",
+        "Stage 2 uses a DiffusionNet-based autoencoder and a shared functional-map basis to learn specimen shape codes. A prism decoder reconstructs surfaces from those codes on a fixed template. Principal-component analysis (PCA) summarizes variation in the training codes; decoding along its axes connects positions in the morphospace to explicit changes in surface anatomy. The method builds on functional-map and DISCO-AE approaches."
+      ]
+    },
+    {
+      "heading": "Initial results",
+      "paragraphs": [
+        "The current models yield decoded shape variation for all four datasets. The first four latent principal components account for 43.2% of training-code variance in anthropoid cuboids, 57.8% in non-fossil hominoid cuboids, 67.2% in mouse mandibles and 66.2% in mouse humeri. These percentages describe the displayed portion of each morphospace; they are not measures of reconstruction accuracy and do not rank the models across datasets.",
+        "Surface quality remains part of the assessment. Among 164 axis-position outputs per model, intersection checks flag 18 anthropoid and 46 hominoid outputs, versus none in the mandible or humerus outputs. The decoded mean is repeated on each axis in this count. No exactly degenerate or near-zero-area faces were detected in these sampled outputs. Absence of a flag does not establish anatomical correctness or validate unsampled shapes."
+      ]
+    },
+    {
+      "heading": "Implications and limits",
+      "paragraphs": [
+        "The intended contribution is a link between dense anatomical correspondence, quantitative shape relationships and reconstructable anatomy. This makes a learned morphospace inspectable beyond a scatterplot: proposed differences can be examined on decoded surfaces and checked for local distortion. Biological, functional and evolutionary interpretations still require anatomical review and supporting analyses.",
+        "This release shows the latest completed seed-2071 model for each dataset, not a selected best seed or a completed repeatability comparison. PCA uses training specimens only, with tuning specimens projected where available; confirmation specimens and reference templates are absent from the score plots. The mouse datasets use all non-template specimens for descriptive training, so their displays are not held-out generalization tests. Shared correspondence construction also limits claims of fully unseen-specimen performance."
+      ]
+    },
+    {
+      "heading": "What the surfaces represent",
+      "paragraphs": [
+        "Each of the four surface panels is an actual decoder output for one principal component, sampled at 41 positions from -2 to +2 training-score standard deviations while the other components remain at the training-code mean. Each dataset has its own model, fixed template and PCA axes; axis numbers are not aligned across datasets or seeds.",
+        "Blue denotes inward and orange/red outward movement relative to the decoded mean, measured along its outward vertex normals and expressed as a percentage of its bounding-box diagonal. White denotes zero normal displacement. This is not reconstruction error, a closest-surface signed distance or a measure of unmapped coverage; tangential movement is not represented."
+      ]
+    }
+  ]
+}

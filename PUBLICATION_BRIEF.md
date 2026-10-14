@@ -1,5 +1,11 @@
 # Current-model public traversal update
 
+Presentation amendment: `PRESENTATION_BRIEF.md` adds shared project context,
+manuscript-in-preparation status, genus annotations and square/equal-unit PCA
+plots to this initial release brief. The scientific inputs and boundaries below
+remain in force. Exact multi-PC decoding is a separate technical proposal, not a
+fifth approximate surface in the current release.
+
 ## Reader Task
 Inspect PC1-PC4 decoded anatomy in four current seed-2071 models, distinguish
 inward/outward movement from reconstruction error, and identify sampled geometry

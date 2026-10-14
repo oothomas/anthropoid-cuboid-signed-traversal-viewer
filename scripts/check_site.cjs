@@ -3,6 +3,7 @@ const {chromium}=require('playwright');
 const fs=require('node:fs');
 const path=require('node:path');
 const base=process.argv[2], output=process.argv[3];
+const project=JSON.parse(fs.readFileSync(path.join(__dirname,'../content/project.json'),'utf8'));
 if(!base||!output)throw new Error('Usage: node check_site.cjs BASE_URL OUTPUT_DIR');
 fs.mkdirSync(output,{recursive:true});
 
@@ -13,6 +14,15 @@ fs.mkdirSync(output,{recursive:true});
   page.on('pageerror',e=>errors.push(e.message));
   page.on('response',r=>{if(r.status()>=400&&!r.url().endsWith('favicon.ico'))errors.push(`${r.status()} ${r.url()}`);});
   async function settle(){await page.evaluate(()=>new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r))));}
+  async function squarePlots(){
+    await settle();
+    const checks=await page.locator('.score-plot').evaluateAll(plots=>plots.map(svg=>{
+      const rect=svg.getBoundingClientRect(),frame=svg.querySelector('.score-frame').getBoundingClientRect();
+      return {viewport:[rect.width,rect.height],frame:[frame.width,frame.height],viewBox:svg.getAttribute('viewBox')};
+    }));
+    if(checks.length!==2||checks.some(r=>Math.abs(r.viewport[0]-r.viewport[1])>.1||Math.abs(r.frame[0]-r.frame[1])>.1))throw new Error('PCA plot is stretched');
+    return checks;
+  }
   async function pixels(){
     await settle();
     return page.locator('canvas.surface').evaluateAll(items=>items.map(c=>{
@@ -46,6 +56,29 @@ fs.mkdirSync(output,{recursive:true});
       if(await page.locator('a[download], a[href*="scores.csv"]').count())throw new Error('Score download remains');
       if((await page.request.get(new URL(key+'/traversals/scores.csv',base).href)).status()!==404)throw new Error('Score CSV is accessible');
       if(await page.locator('#scores12 .score-point').count()!==count)throw new Error('Unexpected score count');
+      const desktopPlots=await squarePlots();
+      if(await page.locator('#project-title').innerText()!==project.title)throw new Error('Missing project identity');
+      const paragraphs=await page.locator('#project .project-section p').allTextContents();
+      if(JSON.stringify(paragraphs)!==JSON.stringify(project.sections.flatMap(s=>s.paragraphs)))throw new Error('Shared project copy drift');
+      if(await page.locator('#project .publication-status').innerText()!==project.status)throw new Error('Publication status drift');
+      let genus=null;
+      if(['cuboid','hominoids'].includes(key)){
+        const metadata=await (await page.request.get(new URL(key+'/traversals/data.json',base).href)).json();
+        const genera=new Set(metadata.scores.map(r=>r.genus));
+        if(await page.locator('#genus-legend li').count()!==genera.size)throw new Error('Incomplete genus legend');
+        const painted=await page.locator('#scores12 .score-point').evaluateAll(points=>points.every(p=>p.dataset.genus&&p.style.fill));
+        if(!painted)throw new Error('Missing genus colors');
+        await page.locator('#genus-select').selectOption('Hylobates');
+        const expected=metadata.scores.filter(r=>r.genus==='Hylobates').length;
+        if(await page.locator('#scores12 .score-point.emphasized').count()!==expected)throw new Error('Genus emphasis incorrect');
+        const focus=page.locator('#scores12 .score-point.emphasized').first();await focus.focus();
+        if(!(await page.locator('#score-tooltip').innerText()).includes('Genus: Hylobates'))throw new Error('Keyboard genus tooltip missing');
+        await page.keyboard.press('Escape');
+        if(await page.locator('#score-tooltip').isVisible())throw new Error('Tooltip Escape failed');
+        await page.locator('#genus-select').selectOption('');
+        await page.locator('#scores').screenshot({path:path.join(output,key+'_genus.png')});
+        genus={categories:genera.size,emphasisSpecimens:expected,keyboardTooltip:true};
+      }else if(await page.locator('#genus-select').count())throw new Error('Unexpected mouse genus annotation');
       await page.locator('#sync-sliders').check();
       const frames=[];
       for(const value of [0,20,40]){
@@ -74,9 +107,16 @@ fs.mkdirSync(output,{recursive:true});
       await page.waitForFunction(()=>document.body.dataset.loaded==='current',{timeout:60000});
       await page.locator('#fit').click();await step(40);
       const mobile=await pixels();
+      const mobilePlots=await squarePlots();
       if(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)||mobile.some(c=>c.fraction<.01))throw new Error('Mobile layout failed');
+      if(['cuboid','hominoids'].includes(key)){
+        await page.locator('#genus-select').selectOption('Pan');
+        await page.locator('#scores12 .score-point.emphasized').first().click();
+        if(!(await page.locator('#score-tooltip').innerText()).includes('Genus: Pan'))throw new Error('Mobile genus tooltip missing');
+        await page.locator('#genus-select').selectOption('');
+      }
       await page.screenshot({path:path.join(output,key+'_mobile.png'),fullPage:true});
-      records.push({dataset:key,heading,scoreCount:count,frames,mobile,animation:true,scoreDownload:false});
+      records.push({dataset:key,heading,scoreCount:count,frames,mobile,desktopPlots,mobilePlots,genus,sharedCopy:true,animation:true,scoreDownload:false});
       console.log(key,'passed');
     }
     fs.writeFileSync(path.join(output,'browser_checks.json'),JSON.stringify({status:errors.length?'failed':'passed',base,release:release.release,records,errors},null,2));

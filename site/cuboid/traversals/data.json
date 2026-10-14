@@ -1880,7 +1880,10 @@
       "PC1_SD": -0.8100273013114929,
       "PC2_SD": -0.9961669445037842,
       "PC3_SD": 2.6651692390441895,
-      "PC4_SD": 2.129136800765991
+      "PC4_SD": 2.129136800765991,
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta belzebul",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Alouatta_caraya_209917_CUB",
@@ -1888,7 +1891,10 @@
       "PC1_SD": -0.7786459922790527,
       "PC2_SD": -1.3036435842514038,
       "PC3_SD": 2.103024482727051,
-      "PC4_SD": 1.4189205169677734
+      "PC4_SD": 1.4189205169677734,
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta caraya",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Alouatta_caraya_211511_CUB",
@@ -1896,7 +1902,10 @@
       "PC1_SD": -0.7918969988822937,
       "PC2_SD": -0.962307333946228,
       "PC3_SD": 1.785065770149231,
-      "PC4_SD": 1.5475045442581177
+      "PC4_SD": 1.5475045442581177,
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta caraya",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Alouatta_caraya_211512_CUB",
@@ -1904,7 +1913,10 @@
       "PC1_SD": -0.5491711497306824,
       "PC2_SD": -1.2724496126174927,
       "PC3_SD": 1.7630500793457031,
-      "PC4_SD": 0.9783930778503418
+      "PC4_SD": 0.9783930778503418,
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta caraya",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Alouatta_seniculus_188002_CUB",
@@ -1912,7 +1924,10 @@
       "PC1_SD": -1.0294841527938843,
       "PC2_SD": -0.5492072105407715,
       "PC3_SD": 1.0210760831832886,
-      "PC4_SD": 1.8589318990707397
+      "PC4_SD": 1.8589318990707397,
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta seniculus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Alouatta_seniculus_188006_CUB",
@@ -1920,7 +1935,10 @@
       "PC1_SD": -0.40118056535720825,
       "PC2_SD": -0.9384554624557495,
       "PC3_SD": 1.3325793743133545,
-      "PC4_SD": 1.0038645267486572
+      "PC4_SD": 1.0038645267486572,
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta seniculus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Alouatta_seniculus_211528_CUB",
@@ -1928,7 +1946,10 @@
       "PC1_SD": -0.9740791916847229,
       "PC2_SD": -0.9661809802055359,
       "PC3_SD": 2.156346082687378,
-      "PC4_SD": 2.1918609142303467
+      "PC4_SD": 2.1918609142303467,
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta seniculus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Alouatta_seniculus_211529_CUB",
@@ -1936,7 +1957,10 @@
       "PC1_SD": -0.26262497901916504,
       "PC2_SD": -0.30446764826774597,
       "PC3_SD": 0.6090853214263916,
-      "PC4_SD": 1.0616000890731812
+      "PC4_SD": 1.0616000890731812,
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta seniculus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Alouatta_seniculus_211531_CUB",
@@ -1944,7 +1968,10 @@
       "PC1_SD": -1.157167673110962,
       "PC2_SD": -0.9291681051254272,
       "PC3_SD": 1.7688814401626587,
-      "PC4_SD": 2.4827840328216553
+      "PC4_SD": 2.4827840328216553,
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta seniculus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Alouatta_seniculus_211532_CUB",
@@ -1952,7 +1979,10 @@
       "PC1_SD": -0.7061893343925476,
       "PC2_SD": -1.343260407447815,
       "PC3_SD": 1.6566908359527588,
-      "PC4_SD": 1.4953563213348389
+      "PC4_SD": 1.4953563213348389,
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta seniculus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Alouatta_seniculus_211534_CUB",
@@ -1960,7 +1990,10 @@
       "PC1_SD": -0.893670916557312,
       "PC2_SD": -0.4992077350616455,
       "PC3_SD": 1.0997042655944824,
-      "PC4_SD": 1.9117250442504883
+      "PC4_SD": 1.9117250442504883,
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta seniculus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Alouatta_seniculus_211535_CUB",
@@ -1968,7 +2001,10 @@
       "PC1_SD": -0.5596805810928345,
       "PC2_SD": -1.0789759159088135,
       "PC3_SD": 1.4355484247207642,
-      "PC4_SD": 1.7606157064437866
+      "PC4_SD": 1.7606157064437866,
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta seniculus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Alouatta_seniculus_23334_CUB",
@@ -1976,7 +2012,10 @@
       "PC1_SD": -0.518421471118927,
       "PC2_SD": -1.617842197418213,
       "PC3_SD": 2.185346841812134,
-      "PC4_SD": 1.9864529371261597
+      "PC4_SD": 1.9864529371261597,
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta seniculus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Alouatta_seniculus_23342_CUB",
@@ -1984,7 +2023,10 @@
       "PC1_SD": -0.7465765476226807,
       "PC2_SD": -1.1104847192764282,
       "PC3_SD": 2.264475107192993,
-      "PC4_SD": 1.9962987899780273
+      "PC4_SD": 1.9962987899780273,
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta seniculus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Alouatta_seniculus_23351_CUB",
@@ -1992,7 +2034,10 @@
       "PC1_SD": -0.8051406145095825,
       "PC2_SD": -1.2017970085144043,
       "PC3_SD": 2.0742363929748535,
-      "PC4_SD": 2.3995521068573
+      "PC4_SD": 2.3995521068573,
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta seniculus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Alouatta_seniculus_23549_CUB",
@@ -2000,7 +2045,10 @@
       "PC1_SD": -0.7123298645019531,
       "PC2_SD": -1.2793781757354736,
       "PC3_SD": 1.560764193534851,
-      "PC4_SD": 1.614848256111145
+      "PC4_SD": 1.614848256111145,
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta seniculus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Alouatta_seniculus_42316_CUB",
@@ -2008,7 +2056,10 @@
       "PC1_SD": -0.26038694381713867,
       "PC2_SD": -1.489800214767456,
       "PC3_SD": 2.192647933959961,
-      "PC4_SD": 2.0472750663757324
+      "PC4_SD": 2.0472750663757324,
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta seniculus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Ateles_belzebuth_201294_CUB",
@@ -2016,7 +2067,10 @@
       "PC1_SD": -0.8799561262130737,
       "PC2_SD": -1.1364161968231201,
       "PC3_SD": 2.4093313217163086,
-      "PC4_SD": 1.5641052722930908
+      "PC4_SD": 1.5641052722930908,
+      "genus": "Ateles",
+      "taxon_label": "Ateles belzebuth",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Ateles_belzebuth_259_CUB",
@@ -2024,7 +2078,10 @@
       "PC1_SD": -0.7724676728248596,
       "PC2_SD": -0.43258532881736755,
       "PC3_SD": 1.020316481590271,
-      "PC4_SD": 1.88004469871521
+      "PC4_SD": 1.88004469871521,
+      "genus": "Ateles",
+      "taxon_label": "Ateles belzebuth",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Ateles_fusciceps_188135_CUB",
@@ -2032,7 +2089,10 @@
       "PC1_SD": -0.27535492181777954,
       "PC2_SD": -1.0635550022125244,
       "PC3_SD": 1.486993670463562,
-      "PC4_SD": 1.28684401512146
+      "PC4_SD": 1.28684401512146,
+      "genus": "Ateles",
+      "taxon_label": "Ateles fusciceps",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Ateles_fusciceps_188140_CUB",
@@ -2040,7 +2100,10 @@
       "PC1_SD": -0.3814942240715027,
       "PC2_SD": -1.0449395179748535,
       "PC3_SD": 1.8925927877426147,
-      "PC4_SD": 1.8387017250061035
+      "PC4_SD": 1.8387017250061035,
+      "genus": "Ateles",
+      "taxon_label": "Ateles fusciceps",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Ateles_geoffroyi_28420_CUB",
@@ -2048,7 +2111,10 @@
       "PC1_SD": -0.5082544684410095,
       "PC2_SD": -1.156957745552063,
       "PC3_SD": 2.254361152648926,
-      "PC4_SD": 1.969997763633728
+      "PC4_SD": 1.969997763633728,
+      "genus": "Ateles",
+      "taxon_label": "Ateles geoffroyi",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Ateles_marginatus_95039_CUB",
@@ -2056,7 +2122,10 @@
       "PC1_SD": -0.09134140610694885,
       "PC2_SD": -0.9708810448646545,
       "PC3_SD": 1.7954261302947998,
-      "PC4_SD": 1.5796570777893066
+      "PC4_SD": 1.5796570777893066,
+      "genus": "Ateles",
+      "taxon_label": "Ateles marginatus",
+      "assignment_basis": "Retained local label; no comparative assignment"
     },
     {
       "mesh_id": "Ateles_paniscus_35449_CUB",
@@ -2064,7 +2133,10 @@
       "PC1_SD": -0.566639244556427,
       "PC2_SD": -0.4681805372238159,
       "PC3_SD": 1.0753173828125,
-      "PC4_SD": 1.5385910272598267
+      "PC4_SD": 1.5385910272598267,
+      "genus": "Ateles",
+      "taxon_label": "Ateles paniscus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Ateles_paniscus_3768_CUB",
@@ -2072,7 +2144,10 @@
       "PC1_SD": -0.44347521662712097,
       "PC2_SD": -1.1737178564071655,
       "PC3_SD": 1.7209889888763428,
-      "PC4_SD": 1.5059462785720825
+      "PC4_SD": 1.5059462785720825,
+      "genus": "Ateles",
+      "taxon_label": "Ateles paniscus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cacajoa_calvus_70192_CUB",
@@ -2080,7 +2155,10 @@
       "PC1_SD": -0.508927047252655,
       "PC2_SD": -1.05637526512146,
       "PC3_SD": 0.6617240309715271,
-      "PC4_SD": -0.14191588759422302
+      "PC4_SD": -0.14191588759422302,
+      "genus": "Cacajao",
+      "taxon_label": "Cacajao calvus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cebus_apella_133606_CUB",
@@ -2088,7 +2166,10 @@
       "PC1_SD": -0.7221007943153381,
       "PC2_SD": -0.467896044254303,
       "PC3_SD": 0.7014232873916626,
-      "PC4_SD": -0.3772551715373993
+      "PC4_SD": -0.3772551715373993,
+      "genus": "Cebus",
+      "taxon_label": "Cebus apella",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cebus_apella_133607_CUB",
@@ -2096,7 +2177,10 @@
       "PC1_SD": -0.7298641800880432,
       "PC2_SD": -0.44708186388015747,
       "PC3_SD": 0.4124247133731842,
-      "PC4_SD": -0.15031997859477997
+      "PC4_SD": -0.15031997859477997,
+      "genus": "Cebus",
+      "taxon_label": "Cebus apella",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cebus_apella_133620_CUB",
@@ -2104,7 +2188,10 @@
       "PC1_SD": -1.056994080543518,
       "PC2_SD": -0.6739425659179688,
       "PC3_SD": 0.40319040417671204,
-      "PC4_SD": -0.7216361165046692
+      "PC4_SD": -0.7216361165046692,
+      "genus": "Cebus",
+      "taxon_label": "Cebus apella",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cebus_apella_133622_CUB",
@@ -2112,7 +2199,10 @@
       "PC1_SD": -0.9235385060310364,
       "PC2_SD": -0.4854743480682373,
       "PC3_SD": 0.6156973838806152,
-      "PC4_SD": -0.8580365777015686
+      "PC4_SD": -0.8580365777015686,
+      "genus": "Cebus",
+      "taxon_label": "Cebus apella",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cebus_apella_133624_CUB",
@@ -2120,7 +2210,10 @@
       "PC1_SD": -0.7215763926506042,
       "PC2_SD": -0.6268123388290405,
       "PC3_SD": 0.6756514310836792,
-      "PC4_SD": -0.4931962788105011
+      "PC4_SD": -0.4931962788105011,
+      "genus": "Cebus",
+      "taxon_label": "Cebus apella",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cebus_apella_133628_CUB",
@@ -2128,7 +2221,10 @@
       "PC1_SD": -0.6817831993103027,
       "PC2_SD": -0.4769701659679413,
       "PC3_SD": 0.5371357798576355,
-      "PC4_SD": -0.8050193190574646
+      "PC4_SD": -0.8050193190574646,
+      "genus": "Cebus",
+      "taxon_label": "Cebus apella",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cebus_apella_133637_CUB",
@@ -2136,7 +2232,10 @@
       "PC1_SD": -0.7747673392295837,
       "PC2_SD": -0.3076852560043335,
       "PC3_SD": 0.5606243014335632,
-      "PC4_SD": -0.7458740472793579
+      "PC4_SD": -0.7458740472793579,
+      "genus": "Cebus",
+      "taxon_label": "Cebus apella",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cebus_apella_133640_CUB",
@@ -2144,7 +2243,10 @@
       "PC1_SD": -0.6731213927268982,
       "PC2_SD": -0.5009902119636536,
       "PC3_SD": 0.902290940284729,
-      "PC4_SD": -0.8294359445571899
+      "PC4_SD": -0.8294359445571899,
+      "genus": "Cebus",
+      "taxon_label": "Cebus apella",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cebus_apella_133642_CUB",
@@ -2152,7 +2254,10 @@
       "PC1_SD": -0.880879819393158,
       "PC2_SD": -0.6794620752334595,
       "PC3_SD": 0.29913657903671265,
-      "PC4_SD": -0.4568158686161041
+      "PC4_SD": -0.4568158686161041,
+      "genus": "Cebus",
+      "taxon_label": "Cebus apella",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cebus_apella_133654_CUB",
@@ -2160,7 +2265,10 @@
       "PC1_SD": -0.9036054611206055,
       "PC2_SD": -0.48852503299713135,
       "PC3_SD": 0.8013787269592285,
-      "PC4_SD": -0.6113085150718689
+      "PC4_SD": -0.6113085150718689,
+      "genus": "Cebus",
+      "taxon_label": "Cebus apella",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cebus_apella_133674_CUB",
@@ -2168,7 +2276,10 @@
       "PC1_SD": -1.0202033519744873,
       "PC2_SD": -0.09242220968008041,
       "PC3_SD": 0.23399436473846436,
-      "PC4_SD": -0.3087058663368225
+      "PC4_SD": -0.3087058663368225,
+      "genus": "Cebus",
+      "taxon_label": "Cebus apella",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cercocebus_atys_200896_CUB",
@@ -2176,7 +2287,10 @@
       "PC1_SD": -1.2381293773651123,
       "PC2_SD": -0.09670092910528183,
       "PC3_SD": -0.14540879428386688,
-      "PC4_SD": -0.5494419932365417
+      "PC4_SD": -0.5494419932365417,
+      "genus": "Cercocebus",
+      "taxon_label": "Cercocebus torquatus atys",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cercocebus_atys_355043_CUB",
@@ -2184,7 +2298,10 @@
       "PC1_SD": -0.8550075888633728,
       "PC2_SD": 0.43754270672798157,
       "PC3_SD": 0.03522800654172897,
-      "PC4_SD": -0.7897310853004456
+      "PC4_SD": -0.7897310853004456,
+      "genus": "Cercocebus",
+      "taxon_label": "Cercocebus torquatus atys",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cercopithecus_ascanius_52554_CUB",
@@ -2192,7 +2309,10 @@
       "PC1_SD": -0.7933576703071594,
       "PC2_SD": 0.010824364610016346,
       "PC3_SD": 0.163074791431427,
-      "PC4_SD": -0.28842705488204956
+      "PC4_SD": -0.28842705488204956,
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus ascanius",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cercopithecus_ascanius_52563_CUB",
@@ -2200,7 +2320,10 @@
       "PC1_SD": -1.072051763534546,
       "PC2_SD": -0.23215268552303314,
       "PC3_SD": -0.16033168137073517,
-      "PC4_SD": -0.6385630369186401
+      "PC4_SD": -0.6385630369186401,
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus ascanius",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cercopithecus_cephus_119623_CUB",
@@ -2208,7 +2331,10 @@
       "PC1_SD": -1.1902031898498535,
       "PC2_SD": 0.43766677379608154,
       "PC3_SD": 0.08079279959201813,
-      "PC4_SD": -0.4862302839756012
+      "PC4_SD": -0.4862302839756012,
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus cephus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cercopithecus_cephus_90081_CUB",
@@ -2216,7 +2342,10 @@
       "PC1_SD": -1.38193678855896,
       "PC2_SD": 0.2520967125892639,
       "PC3_SD": 0.16407068073749542,
-      "PC4_SD": -0.4492745101451874
+      "PC4_SD": -0.4492745101451874,
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus cephus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cercopithecus_diana_238067_CUB",
@@ -2224,7 +2353,10 @@
       "PC1_SD": -1.6441209316253662,
       "PC2_SD": 0.46330973505973816,
       "PC3_SD": 0.1279487907886505,
-      "PC4_SD": -0.7195122838020325
+      "PC4_SD": -0.7195122838020325,
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus diana",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cercopithecus_mitis_187375_CUB",
@@ -2232,7 +2364,10 @@
       "PC1_SD": -1.460556983947754,
       "PC2_SD": 0.5486094951629639,
       "PC3_SD": 0.10914241522550583,
-      "PC4_SD": -0.1594412922859192
+      "PC4_SD": -0.1594412922859192,
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus mitis",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cercopithecus_mitis_52368_CUB",
@@ -2240,7 +2375,10 @@
       "PC1_SD": -0.612184464931488,
       "PC2_SD": 0.36352989077568054,
       "PC3_SD": 0.26015907526016235,
-      "PC4_SD": -0.6671472191810608
+      "PC4_SD": -0.6671472191810608,
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus mitis",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cercopithecus_mitis_52398_CUB",
@@ -2248,7 +2386,10 @@
       "PC1_SD": -0.756870687007904,
       "PC2_SD": -0.07373818010091782,
       "PC3_SD": 0.07044386863708496,
-      "PC4_SD": -0.818433940410614
+      "PC4_SD": -0.818433940410614,
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus mitis",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cercopithecus_mitis_52401_CUB",
@@ -2256,7 +2397,10 @@
       "PC1_SD": -1.0424267053604126,
       "PC2_SD": 0.03633594140410423,
       "PC3_SD": 0.34025076031684875,
-      "PC4_SD": -0.8684092164039612
+      "PC4_SD": -0.8684092164039612,
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus mitis",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cercopithecus_mitis_52402_CUB",
@@ -2264,7 +2408,10 @@
       "PC1_SD": -1.2168279886245728,
       "PC2_SD": -0.05291837826371193,
       "PC3_SD": -0.2905053198337555,
-      "PC4_SD": -0.18680647015571594
+      "PC4_SD": -0.18680647015571594,
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus mitis",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cercopithecus_mitis_82411_CUB",
@@ -2272,7 +2419,10 @@
       "PC1_SD": -0.36957234144210815,
       "PC2_SD": -0.3111574649810791,
       "PC3_SD": 0.10968179255723953,
-      "PC4_SD": -0.19042140245437622
+      "PC4_SD": -0.19042140245437622,
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus mitis",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cercopithecus_mona_52482_CUB",
@@ -2280,7 +2430,10 @@
       "PC1_SD": -1.1656171083450317,
       "PC2_SD": -0.41259536147117615,
       "PC3_SD": -0.5419811010360718,
-      "PC4_SD": -0.2318972945213318
+      "PC4_SD": -0.2318972945213318,
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus mona",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cercopithecus_mona_52521_CUB",
@@ -2288,7 +2441,10 @@
       "PC1_SD": -1.045035481452942,
       "PC2_SD": -0.3285754919052124,
       "PC3_SD": -0.10821632295846939,
-      "PC4_SD": 0.356477290391922
+      "PC4_SD": 0.356477290391922,
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus mona",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cercopithecus_neglectus_52421_CUB",
@@ -2296,7 +2452,10 @@
       "PC1_SD": -0.9215389490127563,
       "PC2_SD": 0.5215833783149719,
       "PC3_SD": -0.5039772391319275,
-      "PC4_SD": -0.25455373525619507
+      "PC4_SD": -0.25455373525619507,
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus neglectus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Cercopithecus_neglectus_52429_CUB",
@@ -2304,7 +2463,10 @@
       "PC1_SD": -0.961728572845459,
       "PC2_SD": 0.04396161809563637,
       "PC3_SD": 0.06173068657517433,
-      "PC4_SD": -1.1099880933761597
+      "PC4_SD": -1.1099880933761597,
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus neglectus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Chlorocebus_aethiops_2900_CUB",
@@ -2312,7 +2474,10 @@
       "PC1_SD": -1.1047492027282715,
       "PC2_SD": 0.15909415483474731,
       "PC3_SD": -0.05218895524740219,
-      "PC4_SD": -0.7285089492797852
+      "PC4_SD": -0.7285089492797852,
+      "genus": "Chlorocebus",
+      "taxon_label": "Chlorocebus aethiops",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Chlorocebus_aethiops_52468_CUB",
@@ -2320,7 +2485,10 @@
       "PC1_SD": -0.8612185120582581,
       "PC2_SD": 0.3092226982116699,
       "PC3_SD": -0.054033227264881134,
-      "PC4_SD": -0.7696579098701477
+      "PC4_SD": -0.7696579098701477,
+      "genus": "Chlorocebus",
+      "taxon_label": "Chlorocebus aethiops",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Chlorocebus_cynosuros_80787_CUB",
@@ -2328,7 +2496,10 @@
       "PC1_SD": -0.665432870388031,
       "PC2_SD": -0.1395195573568344,
       "PC3_SD": 0.18252937495708466,
-      "PC4_SD": -0.18773745000362396
+      "PC4_SD": -0.18773745000362396,
+      "genus": "Chlorocebus",
+      "taxon_label": "Chlorocebus pygerythrus cynosurus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Chlorocebus_pygerythrus_27705_CUB",
@@ -2336,7 +2507,10 @@
       "PC1_SD": -0.6266549825668335,
       "PC2_SD": 0.12971532344818115,
       "PC3_SD": -0.20323744416236877,
-      "PC4_SD": -0.4906421899795532
+      "PC4_SD": -0.4906421899795532,
+      "genus": "Chlorocebus",
+      "taxon_label": "Chlorocebus pygerythrus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Chlorocebus_pygerythrus_34716_CUB",
@@ -2344,7 +2518,10 @@
       "PC1_SD": -0.7516108751296997,
       "PC2_SD": 0.6514815092086792,
       "PC3_SD": 0.2081916481256485,
-      "PC4_SD": 0.6942797303199768
+      "PC4_SD": 0.6942797303199768,
+      "genus": "Chlorocebus",
+      "taxon_label": "Chlorocebus pygerythrus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Chlorocebus_sabaeus_21532_CUB",
@@ -2352,7 +2529,10 @@
       "PC1_SD": -1.4695972204208374,
       "PC2_SD": -0.3274012804031372,
       "PC3_SD": -0.5329146981239319,
-      "PC4_SD": 0.04673704877495766
+      "PC4_SD": 0.04673704877495766,
+      "genus": "Chlorocebus",
+      "taxon_label": "Chlorocebus sabaeus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Colobus_angolensis_52142_CUB",
@@ -2360,7 +2540,10 @@
       "PC1_SD": -0.27035534381866455,
       "PC2_SD": -1.0639930963516235,
       "PC3_SD": -0.47650688886642456,
-      "PC4_SD": -0.9324584603309631
+      "PC4_SD": -0.9324584603309631,
+      "genus": "Colobus",
+      "taxon_label": "Colobus angolensis",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Colobus_angolensis_52151_CUB",
@@ -2368,7 +2551,10 @@
       "PC1_SD": -1.039395809173584,
       "PC2_SD": -0.4067365825176239,
       "PC3_SD": -0.45637214183807373,
-      "PC4_SD": -0.725225031375885
+      "PC4_SD": -0.725225031375885,
+      "genus": "Colobus",
+      "taxon_label": "Colobus angolensis",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Colobus_angolensis_52174_CUB",
@@ -2376,7 +2562,10 @@
       "PC1_SD": -0.5120868682861328,
       "PC2_SD": -0.7670747637748718,
       "PC3_SD": -0.19792960584163666,
-      "PC4_SD": -0.683931291103363
+      "PC4_SD": -0.683931291103363,
+      "genus": "Colobus",
+      "taxon_label": "Colobus angolensis",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Colobus_guereza_187392_CUB",
@@ -2384,7 +2573,10 @@
       "PC1_SD": -0.6104147434234619,
       "PC2_SD": -1.0773546695709229,
       "PC3_SD": -0.21942879259586334,
-      "PC4_SD": -0.4731021821498871
+      "PC4_SD": -0.4731021821498871,
+      "genus": "Colobus",
+      "taxon_label": "Colobus guereza",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Colobus_guereza_27711_CUB",
@@ -2392,7 +2584,10 @@
       "PC1_SD": -0.555293619632721,
       "PC2_SD": -1.164462685585022,
       "PC3_SD": -0.41657930612564087,
-      "PC4_SD": -0.703575074672699
+      "PC4_SD": -0.703575074672699,
+      "genus": "Colobus",
+      "taxon_label": "Colobus guereza",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Colobus_guereza_52248_CUB",
@@ -2400,7 +2595,10 @@
       "PC1_SD": -0.8093283176422119,
       "PC2_SD": -0.8188251256942749,
       "PC3_SD": -0.005553162191063166,
-      "PC4_SD": -0.8909065127372742
+      "PC4_SD": -0.8909065127372742,
+      "genus": "Colobus",
+      "taxon_label": "Colobus guereza",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Colobus_polykomos_21149_CUB",
@@ -2408,7 +2606,10 @@
       "PC1_SD": -0.24910540878772736,
       "PC2_SD": -1.1741225719451904,
       "PC3_SD": -0.22318194806575775,
-      "PC4_SD": -0.645407497882843
+      "PC4_SD": -0.645407497882843,
+      "genus": "Colobus",
+      "taxon_label": "Colobus polykomos",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Colobus_polykomos_95879_CUB",
@@ -2416,7 +2617,10 @@
       "PC1_SD": -0.45622217655181885,
       "PC2_SD": -1.2823786735534668,
       "PC3_SD": 0.2869311571121216,
-      "PC4_SD": -0.666373074054718
+      "PC4_SD": -0.666373074054718,
+      "genus": "Colobus",
+      "taxon_label": "Colobus polykomos",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Erythrocebus_patas_14020_CUB",
@@ -2424,7 +2628,10 @@
       "PC1_SD": -0.4386541545391083,
       "PC2_SD": 0.6674517393112183,
       "PC3_SD": -0.45156097412109375,
-      "PC4_SD": -0.8176999688148499
+      "PC4_SD": -0.8176999688148499,
+      "genus": "Erythrocebus",
+      "taxon_label": "Erythrocebus patas",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Erythrocebus_patas_34709_CUB",
@@ -2432,7 +2639,10 @@
       "PC1_SD": -0.6139700412750244,
       "PC2_SD": 0.24881787598133087,
       "PC3_SD": -0.35161641240119934,
-      "PC4_SD": -0.7676366567611694
+      "PC4_SD": -0.7676366567611694,
+      "genus": "Erythrocebus",
+      "taxon_label": "Erythrocebus patas",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Erythrocebus_patas_34713_CUB",
@@ -2440,7 +2650,10 @@
       "PC1_SD": -0.8477441668510437,
       "PC2_SD": 0.6485840678215027,
       "PC3_SD": -0.5430864691734314,
-      "PC4_SD": -0.6176130771636963
+      "PC4_SD": -0.6176130771636963,
+      "genus": "Erythrocebus",
+      "taxon_label": "Erythrocebus patas",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Erythrocebus_patas_34714_CUB",
@@ -2448,7 +2661,10 @@
       "PC1_SD": -0.6277063488960266,
       "PC2_SD": 0.7969727516174316,
       "PC3_SD": -0.33699938654899597,
-      "PC4_SD": 0.14268772304058075
+      "PC4_SD": 0.14268772304058075,
+      "genus": "Erythrocebus",
+      "taxon_label": "Erythrocebus patas",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Erythrocebus_patas_CPRC_1080_CUB",
@@ -2456,7 +2672,10 @@
       "PC1_SD": -1.1161805391311646,
       "PC2_SD": 0.333693265914917,
       "PC3_SD": -0.2508200407028198,
-      "PC4_SD": -1.0988315343856812
+      "PC4_SD": -1.0988315343856812,
+      "genus": "Erythrocebus",
+      "taxon_label": "Erythrocebus patas",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Erythrocebus_patas_CPRC_1108_CUB",
@@ -2464,7 +2683,10 @@
       "PC1_SD": -0.9962711930274963,
       "PC2_SD": 0.5500401258468628,
       "PC3_SD": -0.9975500106811523,
-      "PC4_SD": -0.7713204026222229
+      "PC4_SD": -0.7713204026222229,
+      "genus": "Erythrocebus",
+      "taxon_label": "Erythrocebus patas",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Erythrocebus_patas_CPRC_1523_CUB",
@@ -2472,7 +2694,10 @@
       "PC1_SD": -1.0094618797302246,
       "PC2_SD": 0.42861345410346985,
       "PC3_SD": -0.7792828679084778,
-      "PC4_SD": -0.7056826949119568
+      "PC4_SD": -0.7056826949119568,
+      "genus": "Erythrocebus",
+      "taxon_label": "Erythrocebus patas",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Fossil_KB3133_CUB",
@@ -2480,7 +2705,10 @@
       "PC1_SD": 0.2029828280210495,
       "PC2_SD": -0.8030084371566772,
       "PC3_SD": 0.1484217494726181,
-      "PC4_SD": -0.9870967864990234
+      "PC4_SD": -0.9870967864990234,
+      "genus": "Unassigned",
+      "taxon_label": "KB3133",
+      "assignment_basis": "Retained local label; no comparative assignment"
     },
     {
       "mesh_id": "Gorilla_115609_CUB",
@@ -2488,7 +2716,10 @@
       "PC1_SD": 1.8809642791748047,
       "PC2_SD": -0.4301353096961975,
       "PC3_SD": 0.04467529058456421,
-      "PC4_SD": -0.34134528040885925
+      "PC4_SD": -0.34134528040885925,
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla beringei",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Gorilla_167335_CUB",
@@ -2496,7 +2727,10 @@
       "PC1_SD": 2.092371702194214,
       "PC2_SD": -0.6695693135261536,
       "PC3_SD": -0.2239547222852707,
-      "PC4_SD": 0.5505720973014832
+      "PC4_SD": 0.5505720973014832,
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Gorilla_167338_CUB",
@@ -2504,7 +2738,10 @@
       "PC1_SD": 1.7774549722671509,
       "PC2_SD": -0.025129707530140877,
       "PC3_SD": -0.004747397731989622,
-      "PC4_SD": -0.03647743538022041
+      "PC4_SD": -0.03647743538022041,
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Gorilla_167339_CUB",
@@ -2512,7 +2749,10 @@
       "PC1_SD": 1.39128577709198,
       "PC2_SD": -0.1598823368549347,
       "PC3_SD": -0.5792430639266968,
-      "PC4_SD": -0.101976178586483
+      "PC4_SD": -0.101976178586483,
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Gorilla_167340_CUB",
@@ -2520,7 +2760,10 @@
       "PC1_SD": 2.172220468521118,
       "PC2_SD": -0.6519359350204468,
       "PC3_SD": -0.4939144253730774,
-      "PC4_SD": 0.25770217180252075
+      "PC4_SD": 0.25770217180252075,
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Gorilla_17684_CUB",
@@ -2528,7 +2771,10 @@
       "PC1_SD": 2.597740650177002,
       "PC2_SD": -0.6547147035598755,
       "PC3_SD": -0.03053106926381588,
-      "PC4_SD": -0.42667171359062195
+      "PC4_SD": -0.42667171359062195,
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Gorilla_20038_CUB",
@@ -2536,7 +2782,10 @@
       "PC1_SD": 2.006082773208618,
       "PC2_SD": -0.6741904616355896,
       "PC3_SD": -0.16008570790290833,
-      "PC4_SD": -0.6854056119918823
+      "PC4_SD": -0.6854056119918823,
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Gorilla_20039_CUB",
@@ -2544,7 +2793,10 @@
       "PC1_SD": 1.6603314876556396,
       "PC2_SD": -1.0457063913345337,
       "PC3_SD": 0.08139162510633469,
-      "PC4_SD": -0.44926244020462036
+      "PC4_SD": -0.44926244020462036,
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Gorilla_20043_CUB",
@@ -2552,7 +2804,10 @@
       "PC1_SD": 1.8284912109375,
       "PC2_SD": -0.8168684244155884,
       "PC3_SD": -0.3386797606945038,
-      "PC4_SD": -0.31181269884109497
+      "PC4_SD": -0.31181269884109497,
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Gorilla_214103_CUB",
@@ -2560,7 +2815,10 @@
       "PC1_SD": 2.0973739624023438,
       "PC2_SD": -0.902930498123169,
       "PC3_SD": -0.024194497615098953,
-      "PC4_SD": -0.4199763536453247
+      "PC4_SD": -0.4199763536453247,
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Gorilla_23160_CUB",
@@ -2568,7 +2826,10 @@
       "PC1_SD": 1.8139668703079224,
       "PC2_SD": -0.6761699318885803,
       "PC3_SD": -0.08957326412200928,
-      "PC4_SD": -0.3994297385215759
+      "PC4_SD": -0.3994297385215759,
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Gorilla_23162_CUB",
@@ -2576,7 +2837,10 @@
       "PC1_SD": 1.7889559268951416,
       "PC2_SD": -0.6744100451469421,
       "PC3_SD": -0.17339935898780823,
-      "PC4_SD": -0.7260971069335938
+      "PC4_SD": -0.7260971069335938,
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Gorilla_23182_CUB",
@@ -2584,7 +2848,10 @@
       "PC1_SD": 1.317862629890442,
       "PC2_SD": -0.4557938277721405,
       "PC3_SD": -0.7785899639129639,
-      "PC4_SD": 0.5102535486221313
+      "PC4_SD": 0.5102535486221313,
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Gorilla_26850_CUB",
@@ -2592,7 +2859,10 @@
       "PC1_SD": 1.9856518507003784,
       "PC2_SD": -0.9511617422103882,
       "PC3_SD": 0.1295517534017563,
-      "PC4_SD": 0.06678489595651627
+      "PC4_SD": 0.06678489595651627,
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla beringei",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Gorilla_29047_CUB",
@@ -2600,7 +2870,10 @@
       "PC1_SD": 2.0691773891448975,
       "PC2_SD": -0.9161712527275085,
       "PC3_SD": -0.37293288111686707,
-      "PC4_SD": -0.25089818239212036
+      "PC4_SD": -0.25089818239212036,
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Gorilla_29048_CUB",
@@ -2608,7 +2881,10 @@
       "PC1_SD": 2.216449022293091,
       "PC2_SD": -0.6102443337440491,
       "PC3_SD": -0.22336941957473755,
-      "PC4_SD": 0.6577485203742981
+      "PC4_SD": 0.6577485203742981,
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Gorilla_38326_CUB",
@@ -2616,7 +2892,10 @@
       "PC1_SD": 1.903847575187683,
       "PC2_SD": -0.645950198173523,
       "PC3_SD": -0.5640163421630859,
-      "PC4_SD": 0.7156082391738892
+      "PC4_SD": 0.7156082391738892,
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Gorilla_54327_CUB",
@@ -2624,7 +2903,10 @@
       "PC1_SD": 2.193441867828369,
       "PC2_SD": -0.5631993412971497,
       "PC3_SD": -0.36110129952430725,
-      "PC4_SD": -0.4078894853591919
+      "PC4_SD": -0.4078894853591919,
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Gorilla_81651_CUB",
@@ -2632,7 +2914,10 @@
       "PC1_SD": 2.3862931728363037,
       "PC2_SD": -0.6603602766990662,
       "PC3_SD": -0.48667046427726746,
-      "PC4_SD": -0.555270254611969
+      "PC4_SD": -0.555270254611969,
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Gorilla_90291_CUB",
@@ -2640,7 +2925,10 @@
       "PC1_SD": 1.6856670379638672,
       "PC2_SD": -0.8362698554992676,
       "PC3_SD": -0.03208164498209953,
-      "PC4_SD": 0.11183498054742813
+      "PC4_SD": 0.11183498054742813,
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Gorilla_9911577_CUB",
@@ -2648,7 +2936,10 @@
       "PC1_SD": 1.690959095954895,
       "PC2_SD": -0.6332849860191345,
       "PC3_SD": -0.6617376804351807,
-      "PC4_SD": 1.300873875617981
+      "PC4_SD": 1.300873875617981,
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Gorilla_9911578_CUB",
@@ -2656,7 +2947,10 @@
       "PC1_SD": 1.9325730800628662,
       "PC2_SD": -1.049631953239441,
       "PC3_SD": -0.810571551322937,
-      "PC4_SD": 0.8619137406349182
+      "PC4_SD": 0.8619137406349182,
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Gorilla_9912055_CUB",
@@ -2664,7 +2958,10 @@
       "PC1_SD": 1.6131727695465088,
       "PC2_SD": -0.848247766494751,
       "PC3_SD": -0.39365822076797485,
-      "PC4_SD": 1.2771855592727661
+      "PC4_SD": 1.2771855592727661,
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Fossil_Homo_habilis_OH8_CUB",
@@ -2672,7 +2969,10 @@
       "PC1_SD": 1.2728180885314941,
       "PC2_SD": 2.2121851444244385,
       "PC3_SD": 0.7657688856124878,
-      "PC4_SD": -0.1233668178319931
+      "PC4_SD": -0.1233668178319931,
+      "genus": "Homo",
+      "taxon_label": "Homo habilis OH8",
+      "assignment_basis": "Retained local label; no comparative assignment"
     },
     {
       "mesh_id": "Homo_98116_CUB",
@@ -2680,7 +2980,10 @@
       "PC1_SD": 0.4743672311306,
       "PC2_SD": 2.366284132003784,
       "PC3_SD": 1.0414824485778809,
-      "PC4_SD": -0.23091040551662445
+      "PC4_SD": -0.23091040551662445,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Homo_98133_CUB",
@@ -2688,7 +2991,10 @@
       "PC1_SD": 0.3445838987827301,
       "PC2_SD": 2.716459274291992,
       "PC3_SD": 1.5568130016326904,
-      "PC4_SD": 0.1357436329126358
+      "PC4_SD": 0.1357436329126358,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Homo_98135_CUB",
@@ -2696,7 +3002,10 @@
       "PC1_SD": 0.8364790678024292,
       "PC2_SD": 2.476477861404419,
       "PC3_SD": 1.2193944454193115,
-      "PC4_SD": -0.5072205662727356
+      "PC4_SD": -0.5072205662727356,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Homo_98166_CUB",
@@ -2704,7 +3013,10 @@
       "PC1_SD": 0.5870636701583862,
       "PC2_SD": 2.3425145149230957,
       "PC3_SD": 1.3159632682800293,
-      "PC4_SD": -0.40211012959480286
+      "PC4_SD": -0.40211012959480286,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Homo_98182_CUB",
@@ -2712,7 +3024,10 @@
       "PC1_SD": 0.6116788387298584,
       "PC2_SD": 2.5387330055236816,
       "PC3_SD": 1.0559747219085693,
-      "PC4_SD": -0.10231976956129074
+      "PC4_SD": -0.10231976956129074,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Homo_98183_CUB",
@@ -2720,7 +3035,10 @@
       "PC1_SD": 0.6191592216491699,
       "PC2_SD": 2.0444793701171875,
       "PC3_SD": 1.2942936420440674,
-      "PC4_SD": 0.019033951684832573
+      "PC4_SD": 0.019033951684832573,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Homo_98186_CUB",
@@ -2728,7 +3046,10 @@
       "PC1_SD": 0.8695263266563416,
       "PC2_SD": 2.496241569519043,
       "PC3_SD": 1.5235482454299927,
-      "PC4_SD": -0.1520577073097229
+      "PC4_SD": -0.1520577073097229,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Homo_98191_CUB",
@@ -2736,7 +3057,10 @@
       "PC1_SD": 0.533607542514801,
       "PC2_SD": 2.171699285507202,
       "PC3_SD": 1.4882025718688965,
-      "PC4_SD": -0.05494418367743492
+      "PC4_SD": -0.05494418367743492,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Homo_98193_CUB",
@@ -2744,7 +3068,10 @@
       "PC1_SD": 0.41298767924308777,
       "PC2_SD": 2.024602174758911,
       "PC3_SD": 0.5906726121902466,
-      "PC4_SD": 0.29711291193962097
+      "PC4_SD": 0.29711291193962097,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Homo_98206_CUB",
@@ -2752,7 +3079,10 @@
       "PC1_SD": 0.5045414566993713,
       "PC2_SD": 2.9689059257507324,
       "PC3_SD": 1.2526476383209229,
-      "PC4_SD": 0.42453721165657043
+      "PC4_SD": 0.42453721165657043,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Homo_98210_CUB",
@@ -2760,7 +3090,10 @@
       "PC1_SD": 0.49696141481399536,
       "PC2_SD": 2.7441442012786865,
       "PC3_SD": 1.096191167831421,
-      "PC4_SD": -0.018291553482413292
+      "PC4_SD": -0.018291553482413292,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Homo_98227_CUB",
@@ -2768,7 +3101,10 @@
       "PC1_SD": 0.8217324018478394,
       "PC2_SD": 2.295926809310913,
       "PC3_SD": 0.7288686633110046,
-      "PC4_SD": -0.4319080710411072
+      "PC4_SD": -0.4319080710411072,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Homo_98271_CUB",
@@ -2776,7 +3112,10 @@
       "PC1_SD": -0.07229334861040115,
       "PC2_SD": 1.760236144065857,
       "PC3_SD": 1.1642131805419922,
-      "PC4_SD": 0.005127689801156521
+      "PC4_SD": 0.005127689801156521,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Homo_98305_CUB",
@@ -2784,7 +3123,10 @@
       "PC1_SD": 0.5475306510925293,
       "PC2_SD": 3.2084171772003174,
       "PC3_SD": 0.6635320782661438,
-      "PC4_SD": -0.11628970503807068
+      "PC4_SD": -0.11628970503807068,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Homo_98316_CUB",
@@ -2792,7 +3134,10 @@
       "PC1_SD": 0.5096840262413025,
       "PC2_SD": 2.6945831775665283,
       "PC3_SD": 1.4068708419799805,
-      "PC4_SD": -0.3450893461704254
+      "PC4_SD": -0.3450893461704254,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Homo_98319_CUB",
@@ -2800,7 +3145,10 @@
       "PC1_SD": 0.772318422794342,
       "PC2_SD": 1.8264378309249878,
       "PC3_SD": 1.5481704473495483,
-      "PC4_SD": -0.6435885429382324
+      "PC4_SD": -0.6435885429382324,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Homo_98339_CUB",
@@ -2808,7 +3156,10 @@
       "PC1_SD": 0.4257815480232239,
       "PC2_SD": 2.442241907119751,
       "PC3_SD": 0.7616703510284424,
-      "PC4_SD": 0.4898736774921417
+      "PC4_SD": 0.4898736774921417,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Homo_98375_CUB",
@@ -2816,7 +3167,10 @@
       "PC1_SD": 0.6128748655319214,
       "PC2_SD": 2.828733444213867,
       "PC3_SD": 1.4949170351028442,
-      "PC4_SD": -0.25174814462661743
+      "PC4_SD": -0.25174814462661743,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Homo_9858_CUB",
@@ -2824,7 +3178,10 @@
       "PC1_SD": 0.28036466240882874,
       "PC2_SD": 3.1504974365234375,
       "PC3_SD": 1.1145933866500854,
-      "PC4_SD": 0.5096938610076904
+      "PC4_SD": 0.5096938610076904,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Homo_9859_CUB",
@@ -2832,7 +3189,10 @@
       "PC1_SD": 0.42570871114730835,
       "PC2_SD": 2.6221694946289062,
       "PC3_SD": 1.5575331449508667,
-      "PC4_SD": -0.18941403925418854
+      "PC4_SD": -0.18941403925418854,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Homo_9863_CUB",
@@ -2840,7 +3200,10 @@
       "PC1_SD": 0.42182251811027527,
       "PC2_SD": 2.307203531265259,
       "PC3_SD": 0.7670828104019165,
-      "PC4_SD": -0.09410154819488525
+      "PC4_SD": -0.09410154819488525,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Homo_9864_CUB",
@@ -2848,7 +3211,10 @@
       "PC1_SD": 1.1527246236801147,
       "PC2_SD": 2.445469617843628,
       "PC3_SD": 1.8836212158203125,
-      "PC4_SD": -0.32664167881011963
+      "PC4_SD": -0.32664167881011963,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Homo_9866_CUB",
@@ -2856,7 +3222,10 @@
       "PC1_SD": 0.9505608677864075,
       "PC2_SD": 2.265094518661499,
       "PC3_SD": 1.7882367372512817,
-      "PC4_SD": -0.01730538159608841
+      "PC4_SD": -0.01730538159608841,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Homo_9871_CUB",
@@ -2864,7 +3233,10 @@
       "PC1_SD": 0.24144859611988068,
       "PC2_SD": 2.193307638168335,
       "PC3_SD": 0.740605354309082,
-      "PC4_SD": 0.04491902515292168
+      "PC4_SD": 0.04491902515292168,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Homo_9872_CUB",
@@ -2872,7 +3244,10 @@
       "PC1_SD": 0.4065048396587372,
       "PC2_SD": 1.9611579179763794,
       "PC3_SD": 0.6359656453132629,
-      "PC4_SD": -0.6025129556655884
+      "PC4_SD": -0.6025129556655884,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Homo_9885_CUB",
@@ -2880,7 +3255,10 @@
       "PC1_SD": 0.49642688035964966,
       "PC2_SD": 2.913182020187378,
       "PC3_SD": 1.3474704027175903,
-      "PC4_SD": -0.1699904352426529
+      "PC4_SD": -0.1699904352426529,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Homo_9888_CUB",
@@ -2888,7 +3266,10 @@
       "PC1_SD": 0.29774925112724304,
       "PC2_SD": 2.7652056217193604,
       "PC3_SD": 1.4488763809204102,
-      "PC4_SD": -0.39876943826675415
+      "PC4_SD": -0.39876943826675415,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Homo_9895_CUB",
@@ -2896,7 +3277,10 @@
       "PC1_SD": 0.5515885353088379,
       "PC2_SD": 2.599641799926758,
       "PC3_SD": 1.2173248529434204,
-      "PC4_SD": -0.44314125180244446
+      "PC4_SD": -0.44314125180244446,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Homo_9899_CUB",
@@ -2904,7 +3288,10 @@
       "PC1_SD": 0.6490005850791931,
       "PC2_SD": 2.375159502029419,
       "PC3_SD": 0.8815401792526245,
-      "PC4_SD": 0.23917730152606964
+      "PC4_SD": 0.23917730152606964,
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_112721_CUB",
@@ -2912,7 +3299,10 @@
       "PC1_SD": -0.74116450548172,
       "PC2_SD": 0.8039692044258118,
       "PC3_SD": -1.4931604862213135,
-      "PC4_SD": 0.40263164043426514
+      "PC4_SD": 0.40263164043426514,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_41424_CUB",
@@ -2920,7 +3310,10 @@
       "PC1_SD": -0.46045708656311035,
       "PC2_SD": 0.48165395855903625,
       "PC3_SD": -1.7840758562088013,
-      "PC4_SD": 1.5210082530975342
+      "PC4_SD": 1.5210082530975342,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_87253_CUB",
@@ -2928,7 +3321,10 @@
       "PC1_SD": -0.07784140855073929,
       "PC2_SD": 0.5448080897331238,
       "PC3_SD": -1.1130012273788452,
-      "PC4_SD": 0.8837263584136963
+      "PC4_SD": 0.8837263584136963,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_agilis_103664_CUB",
@@ -2936,7 +3332,10 @@
       "PC1_SD": 0.0198289193212986,
       "PC2_SD": 0.21758148074150085,
       "PC3_SD": -1.649221420288086,
-      "PC4_SD": 0.7328701019287109
+      "PC4_SD": 0.7328701019287109,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates agilis",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_agilis_103665_CUB",
@@ -2944,7 +3343,10 @@
       "PC1_SD": -0.473289430141449,
       "PC2_SD": 0.3815707564353943,
       "PC3_SD": -1.9161443710327148,
-      "PC4_SD": 0.9794372320175171
+      "PC4_SD": 0.9794372320175171,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates agilis",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_agilis_103667_CUB",
@@ -2952,7 +3354,10 @@
       "PC1_SD": 0.05246695503592491,
       "PC2_SD": 0.2667946219444275,
       "PC3_SD": -1.8153489828109741,
-      "PC4_SD": 1.1123610734939575
+      "PC4_SD": 1.1123610734939575,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates agilis",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_agilis_106575_CUB",
@@ -2960,7 +3365,10 @@
       "PC1_SD": -0.22139346599578857,
       "PC2_SD": 0.33445224165916443,
       "PC3_SD": -1.2812707424163818,
-      "PC4_SD": 0.5957098007202148
+      "PC4_SD": 0.5957098007202148,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates agilis",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_concolor_gabriellae_87252_CUB",
@@ -2968,7 +3376,10 @@
       "PC1_SD": -0.48032575845718384,
       "PC2_SD": 0.4057823717594147,
       "PC3_SD": -1.7322840690612793,
-      "PC4_SD": 0.8108346462249756
+      "PC4_SD": 0.8108346462249756,
+      "genus": "Nomascus",
+      "taxon_label": "Nomascus gabriellae",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_hoolock_80068_CUB",
@@ -2976,7 +3387,10 @@
       "PC1_SD": -0.1425832360982895,
       "PC2_SD": 0.2262498289346695,
       "PC3_SD": -0.9104693531990051,
-      "PC4_SD": -0.48818132281303406
+      "PC4_SD": -0.48818132281303406,
+      "genus": "Bunopithecus",
+      "taxon_label": "Bunopithecus hoolock",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_hoolock_83420_CUB",
@@ -2984,7 +3398,10 @@
       "PC1_SD": -0.2881479263305664,
       "PC2_SD": 0.40273892879486084,
       "PC3_SD": -0.8336855173110962,
-      "PC4_SD": -0.4436211884021759
+      "PC4_SD": -0.4436211884021759,
+      "genus": "Bunopithecus",
+      "taxon_label": "Bunopithecus hoolock",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_hoolock_83425_CUB",
@@ -2992,7 +3409,10 @@
       "PC1_SD": -0.4821346402168274,
       "PC2_SD": 0.15693368017673492,
       "PC3_SD": -0.6933570504188538,
-      "PC4_SD": 0.3144415020942688
+      "PC4_SD": 0.3144415020942688,
+      "genus": "Bunopithecus",
+      "taxon_label": "Bunopithecus hoolock",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_hoolock_83427_CUB",
@@ -3000,7 +3420,10 @@
       "PC1_SD": -0.2533301115036011,
       "PC2_SD": 0.004087178502231836,
       "PC3_SD": -0.5488246083259583,
-      "PC4_SD": -0.5638458132743835
+      "PC4_SD": -0.5638458132743835,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_klossi_103344_CUB",
@@ -3008,7 +3431,10 @@
       "PC1_SD": 0.029722929000854492,
       "PC2_SD": 0.027849311009049416,
       "PC3_SD": -1.3878870010375977,
-      "PC4_SD": 1.1818187236785889
+      "PC4_SD": 1.1818187236785889,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates klossii",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_klossi_103345_CUB",
@@ -3016,7 +3442,10 @@
       "PC1_SD": 0.2088569700717926,
       "PC2_SD": 0.26303499937057495,
       "PC3_SD": -1.4572563171386719,
-      "PC4_SD": 1.2547852993011475
+      "PC4_SD": 1.2547852993011475,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates klossii",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_klossi_103347_CUB",
@@ -3024,7 +3453,10 @@
       "PC1_SD": -0.27178746461868286,
       "PC2_SD": 0.7519940137863159,
       "PC3_SD": -1.1048675775527954,
-      "PC4_SD": 0.9602106809616089
+      "PC4_SD": 0.9602106809616089,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates klossii",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_lar_37385_CUB",
@@ -3032,7 +3464,10 @@
       "PC1_SD": -0.4699449837207794,
       "PC2_SD": 0.6342207193374634,
       "PC3_SD": -1.886407732963562,
-      "PC4_SD": 1.9988799095153809
+      "PC4_SD": 1.9988799095153809,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_lar_41417_CUB",
@@ -3040,7 +3475,10 @@
       "PC1_SD": -0.5432088375091553,
       "PC2_SD": 0.9956022500991821,
       "PC3_SD": -2.087956428527832,
-      "PC4_SD": 1.3717337846755981
+      "PC4_SD": 1.3717337846755981,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_lar_41427_CUB",
@@ -3048,7 +3486,10 @@
       "PC1_SD": -0.5509653687477112,
       "PC2_SD": 0.7254305481910706,
       "PC3_SD": -2.613945722579956,
-      "PC4_SD": 2.0767767429351807
+      "PC4_SD": 2.0767767429351807,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_lar_41445_CUB",
@@ -3056,7 +3497,10 @@
       "PC1_SD": -0.34798938035964966,
       "PC2_SD": 0.9926201105117798,
       "PC3_SD": -2.415076494216919,
-      "PC4_SD": 1.3509706258773804
+      "PC4_SD": 1.3509706258773804,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_lar_41447_CUB",
@@ -3064,7 +3508,10 @@
       "PC1_SD": -0.552236020565033,
       "PC2_SD": 0.7707881927490234,
       "PC3_SD": -2.4104981422424316,
-      "PC4_SD": 1.2834548950195312
+      "PC4_SD": 1.2834548950195312,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_lar_41449_CUB",
@@ -3072,7 +3519,10 @@
       "PC1_SD": 0.39593830704689026,
       "PC2_SD": 0.4242039620876312,
       "PC3_SD": -1.5459522008895874,
-      "PC4_SD": 0.996318519115448
+      "PC4_SD": 0.996318519115448,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_lar_41451_CUB",
@@ -3080,7 +3530,10 @@
       "PC1_SD": -0.4851016104221344,
       "PC2_SD": 0.5408953428268433,
       "PC3_SD": -2.3039157390594482,
-      "PC4_SD": 1.9348034858703613
+      "PC4_SD": 1.9348034858703613,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_lar_41453_CUB",
@@ -3088,7 +3541,10 @@
       "PC1_SD": -0.34565016627311707,
       "PC2_SD": 0.7310652136802673,
       "PC3_SD": -1.893035888671875,
-      "PC4_SD": 1.1973141431808472
+      "PC4_SD": 1.1973141431808472,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_lar_41454_CUB",
@@ -3096,7 +3552,10 @@
       "PC1_SD": 0.1223059892654419,
       "PC2_SD": 0.6013704538345337,
       "PC3_SD": -1.6232794523239136,
-      "PC4_SD": 1.1882421970367432
+      "PC4_SD": 1.1882421970367432,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_lar_41458_CUB",
@@ -3104,7 +3563,10 @@
       "PC1_SD": -0.3939589262008667,
       "PC2_SD": 0.6985926032066345,
       "PC3_SD": -2.0206313133239746,
-      "PC4_SD": 1.3551186323165894
+      "PC4_SD": 1.3551186323165894,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_lar_41459_CUB",
@@ -3112,7 +3574,10 @@
       "PC1_SD": -0.38583317399024963,
       "PC2_SD": 0.7387414574623108,
       "PC3_SD": -2.2255775928497314,
-      "PC4_SD": 1.7274198532104492
+      "PC4_SD": 1.7274198532104492,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_lar_41463_CUB",
@@ -3120,7 +3585,10 @@
       "PC1_SD": -0.1410980522632599,
       "PC2_SD": 0.7325076460838318,
       "PC3_SD": -1.7872270345687866,
-      "PC4_SD": 0.9666280746459961
+      "PC4_SD": 0.9666280746459961,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_lar_41465_CUB",
@@ -3128,7 +3596,10 @@
       "PC1_SD": -0.3270666301250458,
       "PC2_SD": 0.5287462472915649,
       "PC3_SD": -2.3618922233581543,
-      "PC4_SD": 1.0071011781692505
+      "PC4_SD": 1.0071011781692505,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_lar_41472_CUB",
@@ -3136,7 +3607,10 @@
       "PC1_SD": -0.21301719546318054,
       "PC2_SD": 0.3990118205547333,
       "PC3_SD": -1.838260293006897,
-      "PC4_SD": 1.264246940612793
+      "PC4_SD": 1.264246940612793,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_lar_41532_CUB",
@@ -3144,7 +3618,10 @@
       "PC1_SD": 0.111261285841465,
       "PC2_SD": 0.3842025399208069,
       "PC3_SD": -1.3236379623413086,
-      "PC4_SD": 0.977258563041687
+      "PC4_SD": 0.977258563041687,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_lar_41565_CUB",
@@ -3152,7 +3629,10 @@
       "PC1_SD": -0.5897732377052307,
       "PC2_SD": 0.7374030947685242,
       "PC3_SD": -1.9510822296142578,
-      "PC4_SD": 1.5847724676132202
+      "PC4_SD": 1.5847724676132202,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_lar_MCZ_35950_CUB",
@@ -3160,7 +3640,10 @@
       "PC1_SD": -0.01621674932539463,
       "PC2_SD": 0.7019055485725403,
       "PC3_SD": -1.794960379600525,
-      "PC4_SD": 0.9128118753433228
+      "PC4_SD": 0.9128118753433228,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_lar_MCZ_41456_CUB",
@@ -3168,7 +3651,10 @@
       "PC1_SD": -0.42153221368789673,
       "PC2_SD": 0.8437435030937195,
       "PC3_SD": -1.9627310037612915,
-      "PC4_SD": 1.5613888502120972
+      "PC4_SD": 1.5613888502120972,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_moloch_200853_CUB",
@@ -3176,7 +3662,10 @@
       "PC1_SD": -0.1469467580318451,
       "PC2_SD": 0.3293401598930359,
       "PC3_SD": -1.7827872037887573,
-      "PC4_SD": 1.6668013334274292
+      "PC4_SD": 1.6668013334274292,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates moloch",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Hylobates_pileatus_140230_CUB",
@@ -3184,7 +3673,10 @@
       "PC1_SD": -0.7475541830062866,
       "PC2_SD": 0.39536669850349426,
       "PC3_SD": -1.4466196298599243,
-      "PC4_SD": 0.738733172416687
+      "PC4_SD": 0.738733172416687,
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates pileatus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Lagothrix_lagortricha_201310_CUB",
@@ -3192,7 +3684,10 @@
       "PC1_SD": -1.1145771741867065,
       "PC2_SD": -0.6266767978668213,
       "PC3_SD": 1.9932048320770264,
-      "PC4_SD": 1.182161808013916
+      "PC4_SD": 1.182161808013916,
+      "genus": "Lagothrix",
+      "taxon_label": "Lagothrix lagotricha",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Lagothrix_lagotricha_188150_CUB",
@@ -3200,7 +3695,10 @@
       "PC1_SD": -0.8093178272247314,
       "PC2_SD": -1.001068115234375,
       "PC3_SD": 2.3491060733795166,
-      "PC4_SD": 1.6717991828918457
+      "PC4_SD": 1.6717991828918457,
+      "genus": "Lagothrix",
+      "taxon_label": "Lagothrix lagotricha",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Lophocebus_albigena_14018_CUB",
@@ -3208,7 +3706,10 @@
       "PC1_SD": -0.4135008454322815,
       "PC2_SD": 0.15997450053691864,
       "PC3_SD": 0.21882593631744385,
-      "PC4_SD": -1.2336376905441284
+      "PC4_SD": -1.2336376905441284,
+      "genus": "Lophocebus",
+      "taxon_label": "Lophocebus albigena",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Lophocebus_albigena_52598_CUB",
@@ -3216,7 +3717,10 @@
       "PC1_SD": -0.944338321685791,
       "PC2_SD": 0.5320563912391663,
       "PC3_SD": -0.3588019013404846,
-      "PC4_SD": -0.49217644333839417
+      "PC4_SD": -0.49217644333839417,
+      "genus": "Lophocebus",
+      "taxon_label": "Lophocebus albigena",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Lophocebus_albigena_52603_CUB",
@@ -3224,7 +3728,10 @@
       "PC1_SD": -0.3861561417579651,
       "PC2_SD": 0.09623613953590393,
       "PC3_SD": -0.2373329997062683,
-      "PC4_SD": -0.9190797805786133
+      "PC4_SD": -0.9190797805786133,
+      "genus": "Lophocebus",
+      "taxon_label": "Lophocebus albigena",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Lophocebus_albigena_86705_CUB",
@@ -3232,7 +3739,10 @@
       "PC1_SD": -0.8979083895683289,
       "PC2_SD": 0.023849783465266228,
       "PC3_SD": -0.5010764598846436,
-      "PC4_SD": -0.606220543384552
+      "PC4_SD": -0.606220543384552,
+      "genus": "Lophocebus",
+      "taxon_label": "Lophocebus albigena",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Macaca_Fasicularis_185134_CUB",
@@ -3240,7 +3750,10 @@
       "PC1_SD": -1.1924681663513184,
       "PC2_SD": 0.053234122693538666,
       "PC3_SD": -0.7433229088783264,
-      "PC4_SD": -0.019885966554284096
+      "PC4_SD": -0.019885966554284096,
+      "genus": "Macaca",
+      "taxon_label": "Macaca fascicularis",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Macaca_fascicularis_103661_CUB",
@@ -3248,7 +3761,10 @@
       "PC1_SD": -0.6044546365737915,
       "PC2_SD": 0.25134798884391785,
       "PC3_SD": -0.8055593967437744,
-      "PC4_SD": -0.13936863839626312
+      "PC4_SD": -0.13936863839626312,
+      "genus": "Macaca",
+      "taxon_label": "Macaca fascicularis",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Macaca_fascicularis_35613_CUB",
@@ -3256,7 +3772,10 @@
       "PC1_SD": -0.697504997253418,
       "PC2_SD": -0.36625444889068604,
       "PC3_SD": -0.2804919183254242,
-      "PC4_SD": -0.21329465508460999
+      "PC4_SD": -0.21329465508460999,
+      "genus": "Macaca",
+      "taxon_label": "Macaca fascicularis",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Macaca_fascicularis_35677_CUB",
@@ -3264,7 +3783,10 @@
       "PC1_SD": -1.2543355226516724,
       "PC2_SD": -0.24512125551700592,
       "PC3_SD": -0.596588671207428,
-      "PC4_SD": -0.060557231307029724
+      "PC4_SD": -0.060557231307029724,
+      "genus": "Macaca",
+      "taxon_label": "Macaca fascicularis",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Macaca_fuscata_201285_CUB",
@@ -3272,7 +3794,10 @@
       "PC1_SD": -0.957647442817688,
       "PC2_SD": -0.17612779140472412,
       "PC3_SD": -0.41814929246902466,
-      "PC4_SD": -0.07846181839704514
+      "PC4_SD": -0.07846181839704514,
+      "genus": "Macaca",
+      "taxon_label": "Macaca fuscata",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Macaca_fuscata_356407_CUB",
@@ -3280,7 +3805,10 @@
       "PC1_SD": -0.8179543018341064,
       "PC2_SD": -0.14763876795768738,
       "PC3_SD": 0.05880369991064072,
-      "PC4_SD": -0.33075833320617676
+      "PC4_SD": -0.33075833320617676,
+      "genus": "Macaca",
+      "taxon_label": "Macaca fuscata",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Macaca_mulatta_221_CUB",
@@ -3288,7 +3816,10 @@
       "PC1_SD": -0.8721598386764526,
       "PC2_SD": -0.38671913743019104,
       "PC3_SD": -0.1130259707570076,
-      "PC4_SD": -0.833928108215332
+      "PC4_SD": -0.833928108215332,
+      "genus": "Macaca",
+      "taxon_label": "Macaca mulatta",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Macaca_mulatta_323_CUB",
@@ -3296,7 +3827,10 @@
       "PC1_SD": -0.6794885396957397,
       "PC2_SD": -0.8840938210487366,
       "PC3_SD": 0.7056833505630493,
-      "PC4_SD": -1.5886493921279907
+      "PC4_SD": -1.5886493921279907,
+      "genus": "Macaca",
+      "taxon_label": "Macaca mulatta",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Macaca_mulatta_495_CUB",
@@ -3304,7 +3838,10 @@
       "PC1_SD": -1.017913579940796,
       "PC2_SD": -0.5729862451553345,
       "PC3_SD": -0.21805129945278168,
-      "PC4_SD": -1.1468251943588257
+      "PC4_SD": -1.1468251943588257,
+      "genus": "Macaca",
+      "taxon_label": "Macaca mulatta",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Macaca_mulatta_551_CUB",
@@ -3312,7 +3849,10 @@
       "PC1_SD": -0.9340676069259644,
       "PC2_SD": -0.2909461557865143,
       "PC3_SD": -0.04795118048787117,
-      "PC4_SD": -1.2840685844421387
+      "PC4_SD": -1.2840685844421387,
+      "genus": "Macaca",
+      "taxon_label": "Macaca mulatta",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Macaca_nemestrina_106563_CUB",
@@ -3320,7 +3860,10 @@
       "PC1_SD": -0.7711622714996338,
       "PC2_SD": -0.4270952641963959,
       "PC3_SD": -0.03454221040010452,
-      "PC4_SD": -0.44627630710601807
+      "PC4_SD": -0.44627630710601807,
+      "genus": "Macaca",
+      "taxon_label": "Macaca nemestrina",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Macaca_nemestrina_11091_CUB",
@@ -3328,7 +3871,10 @@
       "PC1_SD": -0.8117688894271851,
       "PC2_SD": 0.23201203346252441,
       "PC3_SD": -0.5909070372581482,
-      "PC4_SD": -0.46581965684890747
+      "PC4_SD": -0.46581965684890747,
+      "genus": "Macaca",
+      "taxon_label": "Macaca nemestrina",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Macaca_nemistrina_106564_CUB",
@@ -3336,7 +3882,10 @@
       "PC1_SD": -0.6619645953178406,
       "PC2_SD": 0.3645097613334656,
       "PC3_SD": -0.8094114065170288,
-      "PC4_SD": -0.22175747156143188
+      "PC4_SD": -0.22175747156143188,
+      "genus": "Macaca",
+      "taxon_label": "Macaca nemestrina",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Macaca_nemistrina_119514_CUB",
@@ -3344,7 +3893,10 @@
       "PC1_SD": -0.8236442804336548,
       "PC2_SD": -0.33144956827163696,
       "PC3_SD": -0.6561722755432129,
-      "PC4_SD": -1.0314403772354126
+      "PC4_SD": -1.0314403772354126,
+      "genus": "Macaca",
+      "taxon_label": "Macaca nemestrina",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Macaca_nemistrina_12795_CUB",
@@ -3352,7 +3904,10 @@
       "PC1_SD": -0.837925374507904,
       "PC2_SD": 0.07742365449666977,
       "PC3_SD": -0.5167121887207031,
-      "PC4_SD": -0.621326744556427
+      "PC4_SD": -0.621326744556427,
+      "genus": "Macaca",
+      "taxon_label": "Macaca nemestrina",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Macaca_thibetana_60160_CUB",
@@ -3360,7 +3915,10 @@
       "PC1_SD": -0.13123366236686707,
       "PC2_SD": -0.5785770416259766,
       "PC3_SD": -0.21411123871803284,
-      "PC4_SD": -1.2715086936950684
+      "PC4_SD": -1.2715086936950684,
+      "genus": "Macaca",
+      "taxon_label": "Macaca thibetana",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Macaca_tonkeana_152905_CUB",
@@ -3368,7 +3926,10 @@
       "PC1_SD": -0.5118857622146606,
       "PC2_SD": -0.6139044761657715,
       "PC3_SD": -0.31838953495025635,
-      "PC4_SD": -1.7090251445770264
+      "PC4_SD": -1.7090251445770264,
+      "genus": "Macaca",
+      "taxon_label": "Macaca tonkeana",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Macaca_tonkeana_152906_CUB",
@@ -3376,7 +3937,10 @@
       "PC1_SD": -0.45275700092315674,
       "PC2_SD": -0.30691808462142944,
       "PC3_SD": -0.018021235242486,
-      "PC4_SD": -1.1982208490371704
+      "PC4_SD": -1.1982208490371704,
+      "genus": "Macaca",
+      "taxon_label": "Macaca tonkeana",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Macaca_tonkeana_152907_CUB",
@@ -3384,7 +3948,10 @@
       "PC1_SD": -0.6085754632949829,
       "PC2_SD": -0.23726579546928406,
       "PC3_SD": -0.8660438060760498,
-      "PC4_SD": -0.5174389481544495
+      "PC4_SD": -0.5174389481544495,
+      "genus": "Macaca",
+      "taxon_label": "Macaca tonkeana",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Macaca_tonkeana_153401_CUB",
@@ -3392,7 +3959,10 @@
       "PC1_SD": -0.8798502683639526,
       "PC2_SD": -0.7337395548820496,
       "PC3_SD": 0.5591249465942383,
-      "PC4_SD": 0.1385437250137329
+      "PC4_SD": 0.1385437250137329,
+      "genus": "Macaca",
+      "taxon_label": "Macaca tonkeana",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Macaca_tonkeana_35102_CUB",
@@ -3400,7 +3970,10 @@
       "PC1_SD": -0.8984296917915344,
       "PC2_SD": -0.5153946280479431,
       "PC3_SD": 0.20197302103042603,
-      "PC4_SD": -0.7987241744995117
+      "PC4_SD": -0.7987241744995117,
+      "genus": "Macaca",
+      "taxon_label": "Macaca tonkeana",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Nasalis_larvatus_103670_CUB",
@@ -3408,7 +3981,10 @@
       "PC1_SD": -0.4006153345108032,
       "PC2_SD": -0.8339644074440002,
       "PC3_SD": -0.4074270725250244,
-      "PC4_SD": -0.527044415473938
+      "PC4_SD": -0.527044415473938,
+      "genus": "Nasalis",
+      "taxon_label": "Nasalis larvatus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Nasalis_larvatus_103671_CUB",
@@ -3416,7 +3992,10 @@
       "PC1_SD": -0.4592970013618469,
       "PC2_SD": -0.5399033427238464,
       "PC3_SD": -0.16005580127239227,
-      "PC4_SD": -1.0414425134658813
+      "PC4_SD": -1.0414425134658813,
+      "genus": "Nasalis",
+      "taxon_label": "Nasalis larvatus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Nasalis_larvatus_106272_CUB",
@@ -3424,7 +4003,10 @@
       "PC1_SD": -0.33978143334388733,
       "PC2_SD": -0.35173499584198,
       "PC3_SD": -0.4903598725795746,
-      "PC4_SD": -0.6570618748664856
+      "PC4_SD": -0.6570618748664856,
+      "genus": "Nasalis",
+      "taxon_label": "Nasalis larvatus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Nasalis_larvatus_106273_CUB",
@@ -3432,7 +4014,10 @@
       "PC1_SD": -0.013890327885746956,
       "PC2_SD": -0.21118144690990448,
       "PC3_SD": 0.07064390927553177,
-      "PC4_SD": -0.7230398058891296
+      "PC4_SD": -0.7230398058891296,
+      "genus": "Nasalis",
+      "taxon_label": "Nasalis larvatus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Nasalis_larvatus_106275_CUB",
@@ -3440,7 +4025,10 @@
       "PC1_SD": -0.038566943258047104,
       "PC2_SD": -0.8259212970733643,
       "PC3_SD": -0.25416672229766846,
-      "PC4_SD": -0.919786274433136
+      "PC4_SD": -0.919786274433136,
+      "genus": "Nasalis",
+      "taxon_label": "Nasalis larvatus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Nasalis_larvatus_21747_CUB",
@@ -3448,7 +4036,10 @@
       "PC1_SD": -0.6520746946334839,
       "PC2_SD": -0.4479277431964874,
       "PC3_SD": -0.6585456728935242,
-      "PC4_SD": -0.18327690660953522
+      "PC4_SD": -0.18327690660953522,
+      "genus": "Nasalis",
+      "taxon_label": "Nasalis larvatus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Nasalis_larvatus_21748_CUB",
@@ -3456,7 +4047,10 @@
       "PC1_SD": -0.3453643023967743,
       "PC2_SD": -0.5179592967033386,
       "PC3_SD": -0.3708391785621643,
-      "PC4_SD": -0.8270016312599182
+      "PC4_SD": -0.8270016312599182,
+      "genus": "Nasalis",
+      "taxon_label": "Nasalis larvatus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Nasalis_larvatus_28255_CUB",
@@ -3464,7 +4058,10 @@
       "PC1_SD": -0.3713702857494354,
       "PC2_SD": -0.06888087838888168,
       "PC3_SD": -0.7504588961601257,
-      "PC4_SD": -0.08964853733778
+      "PC4_SD": -0.08964853733778,
+      "genus": "Nasalis",
+      "taxon_label": "Nasalis larvatus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Nasalis_larvatus_37343_CUB",
@@ -3472,7 +4069,10 @@
       "PC1_SD": -0.520849883556366,
       "PC2_SD": -0.4891516864299774,
       "PC3_SD": -0.4486122131347656,
-      "PC4_SD": 0.01388776209205389
+      "PC4_SD": 0.01388776209205389,
+      "genus": "Nasalis",
+      "taxon_label": "Nasalis larvatus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Nasalis_larvatus_41557_CUB",
@@ -3480,7 +4080,10 @@
       "PC1_SD": -0.11039332300424576,
       "PC2_SD": -0.14463262259960175,
       "PC3_SD": -0.1961487978696823,
-      "PC4_SD": -0.5752103328704834
+      "PC4_SD": -0.5752103328704834,
+      "genus": "Nasalis",
+      "taxon_label": "Nasalis larvatus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Nasalis_larvatus_41559_CUB",
@@ -3488,7 +4091,10 @@
       "PC1_SD": -0.45464611053466797,
       "PC2_SD": -0.28812599182128906,
       "PC3_SD": -0.7906007766723633,
-      "PC4_SD": -0.3372439742088318
+      "PC4_SD": -0.3372439742088318,
+      "genus": "Nasalis",
+      "taxon_label": "Nasalis larvatus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Nasalis_larvatus_41561_CUB",
@@ -3496,7 +4102,10 @@
       "PC1_SD": -0.10217343270778656,
       "PC2_SD": -0.6284934282302856,
       "PC3_SD": 0.10286176204681396,
-      "PC4_SD": -0.88522869348526
+      "PC4_SD": -0.88522869348526,
+      "genus": "Nasalis",
+      "taxon_label": "Nasalis larvatus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Nasalis_larvatus_41562_CUB",
@@ -3504,7 +4113,10 @@
       "PC1_SD": -0.5538486242294312,
       "PC2_SD": -0.6730826497077942,
       "PC3_SD": -0.4566787779331207,
-      "PC4_SD": -0.4370690584182739
+      "PC4_SD": -0.4370690584182739,
+      "genus": "Nasalis",
+      "taxon_label": "Nasalis larvatus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pan_10736_CUB",
@@ -3512,7 +4124,10 @@
       "PC1_SD": 1.582322359085083,
       "PC2_SD": -0.8663032650947571,
       "PC3_SD": -0.21123263239860535,
-      "PC4_SD": 1.4719045162200928
+      "PC4_SD": 1.4719045162200928,
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pan_15312_CUB",
@@ -3520,7 +4135,10 @@
       "PC1_SD": 1.3062238693237305,
       "PC2_SD": -0.03452466055750847,
       "PC3_SD": -0.4349096119403839,
-      "PC4_SD": 1.2980566024780273
+      "PC4_SD": 1.2980566024780273,
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pan_167344_CUB",
@@ -3528,7 +4146,10 @@
       "PC1_SD": 2.0638375282287598,
       "PC2_SD": -0.6919490694999695,
       "PC3_SD": -0.0667218267917633,
-      "PC4_SD": 0.8214590549468994
+      "PC4_SD": 0.8214590549468994,
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pan_167346_CUB",
@@ -3536,7 +4157,10 @@
       "PC1_SD": 2.1846866607666016,
       "PC2_SD": -0.1995268315076828,
       "PC3_SD": -0.11516272276639938,
-      "PC4_SD": 0.2351725995540619
+      "PC4_SD": 0.2351725995540619,
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pan_174860_CUB",
@@ -3544,7 +4168,10 @@
       "PC1_SD": 1.8388245105743408,
       "PC2_SD": -0.27512866258621216,
       "PC3_SD": 0.005091051571071148,
-      "PC4_SD": 0.7792233228683472
+      "PC4_SD": 0.7792233228683472,
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pan_174861_CUB",
@@ -3552,7 +4179,10 @@
       "PC1_SD": 1.793837070465088,
       "PC2_SD": -0.3491092026233673,
       "PC3_SD": -0.34011074900627136,
-      "PC4_SD": 0.869593620300293
+      "PC4_SD": 0.869593620300293,
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pan_20041_CUB",
@@ -3560,7 +4190,10 @@
       "PC1_SD": 1.462316870689392,
       "PC2_SD": -0.28756412863731384,
       "PC3_SD": -0.1955883651971817,
-      "PC4_SD": 1.222197413444519
+      "PC4_SD": 1.222197413444519,
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pan_26847_CUB",
@@ -3568,7 +4201,10 @@
       "PC1_SD": 2.022313356399536,
       "PC2_SD": -0.7144891023635864,
       "PC3_SD": 0.2616654932498932,
-      "PC4_SD": 0.6789865493774414
+      "PC4_SD": 0.6789865493774414,
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pan_26849_CUB",
@@ -3576,7 +4212,10 @@
       "PC1_SD": 1.8465149402618408,
       "PC2_SD": -0.5820809602737427,
       "PC3_SD": -0.11368668079376221,
-      "PC4_SD": 0.20190192759037018
+      "PC4_SD": 0.20190192759037018,
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pan_48686_CUB",
@@ -3584,7 +4223,10 @@
       "PC1_SD": 1.780836582183838,
       "PC2_SD": -0.3324006497859955,
       "PC3_SD": -0.3074862062931061,
-      "PC4_SD": 1.2025195360183716
+      "PC4_SD": 1.2025195360183716,
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pan_51278_CUB",
@@ -3592,7 +4234,10 @@
       "PC1_SD": 2.1668026447296143,
       "PC2_SD": -0.33483096957206726,
       "PC3_SD": 0.1116696149110794,
-      "PC4_SD": 0.10303167998790741
+      "PC4_SD": 0.10303167998790741,
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes schweinfurthii",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pan_51393_CUB",
@@ -3600,7 +4245,10 @@
       "PC1_SD": 1.6702989339828491,
       "PC2_SD": -0.8221123218536377,
       "PC3_SD": 0.10442743450403214,
-      "PC4_SD": 0.512282133102417
+      "PC4_SD": 0.512282133102417,
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes schweinfurthii",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pan_51394_CUB",
@@ -3608,7 +4256,10 @@
       "PC1_SD": 2.0375986099243164,
       "PC2_SD": -0.907529354095459,
       "PC3_SD": -0.2923656404018402,
-      "PC4_SD": 0.8183070421218872
+      "PC4_SD": 0.8183070421218872,
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes schweinfurthii",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pan_89351_CUB",
@@ -3616,7 +4267,10 @@
       "PC1_SD": 1.3880051374435425,
       "PC2_SD": -0.9818223118782043,
       "PC3_SD": -0.24080246686935425,
-      "PC4_SD": 1.515143871307373
+      "PC4_SD": 1.515143871307373,
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes verus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pan_89353_CUB",
@@ -3624,7 +4278,10 @@
       "PC1_SD": 1.3589681386947632,
       "PC2_SD": -0.6187441349029541,
       "PC3_SD": -0.5066371560096741,
-      "PC4_SD": 1.8675312995910645
+      "PC4_SD": 1.8675312995910645,
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes verus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pan_89426_CUB",
@@ -3632,7 +4289,10 @@
       "PC1_SD": 1.5842479467391968,
       "PC2_SD": -0.7628942728042603,
       "PC3_SD": 0.3362307548522949,
-      "PC4_SD": 1.0607168674468994
+      "PC4_SD": 1.0607168674468994,
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes verus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pan_90191_CUB",
@@ -3640,7 +4300,10 @@
       "PC1_SD": 2.20660662651062,
       "PC2_SD": -0.5225583910942078,
       "PC3_SD": 0.2561701238155365,
-      "PC4_SD": 0.15378588438034058
+      "PC4_SD": 0.15378588438034058,
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pan_paniscus_38020_CUB",
@@ -3648,7 +4311,10 @@
       "PC1_SD": 1.455328106880188,
       "PC2_SD": -0.15169817209243774,
       "PC3_SD": -0.0753171294927597,
-      "PC4_SD": 0.24133582413196564
+      "PC4_SD": 0.24133582413196564,
+      "genus": "Pan",
+      "taxon_label": "Pan paniscus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pan_troglodytes_10276_CUB",
@@ -3656,7 +4322,10 @@
       "PC1_SD": 1.27289617061615,
       "PC2_SD": -0.10539628565311432,
       "PC3_SD": -0.25181514024734497,
-      "PC4_SD": 1.8421152830123901
+      "PC4_SD": 1.8421152830123901,
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pan_troglodytes_167343_CUB",
@@ -3664,7 +4333,10 @@
       "PC1_SD": 1.5922433137893677,
       "PC2_SD": -0.04447313770651817,
       "PC3_SD": 0.721725583076477,
-      "PC4_SD": 0.20352843403816223
+      "PC4_SD": 0.20352843403816223,
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pan_troglodytes_201588_CUB",
@@ -3672,7 +4344,10 @@
       "PC1_SD": 1.7591302394866943,
       "PC2_SD": -0.46926501393318176,
       "PC3_SD": 0.13522998988628387,
-      "PC4_SD": 0.7748250961303711
+      "PC4_SD": 0.7748250961303711,
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pan_troglodytes_51205_CUB",
@@ -3680,7 +4355,10 @@
       "PC1_SD": 2.1521413326263428,
       "PC2_SD": -0.47847452759742737,
       "PC3_SD": -0.011065928265452385,
-      "PC4_SD": -0.12565523386001587
+      "PC4_SD": -0.12565523386001587,
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes schweinfurthii",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pan_troglodytes_51376_CUB",
@@ -3688,7 +4366,10 @@
       "PC1_SD": 1.8944991827011108,
       "PC2_SD": -0.2975403666496277,
       "PC3_SD": -0.14714480936527252,
-      "PC4_SD": 0.5563105940818787
+      "PC4_SD": 0.5563105940818787,
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes schweinfurthii",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pan_troglodytes_51381_CUB",
@@ -3696,7 +4377,10 @@
       "PC1_SD": 2.105938673019409,
       "PC2_SD": -0.6929180026054382,
       "PC3_SD": -0.22340399026870728,
-      "PC4_SD": -0.20804168283939362
+      "PC4_SD": -0.20804168283939362,
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes schweinfurthii",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pan_troglodytes_54330_CUB",
@@ -3704,7 +4388,10 @@
       "PC1_SD": 2.039524793624878,
       "PC2_SD": -0.4244166910648346,
       "PC3_SD": -0.7026110291481018,
-      "PC4_SD": 0.2036961168050766
+      "PC4_SD": 0.2036961168050766,
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pan_troglodytes_89406_CUB",
@@ -3712,7 +4399,10 @@
       "PC1_SD": 1.3370907306671143,
       "PC2_SD": -0.4407208561897278,
       "PC3_SD": -0.451311856508255,
-      "PC4_SD": 1.3907684087753296
+      "PC4_SD": 1.3907684087753296,
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes verus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Papio_anubis_51380_CUB",
@@ -3720,7 +4410,10 @@
       "PC1_SD": -0.44148173928260803,
       "PC2_SD": 0.04839443787932396,
       "PC3_SD": 0.23081615567207336,
-      "PC4_SD": -1.0499430894851685
+      "PC4_SD": -1.0499430894851685,
+      "genus": "Papio",
+      "taxon_label": "Papio anubis",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Papio_anubis_52668_CUB",
@@ -3728,7 +4421,10 @@
       "PC1_SD": -0.38441258668899536,
       "PC2_SD": -0.03609612211585045,
       "PC3_SD": 0.21573182940483093,
-      "PC4_SD": -0.9158449769020081
+      "PC4_SD": -0.9158449769020081,
+      "genus": "Papio",
+      "taxon_label": "Papio anubis",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Papio_cynocephalus_80796_CUB",
@@ -3736,7 +4432,10 @@
       "PC1_SD": -0.2950688898563385,
       "PC2_SD": 0.12798215448856354,
       "PC3_SD": -0.09498281031847,
-      "PC4_SD": -0.8035014867782593
+      "PC4_SD": -0.8035014867782593,
+      "genus": "Papio",
+      "taxon_label": "Papio cynocephalus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Papio_hamadryas_120388_CUB",
@@ -3744,7 +4443,10 @@
       "PC1_SD": -0.21873800456523895,
       "PC2_SD": -0.26749491691589355,
       "PC3_SD": 0.2387787103652954,
-      "PC4_SD": -1.2155944108963013
+      "PC4_SD": -1.2155944108963013,
+      "genus": "Papio",
+      "taxon_label": "Papio hamadryas",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Papio_hamadryas_200847_CUB",
@@ -3752,7 +4454,10 @@
       "PC1_SD": -0.6429527997970581,
       "PC2_SD": -0.595464289188385,
       "PC3_SD": -0.18868890404701233,
-      "PC4_SD": -0.6246476173400879
+      "PC4_SD": -0.6246476173400879,
+      "genus": "Papio",
+      "taxon_label": "Papio hamadryas",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Papio_hamadryas_82096_CUB",
@@ -3760,7 +4465,10 @@
       "PC1_SD": -0.16892573237419128,
       "PC2_SD": 0.034137628972530365,
       "PC3_SD": 0.5165128707885742,
-      "PC4_SD": -1.336308479309082
+      "PC4_SD": -1.336308479309082,
+      "genus": "Papio",
+      "taxon_label": "Papio hamadryas",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Papio_ursinus_216249_CUB",
@@ -3768,7 +4476,10 @@
       "PC1_SD": -0.4335896670818329,
       "PC2_SD": 0.04445003718137741,
       "PC3_SD": 0.20929160714149475,
-      "PC4_SD": -1.2257328033447266
+      "PC4_SD": -1.2257328033447266,
+      "genus": "Papio",
+      "taxon_label": "Papio ursinus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Papio_ursinus_216250_CUB",
@@ -3776,7 +4487,10 @@
       "PC1_SD": -0.8567097187042236,
       "PC2_SD": 0.08066918700933456,
       "PC3_SD": -0.1958867311477661,
-      "PC4_SD": -0.9685259461402893
+      "PC4_SD": -0.9685259461402893,
+      "genus": "Papio",
+      "taxon_label": "Papio ursinus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Papio_ursinus_216251_CUB",
@@ -3784,7 +4498,10 @@
       "PC1_SD": -0.42482614517211914,
       "PC2_SD": 0.13899345695972443,
       "PC3_SD": -0.008837460540235043,
-      "PC4_SD": -0.988655686378479
+      "PC4_SD": -0.988655686378479,
+      "genus": "Papio",
+      "taxon_label": "Papio ursinus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Papio_ursinus_42384_CUB",
@@ -3792,7 +4509,10 @@
       "PC1_SD": -0.46339768171310425,
       "PC2_SD": -0.6621946096420288,
       "PC3_SD": 0.005114987026900053,
-      "PC4_SD": -0.784440279006958
+      "PC4_SD": -0.784440279006958,
+      "genus": "Papio",
+      "taxon_label": "Papio ursinus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Papio_ursinus_42387_CUB",
@@ -3800,7 +4520,10 @@
       "PC1_SD": -0.6487206816673279,
       "PC2_SD": -0.33015957474708557,
       "PC3_SD": 0.05480470508337021,
-      "PC4_SD": -0.9949172139167786
+      "PC4_SD": -0.9949172139167786,
+      "genus": "Papio",
+      "taxon_label": "Papio ursinus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Papio_ursinus_SBU_B_CUB",
@@ -3808,7 +4531,10 @@
       "PC1_SD": -0.7257105708122253,
       "PC2_SD": -0.2878953516483307,
       "PC3_SD": 0.2502642571926117,
-      "PC4_SD": -0.865362286567688
+      "PC4_SD": -0.865362286567688,
+      "genus": "Papio",
+      "taxon_label": "Papio ursinus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pithecia_monachus_187978_CUB",
@@ -3816,7 +4542,10 @@
       "PC1_SD": -0.7615107297897339,
       "PC2_SD": -0.36364248394966125,
       "PC3_SD": 0.4906396269798279,
-      "PC4_SD": 0.3169178366661072
+      "PC4_SD": 0.3169178366661072,
+      "genus": "Pithecia",
+      "taxon_label": "Pithecia monachus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pithecia_monachus_207701_CUB",
@@ -3824,7 +4553,10 @@
       "PC1_SD": -0.8780390024185181,
       "PC2_SD": 0.002975261537358165,
       "PC3_SD": -0.6792117953300476,
-      "PC4_SD": 0.8331215381622314
+      "PC4_SD": 0.8331215381622314,
+      "genus": "Pithecia",
+      "taxon_label": "Pithecia monachus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pithecia_pithecia_202373_CUB",
@@ -3832,7 +4564,10 @@
       "PC1_SD": -0.8390236496925354,
       "PC2_SD": -0.650784969329834,
       "PC3_SD": 0.024836521595716476,
-      "PC4_SD": 0.35374537110328674
+      "PC4_SD": 0.35374537110328674,
+      "genus": "Pithecia",
+      "taxon_label": "Pithecia pithecia",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pithecia_pithecia_70377_CUB",
@@ -3840,7 +4575,10 @@
       "PC1_SD": -0.7632049322128296,
       "PC2_SD": -0.08593574911355972,
       "PC3_SD": 0.028123335912823677,
-      "PC4_SD": 0.33701077103614807
+      "PC4_SD": 0.33701077103614807,
+      "genus": "Pithecia",
+      "taxon_label": "Pithecia pithecia",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pongo_142169_CUB",
@@ -3848,7 +4586,10 @@
       "PC1_SD": 0.959129273891449,
       "PC2_SD": -0.8323758840560913,
       "PC3_SD": -0.3050634264945984,
-      "PC4_SD": -1.8895394802093506
+      "PC4_SD": -1.8895394802093506,
+      "genus": "Pongo",
+      "taxon_label": "Pongo pygmaeus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pongo_142170_CUB",
@@ -3856,7 +4597,10 @@
       "PC1_SD": 1.1673461198806763,
       "PC2_SD": -0.07296773046255112,
       "PC3_SD": 0.10233941674232483,
-      "PC4_SD": -1.2735515832901
+      "PC4_SD": -1.2735515832901,
+      "genus": "Pongo",
+      "taxon_label": "Pongo pygmaeus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pongo_143588_CUB",
@@ -3864,7 +4608,10 @@
       "PC1_SD": 0.9933441281318665,
       "PC2_SD": -0.5301008224487305,
       "PC3_SD": 0.19132040441036224,
-      "PC4_SD": -1.233923077583313
+      "PC4_SD": -1.233923077583313,
+      "genus": "Pongo",
+      "taxon_label": "Pongo abelii",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pongo_143590_Cuboid_L",
@@ -3872,7 +4619,10 @@
       "PC1_SD": 1.2758758068084717,
       "PC2_SD": -0.5314409136772156,
       "PC3_SD": 0.7675172686576843,
-      "PC4_SD": -0.8614089488983154
+      "PC4_SD": -0.8614089488983154,
+      "genus": "Pongo",
+      "taxon_label": "Pongo abelii",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pongo_143596_CUB",
@@ -3880,7 +4630,10 @@
       "PC1_SD": 1.1055580377578735,
       "PC2_SD": -0.7962635159492493,
       "PC3_SD": 1.0332931280136108,
-      "PC4_SD": -1.1150380373001099
+      "PC4_SD": -1.1150380373001099,
+      "genus": "Pongo",
+      "taxon_label": "Pongo abelii",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pongo_143597_CUB",
@@ -3888,7 +4641,10 @@
       "PC1_SD": 0.575496256351471,
       "PC2_SD": -0.3289283514022827,
       "PC3_SD": -0.5683798789978027,
-      "PC4_SD": -0.5203247666358948
+      "PC4_SD": -0.5203247666358948,
+      "genus": "Pongo",
+      "taxon_label": "Pongo abelii",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pongo_143602_CUB",
@@ -3896,7 +4652,10 @@
       "PC1_SD": 0.8319668769836426,
       "PC2_SD": -0.9267693161964417,
       "PC3_SD": 0.017271608114242554,
-      "PC4_SD": -0.9851405024528503
+      "PC4_SD": -0.9851405024528503,
+      "genus": "Pongo",
+      "taxon_label": "Pongo abelii",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pongo_145300_CUB",
@@ -3904,7 +4663,10 @@
       "PC1_SD": 0.894020676612854,
       "PC2_SD": -0.8466700315475464,
       "PC3_SD": 0.4298533499240875,
-      "PC4_SD": -2.1425940990448
+      "PC4_SD": -2.1425940990448,
+      "genus": "Pongo",
+      "taxon_label": "Pongo pygmaeus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pongo_145301_CUB",
@@ -3912,7 +4674,10 @@
       "PC1_SD": 0.5606666803359985,
       "PC2_SD": -0.9223014712333679,
       "PC3_SD": 0.5017074942588806,
-      "PC4_SD": -1.5386407375335693
+      "PC4_SD": -1.5386407375335693,
+      "genus": "Pongo",
+      "taxon_label": "Pongo pygmaeus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pongo_145302_CUB",
@@ -3920,7 +4685,10 @@
       "PC1_SD": 0.6786925792694092,
       "PC2_SD": -0.9039337635040283,
       "PC3_SD": 0.42903146147727966,
-      "PC4_SD": -1.526438593864441
+      "PC4_SD": -1.526438593864441,
+      "genus": "Pongo",
+      "taxon_label": "Pongo pygmaeus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pongo_145304_CUB",
@@ -3928,7 +4696,10 @@
       "PC1_SD": 1.0937665700912476,
       "PC2_SD": -0.9452645778656006,
       "PC3_SD": 0.6672190427780151,
-      "PC4_SD": -1.5281462669372559
+      "PC4_SD": -1.5281462669372559,
+      "genus": "Pongo",
+      "taxon_label": "Pongo pygmaeus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pongo_145305_CUB",
@@ -3936,7 +4707,10 @@
       "PC1_SD": 0.5693177580833435,
       "PC2_SD": -1.0346719026565552,
       "PC3_SD": -0.32829347252845764,
-      "PC4_SD": -1.6299512386322021
+      "PC4_SD": -1.6299512386322021,
+      "genus": "Pongo",
+      "taxon_label": "Pongo pygmaeus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pongo_145308_CUB",
@@ -3944,7 +4718,10 @@
       "PC1_SD": 0.6934438347816467,
       "PC2_SD": -0.5927907228469849,
       "PC3_SD": 0.24888396263122559,
-      "PC4_SD": -1.543352723121643
+      "PC4_SD": -1.543352723121643,
+      "genus": "Pongo",
+      "taxon_label": "Pongo pygmaeus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pongo_145309_CUB",
@@ -3952,7 +4729,10 @@
       "PC1_SD": 0.7037535905838013,
       "PC2_SD": -0.7876362800598145,
       "PC3_SD": 0.024116508662700653,
-      "PC4_SD": -1.7070380449295044
+      "PC4_SD": -1.7070380449295044,
+      "genus": "Pongo",
+      "taxon_label": "Pongo pygmaeus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pongo_22937_CUB",
@@ -3960,7 +4740,10 @@
       "PC1_SD": 0.7077125310897827,
       "PC2_SD": -0.9586934447288513,
       "PC3_SD": 0.3744925260543823,
-      "PC4_SD": -1.598685622215271
+      "PC4_SD": -1.598685622215271,
+      "genus": "Pongo",
+      "taxon_label": "Pongo pygmaeus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pongo_267325_CUB",
@@ -3968,7 +4751,10 @@
       "PC1_SD": 1.0126328468322754,
       "PC2_SD": -1.2365102767944336,
       "PC3_SD": 0.03706394508481026,
-      "PC4_SD": -1.5589715242385864
+      "PC4_SD": -1.5589715242385864,
+      "genus": "Pongo",
+      "taxon_label": "Pongo abelii",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pongo_270807_CUB",
@@ -3976,7 +4762,10 @@
       "PC1_SD": 0.6006938219070435,
       "PC2_SD": -1.0691708326339722,
       "PC3_SD": -0.07282457500696182,
-      "PC4_SD": -1.465229868888855
+      "PC4_SD": -1.465229868888855,
+      "genus": "Pongo",
+      "taxon_label": "Pongo abelii",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pongo_37363_CUB",
@@ -3984,7 +4773,10 @@
       "PC1_SD": 0.28562796115875244,
       "PC2_SD": 0.036992397159338,
       "PC3_SD": -0.8591610789299011,
-      "PC4_SD": -0.4008249342441559
+      "PC4_SD": -0.4008249342441559,
+      "genus": "Pongo",
+      "taxon_label": "Pongo pygmaeus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pongo_37365_CUB",
@@ -3992,7 +4784,10 @@
       "PC1_SD": 1.7084555625915527,
       "PC2_SD": -0.9877786636352539,
       "PC3_SD": 0.23802907764911652,
-      "PC4_SD": -1.9646838903427124
+      "PC4_SD": -1.9646838903427124,
+      "genus": "Pongo",
+      "taxon_label": "Pongo pygmaeus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pongo_50958_CUB",
@@ -4000,7 +4795,10 @@
       "PC1_SD": 0.4877866804599762,
       "PC2_SD": -0.9235301613807678,
       "PC3_SD": -0.0634608194231987,
-      "PC4_SD": -0.9976991415023804
+      "PC4_SD": -0.9976991415023804,
+      "genus": "Pongo",
+      "taxon_label": "Pongo pygmaeus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pongo_50960_CUB",
@@ -4008,7 +4806,10 @@
       "PC1_SD": 1.0821380615234375,
       "PC2_SD": -0.8370916843414307,
       "PC3_SD": 0.014186989516019821,
-      "PC4_SD": -1.3320883512496948
+      "PC4_SD": -1.3320883512496948,
+      "genus": "Pongo",
+      "taxon_label": "Pongo pygmaeus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Presbytis_aygula_106276_CUB",
@@ -4016,7 +4817,10 @@
       "PC1_SD": -0.07198275625705719,
       "PC2_SD": -0.2557663917541504,
       "PC3_SD": -0.767932116985321,
-      "PC4_SD": -0.7032046914100647
+      "PC4_SD": -0.7032046914100647,
+      "genus": "Presbytis",
+      "taxon_label": "Presbytis comata",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Presbytis_cristatus_102461_CUB",
@@ -4024,7 +4828,10 @@
       "PC1_SD": -0.5475517511367798,
       "PC2_SD": 0.01978415995836258,
       "PC3_SD": -0.6638309359550476,
-      "PC4_SD": -0.9278805255889893
+      "PC4_SD": -0.9278805255889893,
+      "genus": "Trachypithecus",
+      "taxon_label": "Trachypithecus cristatus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Presbytis_cristatus_106596_CUB",
@@ -4032,7 +4839,10 @@
       "PC1_SD": -0.5532780885696411,
       "PC2_SD": 0.6855625510215759,
       "PC3_SD": -0.9634711146354675,
-      "PC4_SD": 0.730779767036438
+      "PC4_SD": 0.730779767036438,
+      "genus": "Trachypithecus",
+      "taxon_label": "Trachypithecus cristatus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Presbytis_melalophos_106600_CUB",
@@ -4040,7 +4850,10 @@
       "PC1_SD": -0.37596163153648376,
       "PC2_SD": -0.4499671757221222,
       "PC3_SD": -0.15860168635845184,
-      "PC4_SD": -0.9583438038825989
+      "PC4_SD": -0.9583438038825989,
+      "genus": "Presbytis",
+      "taxon_label": "Presbytis melalophos",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Presbytis_melalophos_106606_CUB",
@@ -4048,7 +4861,10 @@
       "PC1_SD": -0.46634167432785034,
       "PC2_SD": -0.26048001646995544,
       "PC3_SD": -0.3441478908061981,
-      "PC4_SD": -0.9400386214256287
+      "PC4_SD": -0.9400386214256287,
+      "genus": "Presbytis",
+      "taxon_label": "Presbytis melalophos",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Presbytis_obscuros_112976_CUB",
@@ -4056,7 +4872,10 @@
       "PC1_SD": -1.079485297203064,
       "PC2_SD": -0.03513628616929054,
       "PC3_SD": -1.5977336168289185,
-      "PC4_SD": 0.37758782505989075
+      "PC4_SD": 0.37758782505989075,
+      "genus": "Trachypithecus",
+      "taxon_label": "Trachypithecus obscurus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Presbytis_obscuros_112977_CUB",
@@ -4064,7 +4883,10 @@
       "PC1_SD": -0.1965627819299698,
       "PC2_SD": 0.03698653355240822,
       "PC3_SD": -1.3507338762283325,
-      "PC4_SD": -0.4943937063217163
+      "PC4_SD": -0.4943937063217163,
+      "genus": "Trachypithecus",
+      "taxon_label": "Trachypithecus obscurus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Presbytis_rubicunda_103639_CUB",
@@ -4072,7 +4894,10 @@
       "PC1_SD": -0.5278638601303101,
       "PC2_SD": -0.4168267250061035,
       "PC3_SD": 0.18328596651554108,
-      "PC4_SD": -0.9890034198760986
+      "PC4_SD": -0.9890034198760986,
+      "genus": "Presbytis",
+      "taxon_label": "Presbytis rubicunda",
+      "assignment_basis": "Retained local label; no comparative assignment"
     },
     {
       "mesh_id": "Procolobus_badius_52278_CUB",
@@ -4080,7 +4905,10 @@
       "PC1_SD": -0.8690602779388428,
       "PC2_SD": -0.5506058931350708,
       "PC3_SD": -0.2487363964319229,
-      "PC4_SD": -1.051627516746521
+      "PC4_SD": -1.051627516746521,
+      "genus": "Piliocolobus",
+      "taxon_label": "Piliocolobus badius",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Procolobus_badius_52287_CUB",
@@ -4088,7 +4916,10 @@
       "PC1_SD": -0.9797024726867676,
       "PC2_SD": -0.2970445454120636,
       "PC3_SD": -0.49004992842674255,
-      "PC4_SD": -1.1786952018737793
+      "PC4_SD": -1.1786952018737793,
+      "genus": "Piliocolobus",
+      "taxon_label": "Piliocolobus badius",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Procolobus_badius_54279_CUB",
@@ -4096,7 +4927,10 @@
       "PC1_SD": -0.32320237159729004,
       "PC2_SD": -0.49494314193725586,
       "PC3_SD": -0.14642946422100067,
-      "PC4_SD": -0.8546483516693115
+      "PC4_SD": -0.8546483516693115,
+      "genus": "Piliocolobus",
+      "taxon_label": "Piliocolobus badius",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pygathrix_nemaeus_87256_CUB",
@@ -4104,7 +4938,10 @@
       "PC1_SD": -0.004715012386441231,
       "PC2_SD": -0.3259744346141815,
       "PC3_SD": -0.23622477054595947,
-      "PC4_SD": -0.7998489141464233
+      "PC4_SD": -0.7998489141464233,
+      "genus": "Pygathrix",
+      "taxon_label": "Pygathrix nemaeus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Pygathrix_nemaeus_87257_CUB",
@@ -4112,7 +4949,10 @@
       "PC1_SD": -0.4977329671382904,
       "PC2_SD": 0.5984249711036682,
       "PC3_SD": -0.7381166815757751,
-      "PC4_SD": -0.6644954085350037
+      "PC4_SD": -0.6644954085350037,
+      "genus": "Pygathrix",
+      "taxon_label": "Pygathrix nemaeus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Rhinopithecus_roxellana_112976_CUB",
@@ -4120,7 +4960,10 @@
       "PC1_SD": -1.0237889289855957,
       "PC2_SD": -0.04848853126168251,
       "PC3_SD": -1.5395362377166748,
-      "PC4_SD": 0.28743866086006165
+      "PC4_SD": 0.28743866086006165,
+      "genus": "Rhinopithecus",
+      "taxon_label": "Rhinopithecus roxellana",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Rhinopithecus_roxellana_117413_CUB",
@@ -4128,7 +4971,10 @@
       "PC1_SD": -0.7058922648429871,
       "PC2_SD": -0.17636163532733917,
       "PC3_SD": -0.11063297092914581,
-      "PC4_SD": -0.9212306141853333
+      "PC4_SD": -0.9212306141853333,
+      "genus": "Rhinopithecus",
+      "taxon_label": "Rhinopithecus roxellana",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Rhinopithecus_roxellana_117415_CUB",
@@ -4136,7 +4982,10 @@
       "PC1_SD": -0.501413106918335,
       "PC2_SD": -0.1684073507785797,
       "PC3_SD": -0.09721163660287857,
-      "PC4_SD": -0.927274227142334
+      "PC4_SD": -0.927274227142334,
+      "genus": "Rhinopithecus",
+      "taxon_label": "Rhinopithecus roxellana",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Rhinopithecus_roxellana_119648_CUB",
@@ -4144,7 +4993,10 @@
       "PC1_SD": -0.6523414254188538,
       "PC2_SD": 0.02801361493766308,
       "PC3_SD": -0.11791963875293732,
-      "PC4_SD": -0.3824661672115326
+      "PC4_SD": -0.3824661672115326,
+      "genus": "Rhinopithecus",
+      "taxon_label": "Rhinopithecus roxellana",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Rhinopithecus_roxellana_119664_CUB",
@@ -4152,7 +5004,10 @@
       "PC1_SD": -0.7892060875892639,
       "PC2_SD": -0.035735663026571274,
       "PC3_SD": -0.35818228125572205,
-      "PC4_SD": -1.0413845777511597
+      "PC4_SD": -1.0413845777511597,
+      "genus": "Rhinopithecus",
+      "taxon_label": "Rhinopithecus roxellana",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Saimiri_boliviensis_211637_CUB",
@@ -4160,7 +5015,10 @@
       "PC1_SD": -1.1685959100723267,
       "PC2_SD": -0.679468035697937,
       "PC3_SD": 0.0459686815738678,
-      "PC4_SD": 0.2798539400100708
+      "PC4_SD": 0.2798539400100708,
+      "genus": "Saimiri",
+      "taxon_label": "Saimiri boliviensis",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Saimiri_boliviensis_211643_CUB",
@@ -4168,7 +5026,10 @@
       "PC1_SD": -1.088102102279663,
       "PC2_SD": -0.08875846117734909,
       "PC3_SD": 0.4252358675003052,
-      "PC4_SD": 0.4434950649738312
+      "PC4_SD": 0.4434950649738312,
+      "genus": "Saimiri",
+      "taxon_label": "Saimiri boliviensis",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Saimiri_sciureus_188086_CUB",
@@ -4176,7 +5037,10 @@
       "PC1_SD": -1.523011326789856,
       "PC2_SD": 0.7556390762329102,
       "PC3_SD": 0.71861732006073,
-      "PC4_SD": 0.09976044297218323
+      "PC4_SD": 0.09976044297218323,
+      "genus": "Saimiri",
+      "taxon_label": "Saimiri sciureus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Saimiri_sciureus_188089_CUB",
@@ -4184,7 +5048,10 @@
       "PC1_SD": -1.0819077491760254,
       "PC2_SD": 0.3084864616394043,
       "PC3_SD": 0.9639391303062439,
-      "PC4_SD": -0.33273938298225403
+      "PC4_SD": -0.33273938298225403,
+      "genus": "Saimiri",
+      "taxon_label": "Saimiri sciureus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Saimiri_sciureus_188090_CUB",
@@ -4192,7 +5059,10 @@
       "PC1_SD": -1.201033592224121,
       "PC2_SD": 0.32101961970329285,
       "PC3_SD": 1.13489830493927,
-      "PC4_SD": 0.24425210058689117
+      "PC4_SD": 0.24425210058689117,
+      "genus": "Saimiri",
+      "taxon_label": "Saimiri sciureus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Saimiri_sciureus_188093_CUB",
@@ -4200,7 +5070,10 @@
       "PC1_SD": -1.4813714027404785,
       "PC2_SD": 1.0095466375350952,
       "PC3_SD": 0.7847152352333069,
-      "PC4_SD": 0.6043999195098877
+      "PC4_SD": 0.6043999195098877,
+      "genus": "Saimiri",
+      "taxon_label": "Saimiri sciureus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Symphalangus_syndactylus_106584_CUB",
@@ -4208,7 +5081,10 @@
       "PC1_SD": -0.09767748415470123,
       "PC2_SD": 0.8549225926399231,
       "PC3_SD": -1.2747958898544312,
-      "PC4_SD": 0.19679182767868042
+      "PC4_SD": 0.19679182767868042,
+      "genus": "Symphalangus",
+      "taxon_label": "Symphalangus syndactylus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Symphalangus_syndactylus_237504_CUB",
@@ -4216,7 +5092,10 @@
       "PC1_SD": -0.27334341406822205,
       "PC2_SD": 0.35667091608047485,
       "PC3_SD": -0.7254309058189392,
-      "PC4_SD": 0.31140217185020447
+      "PC4_SD": 0.31140217185020447,
+      "genus": "Symphalangus",
+      "taxon_label": "Symphalangus syndactylus",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Fossil_Theropithecus_KNM_TH_46700_CUB",
@@ -4224,7 +5103,10 @@
       "PC1_SD": -0.8048917055130005,
       "PC2_SD": -0.32390138506889343,
       "PC3_SD": -0.1465408056974411,
-      "PC4_SD": -0.930773913860321
+      "PC4_SD": -0.930773913860321,
+      "genus": "Theropithecus",
+      "taxon_label": "Theropithecus KNM TH 46700",
+      "assignment_basis": "Retained local label; no comparative assignment"
     },
     {
       "mesh_id": "Trachypithecus_johnii_21843_CUB",
@@ -4232,7 +5114,10 @@
       "PC1_SD": 0.1883576214313507,
       "PC2_SD": -0.8298617005348206,
       "PC3_SD": 0.09617176651954651,
-      "PC4_SD": -1.034437894821167
+      "PC4_SD": -1.034437894821167,
+      "genus": "Trachypithecus",
+      "taxon_label": "Trachypithecus johnii",
+      "assignment_basis": "Assigned comparative taxon"
     },
     {
       "mesh_id": "Trachypithecus_johnii_54760_CUB",
@@ -4240,9 +5125,51 @@
       "PC1_SD": -0.5306686758995056,
       "PC2_SD": -0.22535724937915802,
       "PC3_SD": -0.3187880218029022,
-      "PC4_SD": -0.9413771033287048
+      "PC4_SD": -0.9413771033287048,
+      "genus": "Trachypithecus",
+      "taxon_label": "Trachypithecus johnii",
+      "assignment_basis": "Assigned comparative taxon"
     }
   ],
   "scalar": "signed_normal_displacement_pct_mean_bbox",
-  "interpolated": false
+  "interpolated": false,
+  "taxonomy": {
+    "source": "specimen_ledger_publication_draft.csv",
+    "source_sha256": "e065c0c6a7633738b80ff6da2b23e5ffa00af8ad1dd0db9d507a359b7d649e67",
+    "join": "Exact specimen_record to mesh_id; named genus from sampling_label, with original assignment_basis retained; unnamed labels remain Unassigned",
+    "taxonomy_revised": false
+  },
+  "genus_colors": {
+    "Alouatta": "#0072b2",
+    "Ateles": "#d55e00",
+    "Bunopithecus": "#009e73",
+    "Cacajao": "#8c45a0",
+    "Cebus": "#b57a00",
+    "Cercocebus": "#236b42",
+    "Cercopithecus": "#cc4678",
+    "Chlorocebus": "#4d60ac",
+    "Colobus": "#9b4b19",
+    "Erythrocebus": "#00838f",
+    "Gorilla": "#7c6d00",
+    "Homo": "#bc3036",
+    "Hylobates": "#487fbd",
+    "Lagothrix": "#956eab",
+    "Lophocebus": "#48673c",
+    "Macaca": "#a05050",
+    "Nasalis": "#008573",
+    "Nomascus": "#895796",
+    "Pan": "#665234",
+    "Papio": "#4169a1",
+    "Piliocolobus": "#bb6514",
+    "Pithecia": "#467f67",
+    "Pongo": "#ae3b68",
+    "Presbytis": "#5362ab",
+    "Pygathrix": "#8d8124",
+    "Rhinopithecus": "#a94320",
+    "Saimiri": "#28647b",
+    "Symphalangus": "#a06b85",
+    "Theropithecus": "#6c654e",
+    "Trachypithecus": "#67488d",
+    "Unassigned": "#687278"
+  }
 }

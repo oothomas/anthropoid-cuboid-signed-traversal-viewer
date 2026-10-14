@@ -32,5 +32,18 @@
   "package_builder_sha256": "1ce66f0f290e670282e63b92c192cc0f1ce79c848c37aca62bb8501293a2b1ec",
   "signed_definition": "100 * dot(decoded - decoded mean, outward area-weighted mean normal) / mean bounding-box diagonal",
   "score_download": false,
-  "privacy_note": "Plot values are public browser assets; removing a download link is not access control."
+  "privacy_note": "Plot values are public browser assets; removing a download link is not access control.",
+  "presentation": {
+    "generator": "scripts/refresh_presentation.py",
+    "generator_sha256": "8d093eef95706979164fcc9782fb534aeb726f4fb0f740b8ffab77fa79f73850",
+    "shared_copy_sha256": "c5af8d886528bada3b7ed55afb198b2046af0dd29c5dbfbbfd643d64b09fb93e",
+    "scientific_arrays_changed": false,
+    "joint_decoder_implemented": false,
+    "taxonomy": {
+      "source": "specimen_ledger_publication_draft.csv",
+      "source_sha256": "e065c0c6a7633738b80ff6da2b23e5ffa00af8ad1dd0db9d507a359b7d649e67",
+      "join": "Exact specimen_record to mesh_id; named genus from sampling_label, with original assignment_basis retained; unnamed labels remain Unassigned",
+      "taxonomy_revised": false
+    }
+  }
 }

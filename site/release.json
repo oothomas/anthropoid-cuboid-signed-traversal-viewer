@@ -63,12 +63,12 @@
       "bytes": 0
     },
     "cuboid/traversals/QA.txt": {
-      "sha256": "31bd3fa638622b159c39275c70d72e3ff2cfc89084e8017c02ef12a0092c8fc6",
-      "bytes": 695
+      "sha256": "0c901299d518ec4ce72dba8c7f494e432e578dd03fefc7f84fd831a1e3481f46",
+      "bytes": 1054
     },
     "cuboid/traversals/caption.txt": {
-      "sha256": "0ddfaaa7b8322946b2249b729c7c400f0e987029710756149585f9657a986dad",
-      "bytes": 958
+      "sha256": "2cfb2e21f419f1db942ca0e9b8b1cd6a7ffc40d3ab4e28331df35e9dadef777d",
+      "bytes": 1418
     },
     "cuboid/traversals/data/faces.u32": {
       "sha256": "5be29703c8bb4563fe5142454ce449382475af536b285965f5c85a5452e82a7a",
@@ -83,32 +83,32 @@
       "bytes": 23616000
     },
     "cuboid/traversals/data.json": {
-      "sha256": "a7181d1812b029772c6f6b3f6a7866ee7dda2cc707e5ef56affc48edb52b016a",
-      "bytes": 115190
+      "sha256": "8b357d9e0291a465ca680c89fc591e5ee292e54122eabe30bf2a18bf49ee366b",
+      "bytes": 153440
     },
     "cuboid/traversals/geometry.csv": {
       "sha256": "531c19a448c507b361e9b3a5b5fc0b0d2b61c51f2248b32566c77336bc9f4579",
       "bytes": 10217
     },
     "cuboid/traversals/provenance.json": {
-      "sha256": "71c433991cec95949daadab4828e74def5463a041659594a6bd50a778e49caf5",
-      "bytes": 1473
+      "sha256": "1264ab67890145d256afc8823c3c54237018f7546471c8fd7455601b9747a95b",
+      "bytes": 2178
     },
     "cuboid/traversals/summary.json": {
       "sha256": "56bd310fc76edb7f2806e8aca2b88527d98fcfd3a75c228aadf4f3933229eb9f",
       "bytes": 159
     },
     "cuboid/viewer/index.html": {
-      "sha256": "e9130fa08d2c4a1377d3d159a3ecffc304602c946ae825523f397e59f96209ec",
-      "bytes": 5362
+      "sha256": "cb32c4a6d8bc6fb15d0583df03739e9d09911a5d5f49f18188569c84f12ef41d",
+      "bytes": 11080
     },
     "cuboid/viewer/traversals.css": {
-      "sha256": "603bb8c9970acbd6a4b2d2acfb92a9b86bdec673572b3e58ef32d01c9d06bd3e",
-      "bytes": 6201
+      "sha256": "77daa94ecb9cc38660143caa369b6b8b0882f83b8993e85bc2f39e793158b1d8",
+      "bytes": 9349
     },
     "cuboid/viewer/traversals.js": {
-      "sha256": "6d8f15cf7be67ea4a4f300c1d3377fe28a94e0e5d275ac5429aa545507ede2ac",
-      "bytes": 16417
+      "sha256": "97184cbf7f81aefef19b8ac1dd2e50a8bfcbec919a1e1210a4f11725826d57b6",
+      "bytes": 18969
     },
     "cuboid/viewer/vendor/controls/TrackballControls.js": {
       "sha256": "413ed6a4fe187db7622717222318adba7c98866398aa3d49755ff1c01f5bcacc",
@@ -127,12 +127,12 @@
       "bytes": 670681
     },
     "hominoids/traversals/QA.txt": {
-      "sha256": "31bd3fa638622b159c39275c70d72e3ff2cfc89084e8017c02ef12a0092c8fc6",
-      "bytes": 695
+      "sha256": "0c901299d518ec4ce72dba8c7f494e432e578dd03fefc7f84fd831a1e3481f46",
+      "bytes": 1054
     },
     "hominoids/traversals/caption.txt": {
-      "sha256": "63d547ac070816b7acbf6f5191828eb2e8fab9c69ad9e6922cd1a8f446a0395c",
-      "bytes": 954
+      "sha256": "186e7ea86ec0e9fe2f169f75f7932ec08ac859a69b796ada97abf01bf2571e76",
+      "bytes": 1414
     },
     "hominoids/traversals/data/faces.u32": {
       "sha256": "d0dbe9401ae4e14d53ff39e1805cbc234d5187eaf024d0acd385afa82ffcfbf0",
@@ -147,32 +147,32 @@
       "bytes": 23616000
     },
     "hominoids/traversals/data.json": {
-      "sha256": "d9de35ce500049c5fc6d67a0eec6911ecf409597cbb8efb2166d6ffbf6eedfd1",
-      "bytes": 84460
+      "sha256": "15b2dd1c58f623de4942591c412c8462b6444b36b3278f9e0c7e834d963af8bb",
+      "bytes": 102488
     },
     "hominoids/traversals/geometry.csv": {
       "sha256": "147803c55fccf0a806c65b036308e9e9bd8627ebaa8acfde6a2b4d1160164c6d",
       "bytes": 10244
     },
     "hominoids/traversals/provenance.json": {
-      "sha256": "cb0a2bd75cc33c6d068283b21be410d0d85949d7ec3d6393a3139c588ce81a6a",
-      "bytes": 1461
+      "sha256": "100b0eff7cfeb4f38fbd44a4d8d0245278b4909d0cf34655b20d01abf239ff64",
+      "bytes": 2166
     },
     "hominoids/traversals/summary.json": {
       "sha256": "9df9743e2e8d4a8b9ac66371f7524892d39faf82af6e882d591e1652d5721bc6",
       "bytes": 160
     },
     "hominoids/viewer/index.html": {
-      "sha256": "3d45d68920726ca95f83ba7953adadd6d7d6afa8360494048f6b49f57fa6b88f",
-      "bytes": 5376
+      "sha256": "dcd9d9e3471fcb63bdd57eff5467c113acebf4a4da50bc47e132a14b602f20d8",
+      "bytes": 11094
     },
     "hominoids/viewer/traversals.css": {
-      "sha256": "603bb8c9970acbd6a4b2d2acfb92a9b86bdec673572b3e58ef32d01c9d06bd3e",
-      "bytes": 6201
+      "sha256": "77daa94ecb9cc38660143caa369b6b8b0882f83b8993e85bc2f39e793158b1d8",
+      "bytes": 9349
     },
     "hominoids/viewer/traversals.js": {
-      "sha256": "6d8f15cf7be67ea4a4f300c1d3377fe28a94e0e5d275ac5429aa545507ede2ac",
-      "bytes": 16417
+      "sha256": "97184cbf7f81aefef19b8ac1dd2e50a8bfcbec919a1e1210a4f11725826d57b6",
+      "bytes": 18969
     },
     "hominoids/viewer/vendor/controls/TrackballControls.js": {
       "sha256": "413ed6a4fe187db7622717222318adba7c98866398aa3d49755ff1c01f5bcacc",
@@ -191,8 +191,8 @@
       "bytes": 670681
     },
     "humeri/traversals/QA.txt": {
-      "sha256": "31bd3fa638622b159c39275c70d72e3ff2cfc89084e8017c02ef12a0092c8fc6",
-      "bytes": 695
+      "sha256": "0c901299d518ec4ce72dba8c7f494e432e578dd03fefc7f84fd831a1e3481f46",
+      "bytes": 1054
     },
     "humeri/traversals/caption.txt": {
       "sha256": "0ac03a93654613e528c8fe46ea6053386df8a094f6f46bfd8742b0a1c3a08723",
@@ -219,24 +219,24 @@
       "bytes": 10431
     },
     "humeri/traversals/provenance.json": {
-      "sha256": "dd35161f22269552b06dcbf9f661b514be9c6c03e3cedc879cca91f91febea50",
-      "bytes": 1463
+      "sha256": "6dcb35a99f9bb40a40f8955679e927c7596a66d9e12baaad51afd0b0c2e2152b",
+      "bytes": 1805
     },
     "humeri/traversals/summary.json": {
       "sha256": "499dc5adf45e437200941366c8d7878dcfccec9ed6ed758e54c641bd08e6f4fe",
       "bytes": 157
     },
     "humeri/viewer/index.html": {
-      "sha256": "726dd3b486bfffeb6f2d8f76f547411db46796e9aa286645a7e624f4aee1b938",
-      "bytes": 5279
+      "sha256": "5b02673f55f634f5a2376e8259f51626d66bea96d5bbb68dc9b144894590b1dc",
+      "bytes": 10239
     },
     "humeri/viewer/traversals.css": {
-      "sha256": "603bb8c9970acbd6a4b2d2acfb92a9b86bdec673572b3e58ef32d01c9d06bd3e",
-      "bytes": 6201
+      "sha256": "77daa94ecb9cc38660143caa369b6b8b0882f83b8993e85bc2f39e793158b1d8",
+      "bytes": 9349
     },
     "humeri/viewer/traversals.js": {
-      "sha256": "6d8f15cf7be67ea4a4f300c1d3377fe28a94e0e5d275ac5429aa545507ede2ac",
-      "bytes": 16417
+      "sha256": "97184cbf7f81aefef19b8ac1dd2e50a8bfcbec919a1e1210a4f11725826d57b6",
+      "bytes": 18969
     },
     "humeri/viewer/vendor/controls/TrackballControls.js": {
       "sha256": "413ed6a4fe187db7622717222318adba7c98866398aa3d49755ff1c01f5bcacc",
@@ -259,8 +259,8 @@
       "bytes": 319
     },
     "mandible/traversals/QA.txt": {
-      "sha256": "31bd3fa638622b159c39275c70d72e3ff2cfc89084e8017c02ef12a0092c8fc6",
-      "bytes": 695
+      "sha256": "0c901299d518ec4ce72dba8c7f494e432e578dd03fefc7f84fd831a1e3481f46",
+      "bytes": 1054
     },
     "mandible/traversals/caption.txt": {
       "sha256": "7362356e280eb9b0c43d4bd58ed37479d48012a025f3701c0a994873fabe2cfb",
@@ -287,24 +287,24 @@
       "bytes": 10459
     },
     "mandible/traversals/provenance.json": {
-      "sha256": "969d875fea820ca3d34dd9edf8c808733283ac702b7bde7a0432f784a8dccdfb",
-      "bytes": 1445
+      "sha256": "f103dde8379dcaaa566c0d966bd45defcb483fb0da0c1c8cde48dfb4e6e39efe",
+      "bytes": 1787
     },
     "mandible/traversals/summary.json": {
       "sha256": "499dc5adf45e437200941366c8d7878dcfccec9ed6ed758e54c641bd08e6f4fe",
       "bytes": 157
     },
     "mandible/viewer/index.html": {
-      "sha256": "ece8336191c74481760c33d2d01a42cd81040749d6b427a85a5297d4e6562247",
-      "bytes": 5270
+      "sha256": "64f002d097a74e030640ba5859fa887f67fd13a6feb040f4db4211e9a4f28c27",
+      "bytes": 10230
     },
     "mandible/viewer/traversals.css": {
-      "sha256": "603bb8c9970acbd6a4b2d2acfb92a9b86bdec673572b3e58ef32d01c9d06bd3e",
-      "bytes": 6201
+      "sha256": "77daa94ecb9cc38660143caa369b6b8b0882f83b8993e85bc2f39e793158b1d8",
+      "bytes": 9349
     },
     "mandible/viewer/traversals.js": {
-      "sha256": "6d8f15cf7be67ea4a4f300c1d3377fe28a94e0e5d275ac5429aa545507ede2ac",
-      "bytes": 16417
+      "sha256": "97184cbf7f81aefef19b8ac1dd2e50a8bfcbec919a1e1210a4f11725826d57b6",
+      "bytes": 18969
     },
     "mandible/viewer/vendor/controls/TrackballControls.js": {
       "sha256": "413ed6a4fe187db7622717222318adba7c98866398aa3d49755ff1c01f5bcacc",
@@ -322,5 +322,6 @@
       "sha256": "3e690ac7d180b0aadf0891bea39eec643e29e2d3e75c99b18689518665f69ba6",
       "bytes": 670681
     }
-  }
+  },
+  "presentation_revision": "project-context-and-genus-2026-10-14"
 }

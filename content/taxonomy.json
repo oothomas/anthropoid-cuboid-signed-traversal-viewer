@@ -1,0 +1,1488 @@
+{
+  "source": "specimen_ledger_publication_draft.csv",
+  "source_sha256": "e065c0c6a7633738b80ff6da2b23e5ffa00af8ad1dd0db9d507a359b7d649e67",
+  "join": "Exact specimen_record to mesh_id; named genus from sampling_label, with original assignment_basis retained; unnamed labels remain Unassigned",
+  "taxonomy_revised": false,
+  "assignments": {
+    "Alouatta_belzebul_133537_CUB": {
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta belzebul",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Alouatta_caraya_209917_CUB": {
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta caraya",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Alouatta_caraya_211511_CUB": {
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta caraya",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Alouatta_caraya_211512_CUB": {
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta caraya",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Alouatta_seniculus_188002_CUB": {
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta seniculus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Alouatta_seniculus_188006_CUB": {
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta seniculus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Alouatta_seniculus_211528_CUB": {
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta seniculus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Alouatta_seniculus_211529_CUB": {
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta seniculus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Alouatta_seniculus_211531_CUB": {
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta seniculus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Alouatta_seniculus_211532_CUB": {
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta seniculus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Alouatta_seniculus_211534_CUB": {
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta seniculus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Alouatta_seniculus_211535_CUB": {
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta seniculus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Alouatta_seniculus_23334_CUB": {
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta seniculus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Alouatta_seniculus_23342_CUB": {
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta seniculus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Alouatta_seniculus_23351_CUB": {
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta seniculus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Alouatta_seniculus_23549_CUB": {
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta seniculus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Alouatta_seniculus_42316_CUB": {
+      "genus": "Alouatta",
+      "taxon_label": "Alouatta seniculus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Ateles_belzebuth_201294_CUB": {
+      "genus": "Ateles",
+      "taxon_label": "Ateles belzebuth",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Ateles_belzebuth_259_CUB": {
+      "genus": "Ateles",
+      "taxon_label": "Ateles belzebuth",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Ateles_fusciceps_188135_CUB": {
+      "genus": "Ateles",
+      "taxon_label": "Ateles fusciceps",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Ateles_fusciceps_188140_CUB": {
+      "genus": "Ateles",
+      "taxon_label": "Ateles fusciceps",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Ateles_geoffroyi_28420_CUB": {
+      "genus": "Ateles",
+      "taxon_label": "Ateles geoffroyi",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Ateles_marginatus_95039_CUB": {
+      "genus": "Ateles",
+      "taxon_label": "Ateles marginatus",
+      "assignment_basis": "Retained local label; no comparative assignment"
+    },
+    "Ateles_paniscus_35449_CUB": {
+      "genus": "Ateles",
+      "taxon_label": "Ateles paniscus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Ateles_paniscus_3768_CUB": {
+      "genus": "Ateles",
+      "taxon_label": "Ateles paniscus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cacajoa_calvus_70192_CUB": {
+      "genus": "Cacajao",
+      "taxon_label": "Cacajao calvus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cebus_apella_133606_CUB": {
+      "genus": "Cebus",
+      "taxon_label": "Cebus apella",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cebus_apella_133607_CUB": {
+      "genus": "Cebus",
+      "taxon_label": "Cebus apella",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cebus_apella_133620_CUB": {
+      "genus": "Cebus",
+      "taxon_label": "Cebus apella",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cebus_apella_133622_CUB": {
+      "genus": "Cebus",
+      "taxon_label": "Cebus apella",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cebus_apella_133624_CUB": {
+      "genus": "Cebus",
+      "taxon_label": "Cebus apella",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cebus_apella_133628_CUB": {
+      "genus": "Cebus",
+      "taxon_label": "Cebus apella",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cebus_apella_133637_CUB": {
+      "genus": "Cebus",
+      "taxon_label": "Cebus apella",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cebus_apella_133640_CUB": {
+      "genus": "Cebus",
+      "taxon_label": "Cebus apella",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cebus_apella_133642_CUB": {
+      "genus": "Cebus",
+      "taxon_label": "Cebus apella",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cebus_apella_133654_CUB": {
+      "genus": "Cebus",
+      "taxon_label": "Cebus apella",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cebus_apella_133674_CUB": {
+      "genus": "Cebus",
+      "taxon_label": "Cebus apella",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cercocebus_atys_200896_CUB": {
+      "genus": "Cercocebus",
+      "taxon_label": "Cercocebus torquatus atys",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cercocebus_atys_355043_CUB": {
+      "genus": "Cercocebus",
+      "taxon_label": "Cercocebus torquatus atys",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cercopithecus_ascanius_52554_CUB": {
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus ascanius",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cercopithecus_ascanius_52563_CUB": {
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus ascanius",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cercopithecus_cephus_119623_CUB": {
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus cephus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cercopithecus_cephus_90081_CUB": {
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus cephus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cercopithecus_diana_238067_CUB": {
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus diana",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cercopithecus_mitis_187375_CUB": {
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus mitis",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cercopithecus_mitis_52368_CUB": {
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus mitis",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cercopithecus_mitis_52398_CUB": {
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus mitis",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cercopithecus_mitis_52401_CUB": {
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus mitis",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cercopithecus_mitis_52402_CUB": {
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus mitis",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cercopithecus_mitis_82411_CUB": {
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus mitis",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cercopithecus_mona_52482_CUB": {
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus mona",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cercopithecus_mona_52521_CUB": {
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus mona",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cercopithecus_neglectus_52421_CUB": {
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus neglectus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Cercopithecus_neglectus_52429_CUB": {
+      "genus": "Cercopithecus",
+      "taxon_label": "Cercopithecus neglectus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Chlorocebus_aethiops_2900_CUB": {
+      "genus": "Chlorocebus",
+      "taxon_label": "Chlorocebus aethiops",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Chlorocebus_aethiops_52468_CUB": {
+      "genus": "Chlorocebus",
+      "taxon_label": "Chlorocebus aethiops",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Chlorocebus_cynosuros_80787_CUB": {
+      "genus": "Chlorocebus",
+      "taxon_label": "Chlorocebus pygerythrus cynosurus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Chlorocebus_pygerythrus_27705_CUB": {
+      "genus": "Chlorocebus",
+      "taxon_label": "Chlorocebus pygerythrus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Chlorocebus_pygerythrus_34716_CUB": {
+      "genus": "Chlorocebus",
+      "taxon_label": "Chlorocebus pygerythrus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Chlorocebus_sabaeus_21532_CUB": {
+      "genus": "Chlorocebus",
+      "taxon_label": "Chlorocebus sabaeus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Colobus_angolensis_52142_CUB": {
+      "genus": "Colobus",
+      "taxon_label": "Colobus angolensis",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Colobus_angolensis_52151_CUB": {
+      "genus": "Colobus",
+      "taxon_label": "Colobus angolensis",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Colobus_angolensis_52174_CUB": {
+      "genus": "Colobus",
+      "taxon_label": "Colobus angolensis",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Colobus_guereza_187392_CUB": {
+      "genus": "Colobus",
+      "taxon_label": "Colobus guereza",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Colobus_guereza_27711_CUB": {
+      "genus": "Colobus",
+      "taxon_label": "Colobus guereza",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Colobus_guereza_52248_CUB": {
+      "genus": "Colobus",
+      "taxon_label": "Colobus guereza",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Colobus_polykomos_21149_CUB": {
+      "genus": "Colobus",
+      "taxon_label": "Colobus polykomos",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Colobus_polykomos_95879_CUB": {
+      "genus": "Colobus",
+      "taxon_label": "Colobus polykomos",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Erythrocebus_patas_14020_CUB": {
+      "genus": "Erythrocebus",
+      "taxon_label": "Erythrocebus patas",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Erythrocebus_patas_34709_CUB": {
+      "genus": "Erythrocebus",
+      "taxon_label": "Erythrocebus patas",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Erythrocebus_patas_34713_CUB": {
+      "genus": "Erythrocebus",
+      "taxon_label": "Erythrocebus patas",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Erythrocebus_patas_34714_CUB": {
+      "genus": "Erythrocebus",
+      "taxon_label": "Erythrocebus patas",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Erythrocebus_patas_CPRC_1080_CUB": {
+      "genus": "Erythrocebus",
+      "taxon_label": "Erythrocebus patas",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Erythrocebus_patas_CPRC_1108_CUB": {
+      "genus": "Erythrocebus",
+      "taxon_label": "Erythrocebus patas",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Erythrocebus_patas_CPRC_1523_CUB": {
+      "genus": "Erythrocebus",
+      "taxon_label": "Erythrocebus patas",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Fossil_Homo_habilis_OH8_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo habilis OH8",
+      "assignment_basis": "Retained local label; no comparative assignment"
+    },
+    "Fossil_KB3133_CUB": {
+      "genus": "Unassigned",
+      "taxon_label": "KB3133",
+      "assignment_basis": "Retained local label; no comparative assignment"
+    },
+    "Fossil_Theropithecus_KNM_TH_46700_CUB": {
+      "genus": "Theropithecus",
+      "taxon_label": "Theropithecus KNM TH 46700",
+      "assignment_basis": "Retained local label; no comparative assignment"
+    },
+    "Gorilla_115609_CUB": {
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla beringei",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Gorilla_167335_CUB": {
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Gorilla_167338_CUB": {
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Gorilla_167339_CUB": {
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Gorilla_167340_CUB": {
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Gorilla_17684_CUB": {
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Gorilla_20038_CUB": {
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Gorilla_20039_CUB": {
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Gorilla_20043_CUB": {
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Gorilla_214103_CUB": {
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Gorilla_23160_CUB": {
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Gorilla_23162_CUB": {
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Gorilla_23182_CUB": {
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Gorilla_26850_CUB": {
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla beringei",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Gorilla_29047_CUB": {
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Gorilla_29048_CUB": {
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Gorilla_38326_CUB": {
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Gorilla_54327_CUB": {
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Gorilla_81651_CUB": {
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Gorilla_90291_CUB": {
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Gorilla_9911577_CUB": {
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Gorilla_9911578_CUB": {
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Gorilla_9912055_CUB": {
+      "genus": "Gorilla",
+      "taxon_label": "Gorilla gorilla gorilla",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_98116_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_98133_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_98135_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_98166_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_98182_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_98183_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_98186_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_98191_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_98193_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_98206_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_98210_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_98227_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_98271_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_98305_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_98316_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_98319_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_98339_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_98375_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_9858_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_9859_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_9863_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_9864_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_9866_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_9871_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_9872_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_9885_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_9888_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_9895_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Homo_9899_CUB": {
+      "genus": "Homo",
+      "taxon_label": "Homo sapiens",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_112721_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_41424_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_87253_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_agilis_103664_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates agilis",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_agilis_103665_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates agilis",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_agilis_103667_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates agilis",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_agilis_106575_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates agilis",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_concolor_gabriellae_87252_CUB": {
+      "genus": "Nomascus",
+      "taxon_label": "Nomascus gabriellae",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_hoolock_80068_CUB": {
+      "genus": "Bunopithecus",
+      "taxon_label": "Bunopithecus hoolock",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_hoolock_83420_CUB": {
+      "genus": "Bunopithecus",
+      "taxon_label": "Bunopithecus hoolock",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_hoolock_83425_CUB": {
+      "genus": "Bunopithecus",
+      "taxon_label": "Bunopithecus hoolock",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_hoolock_83427_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_klossi_103344_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates klossii",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_klossi_103345_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates klossii",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_klossi_103347_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates klossii",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_lar_37385_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_lar_41417_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_lar_41427_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_lar_41445_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_lar_41447_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_lar_41449_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_lar_41451_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_lar_41453_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_lar_41454_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_lar_41458_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_lar_41459_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_lar_41463_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_lar_41465_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_lar_41472_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_lar_41532_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_lar_41565_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_lar_MCZ_35950_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_lar_MCZ_41456_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates lar",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_moloch_200853_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates moloch",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Hylobates_pileatus_140230_CUB": {
+      "genus": "Hylobates",
+      "taxon_label": "Hylobates pileatus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Lagothrix_lagortricha_201310_CUB": {
+      "genus": "Lagothrix",
+      "taxon_label": "Lagothrix lagotricha",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Lagothrix_lagotricha_188150_CUB": {
+      "genus": "Lagothrix",
+      "taxon_label": "Lagothrix lagotricha",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Lophocebus_albigena_14018_CUB": {
+      "genus": "Lophocebus",
+      "taxon_label": "Lophocebus albigena",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Lophocebus_albigena_52598_CUB": {
+      "genus": "Lophocebus",
+      "taxon_label": "Lophocebus albigena",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Lophocebus_albigena_52603_CUB": {
+      "genus": "Lophocebus",
+      "taxon_label": "Lophocebus albigena",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Lophocebus_albigena_86705_CUB": {
+      "genus": "Lophocebus",
+      "taxon_label": "Lophocebus albigena",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Macaca_Fasicularis_185134_CUB": {
+      "genus": "Macaca",
+      "taxon_label": "Macaca fascicularis",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Macaca_fascicularis_103661_CUB": {
+      "genus": "Macaca",
+      "taxon_label": "Macaca fascicularis",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Macaca_fascicularis_35613_CUB": {
+      "genus": "Macaca",
+      "taxon_label": "Macaca fascicularis",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Macaca_fascicularis_35677_CUB": {
+      "genus": "Macaca",
+      "taxon_label": "Macaca fascicularis",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Macaca_fuscata_201285_CUB": {
+      "genus": "Macaca",
+      "taxon_label": "Macaca fuscata",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Macaca_fuscata_356407_CUB": {
+      "genus": "Macaca",
+      "taxon_label": "Macaca fuscata",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Macaca_mulatta_221_CUB": {
+      "genus": "Macaca",
+      "taxon_label": "Macaca mulatta",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Macaca_mulatta_323_CUB": {
+      "genus": "Macaca",
+      "taxon_label": "Macaca mulatta",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Macaca_mulatta_495_CUB": {
+      "genus": "Macaca",
+      "taxon_label": "Macaca mulatta",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Macaca_mulatta_551_CUB": {
+      "genus": "Macaca",
+      "taxon_label": "Macaca mulatta",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Macaca_nemestrina_106563_CUB": {
+      "genus": "Macaca",
+      "taxon_label": "Macaca nemestrina",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Macaca_nemestrina_11091_CUB": {
+      "genus": "Macaca",
+      "taxon_label": "Macaca nemestrina",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Macaca_nemistrina_106564_CUB": {
+      "genus": "Macaca",
+      "taxon_label": "Macaca nemestrina",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Macaca_nemistrina_119514_CUB": {
+      "genus": "Macaca",
+      "taxon_label": "Macaca nemestrina",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Macaca_nemistrina_12795_CUB": {
+      "genus": "Macaca",
+      "taxon_label": "Macaca nemestrina",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Macaca_thibetana_60160_CUB": {
+      "genus": "Macaca",
+      "taxon_label": "Macaca thibetana",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Macaca_tonkeana_152905_CUB": {
+      "genus": "Macaca",
+      "taxon_label": "Macaca tonkeana",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Macaca_tonkeana_152906_CUB": {
+      "genus": "Macaca",
+      "taxon_label": "Macaca tonkeana",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Macaca_tonkeana_152907_CUB": {
+      "genus": "Macaca",
+      "taxon_label": "Macaca tonkeana",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Macaca_tonkeana_153401_CUB": {
+      "genus": "Macaca",
+      "taxon_label": "Macaca tonkeana",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Macaca_tonkeana_35102_CUB": {
+      "genus": "Macaca",
+      "taxon_label": "Macaca tonkeana",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Nasalis_larvatus_103670_CUB": {
+      "genus": "Nasalis",
+      "taxon_label": "Nasalis larvatus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Nasalis_larvatus_103671_CUB": {
+      "genus": "Nasalis",
+      "taxon_label": "Nasalis larvatus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Nasalis_larvatus_106272_CUB": {
+      "genus": "Nasalis",
+      "taxon_label": "Nasalis larvatus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Nasalis_larvatus_106273_CUB": {
+      "genus": "Nasalis",
+      "taxon_label": "Nasalis larvatus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Nasalis_larvatus_106275_CUB": {
+      "genus": "Nasalis",
+      "taxon_label": "Nasalis larvatus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Nasalis_larvatus_21747_CUB": {
+      "genus": "Nasalis",
+      "taxon_label": "Nasalis larvatus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Nasalis_larvatus_21748_CUB": {
+      "genus": "Nasalis",
+      "taxon_label": "Nasalis larvatus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Nasalis_larvatus_28255_CUB": {
+      "genus": "Nasalis",
+      "taxon_label": "Nasalis larvatus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Nasalis_larvatus_37343_CUB": {
+      "genus": "Nasalis",
+      "taxon_label": "Nasalis larvatus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Nasalis_larvatus_41557_CUB": {
+      "genus": "Nasalis",
+      "taxon_label": "Nasalis larvatus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Nasalis_larvatus_41559_CUB": {
+      "genus": "Nasalis",
+      "taxon_label": "Nasalis larvatus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Nasalis_larvatus_41561_CUB": {
+      "genus": "Nasalis",
+      "taxon_label": "Nasalis larvatus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Nasalis_larvatus_41562_CUB": {
+      "genus": "Nasalis",
+      "taxon_label": "Nasalis larvatus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pan_10736_CUB": {
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pan_15312_CUB": {
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pan_167344_CUB": {
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pan_167346_CUB": {
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pan_174860_CUB": {
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pan_174861_CUB": {
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pan_20041_CUB": {
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pan_26847_CUB": {
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pan_26849_CUB": {
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pan_48686_CUB": {
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pan_51278_CUB": {
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes schweinfurthii",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pan_51393_CUB": {
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes schweinfurthii",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pan_51394_CUB": {
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes schweinfurthii",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pan_89351_CUB": {
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes verus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pan_89353_CUB": {
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes verus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pan_89426_CUB": {
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes verus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pan_90191_CUB": {
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pan_paniscus_38020_CUB": {
+      "genus": "Pan",
+      "taxon_label": "Pan paniscus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pan_troglodytes_10276_CUB": {
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pan_troglodytes_167343_CUB": {
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pan_troglodytes_201588_CUB": {
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pan_troglodytes_51205_CUB": {
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes schweinfurthii",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pan_troglodytes_51376_CUB": {
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes schweinfurthii",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pan_troglodytes_51381_CUB": {
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes schweinfurthii",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pan_troglodytes_54330_CUB": {
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes troglodytes",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pan_troglodytes_89406_CUB": {
+      "genus": "Pan",
+      "taxon_label": "Pan troglodytes verus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Papio_anubis_51380_CUB": {
+      "genus": "Papio",
+      "taxon_label": "Papio anubis",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Papio_anubis_52668_CUB": {
+      "genus": "Papio",
+      "taxon_label": "Papio anubis",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Papio_cynocephalus_80796_CUB": {
+      "genus": "Papio",
+      "taxon_label": "Papio cynocephalus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Papio_hamadryas_120388_CUB": {
+      "genus": "Papio",
+      "taxon_label": "Papio hamadryas",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Papio_hamadryas_200847_CUB": {
+      "genus": "Papio",
+      "taxon_label": "Papio hamadryas",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Papio_hamadryas_82096_CUB": {
+      "genus": "Papio",
+      "taxon_label": "Papio hamadryas",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Papio_ursinus_216249_CUB": {
+      "genus": "Papio",
+      "taxon_label": "Papio ursinus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Papio_ursinus_216250_CUB": {
+      "genus": "Papio",
+      "taxon_label": "Papio ursinus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Papio_ursinus_216251_CUB": {
+      "genus": "Papio",
+      "taxon_label": "Papio ursinus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Papio_ursinus_42384_CUB": {
+      "genus": "Papio",
+      "taxon_label": "Papio ursinus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Papio_ursinus_42387_CUB": {
+      "genus": "Papio",
+      "taxon_label": "Papio ursinus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Papio_ursinus_SBU_B_CUB": {
+      "genus": "Papio",
+      "taxon_label": "Papio ursinus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pithecia_monachus_187978_CUB": {
+      "genus": "Pithecia",
+      "taxon_label": "Pithecia monachus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pithecia_monachus_207701_CUB": {
+      "genus": "Pithecia",
+      "taxon_label": "Pithecia monachus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pithecia_pithecia_202373_CUB": {
+      "genus": "Pithecia",
+      "taxon_label": "Pithecia pithecia",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pithecia_pithecia_70377_CUB": {
+      "genus": "Pithecia",
+      "taxon_label": "Pithecia pithecia",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pongo_142169_CUB": {
+      "genus": "Pongo",
+      "taxon_label": "Pongo pygmaeus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pongo_142170_CUB": {
+      "genus": "Pongo",
+      "taxon_label": "Pongo pygmaeus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pongo_143588_CUB": {
+      "genus": "Pongo",
+      "taxon_label": "Pongo abelii",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pongo_143590_Cuboid_L": {
+      "genus": "Pongo",
+      "taxon_label": "Pongo abelii",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pongo_143596_CUB": {
+      "genus": "Pongo",
+      "taxon_label": "Pongo abelii",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pongo_143597_CUB": {
+      "genus": "Pongo",
+      "taxon_label": "Pongo abelii",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pongo_143602_CUB": {
+      "genus": "Pongo",
+      "taxon_label": "Pongo abelii",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pongo_145300_CUB": {
+      "genus": "Pongo",
+      "taxon_label": "Pongo pygmaeus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pongo_145301_CUB": {
+      "genus": "Pongo",
+      "taxon_label": "Pongo pygmaeus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pongo_145302_CUB": {
+      "genus": "Pongo",
+      "taxon_label": "Pongo pygmaeus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pongo_145304_CUB": {
+      "genus": "Pongo",
+      "taxon_label": "Pongo pygmaeus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pongo_145305_CUB": {
+      "genus": "Pongo",
+      "taxon_label": "Pongo pygmaeus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pongo_145308_CUB": {
+      "genus": "Pongo",
+      "taxon_label": "Pongo pygmaeus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pongo_145309_CUB": {
+      "genus": "Pongo",
+      "taxon_label": "Pongo pygmaeus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pongo_22937_CUB": {
+      "genus": "Pongo",
+      "taxon_label": "Pongo pygmaeus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pongo_267325_CUB": {
+      "genus": "Pongo",
+      "taxon_label": "Pongo abelii",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pongo_270807_CUB": {
+      "genus": "Pongo",
+      "taxon_label": "Pongo abelii",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pongo_37363_CUB": {
+      "genus": "Pongo",
+      "taxon_label": "Pongo pygmaeus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pongo_37365_CUB": {
+      "genus": "Pongo",
+      "taxon_label": "Pongo pygmaeus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pongo_50958_CUB": {
+      "genus": "Pongo",
+      "taxon_label": "Pongo pygmaeus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pongo_50960_CUB": {
+      "genus": "Pongo",
+      "taxon_label": "Pongo pygmaeus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Presbytis_aygula_106276_CUB": {
+      "genus": "Presbytis",
+      "taxon_label": "Presbytis comata",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Presbytis_cristatus_102461_CUB": {
+      "genus": "Trachypithecus",
+      "taxon_label": "Trachypithecus cristatus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Presbytis_cristatus_106596_CUB": {
+      "genus": "Trachypithecus",
+      "taxon_label": "Trachypithecus cristatus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Presbytis_melalophos_106600_CUB": {
+      "genus": "Presbytis",
+      "taxon_label": "Presbytis melalophos",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Presbytis_melalophos_106606_CUB": {
+      "genus": "Presbytis",
+      "taxon_label": "Presbytis melalophos",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Presbytis_obscuros_112976_CUB": {
+      "genus": "Trachypithecus",
+      "taxon_label": "Trachypithecus obscurus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Presbytis_obscuros_112977_CUB": {
+      "genus": "Trachypithecus",
+      "taxon_label": "Trachypithecus obscurus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Presbytis_rubicunda_103639_CUB": {
+      "genus": "Presbytis",
+      "taxon_label": "Presbytis rubicunda",
+      "assignment_basis": "Retained local label; no comparative assignment"
+    },
+    "Procolobus_badius_52278_CUB": {
+      "genus": "Piliocolobus",
+      "taxon_label": "Piliocolobus badius",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Procolobus_badius_52287_CUB": {
+      "genus": "Piliocolobus",
+      "taxon_label": "Piliocolobus badius",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Procolobus_badius_54279_CUB": {
+      "genus": "Piliocolobus",
+      "taxon_label": "Piliocolobus badius",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pygathrix_nemaeus_87256_CUB": {
+      "genus": "Pygathrix",
+      "taxon_label": "Pygathrix nemaeus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Pygathrix_nemaeus_87257_CUB": {
+      "genus": "Pygathrix",
+      "taxon_label": "Pygathrix nemaeus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Rhinopithecus_roxellana_112976_CUB": {
+      "genus": "Rhinopithecus",
+      "taxon_label": "Rhinopithecus roxellana",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Rhinopithecus_roxellana_117413_CUB": {
+      "genus": "Rhinopithecus",
+      "taxon_label": "Rhinopithecus roxellana",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Rhinopithecus_roxellana_117415_CUB": {
+      "genus": "Rhinopithecus",
+      "taxon_label": "Rhinopithecus roxellana",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Rhinopithecus_roxellana_119648_CUB": {
+      "genus": "Rhinopithecus",
+      "taxon_label": "Rhinopithecus roxellana",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Rhinopithecus_roxellana_119664_CUB": {
+      "genus": "Rhinopithecus",
+      "taxon_label": "Rhinopithecus roxellana",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Saimiri_boliviensis_211637_CUB": {
+      "genus": "Saimiri",
+      "taxon_label": "Saimiri boliviensis",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Saimiri_boliviensis_211643_CUB": {
+      "genus": "Saimiri",
+      "taxon_label": "Saimiri boliviensis",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Saimiri_sciureus_188086_CUB": {
+      "genus": "Saimiri",
+      "taxon_label": "Saimiri sciureus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Saimiri_sciureus_188089_CUB": {
+      "genus": "Saimiri",
+      "taxon_label": "Saimiri sciureus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Saimiri_sciureus_188090_CUB": {
+      "genus": "Saimiri",
+      "taxon_label": "Saimiri sciureus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Saimiri_sciureus_188093_CUB": {
+      "genus": "Saimiri",
+      "taxon_label": "Saimiri sciureus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Symphalangus_syndactylus_106584_CUB": {
+      "genus": "Symphalangus",
+      "taxon_label": "Symphalangus syndactylus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Symphalangus_syndactylus_237504_CUB": {
+      "genus": "Symphalangus",
+      "taxon_label": "Symphalangus syndactylus",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Trachypithecus_johnii_21843_CUB": {
+      "genus": "Trachypithecus",
+      "taxon_label": "Trachypithecus johnii",
+      "assignment_basis": "Assigned comparative taxon"
+    },
+    "Trachypithecus_johnii_54760_CUB": {
+      "genus": "Trachypithecus",
+      "taxon_label": "Trachypithecus johnii",
+      "assignment_basis": "Assigned comparative taxon"
+    }
+  }
+}

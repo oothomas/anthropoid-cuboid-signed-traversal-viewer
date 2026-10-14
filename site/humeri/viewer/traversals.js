@@ -139,16 +139,45 @@ function svgElement(tag,attributes={},text){
   return element;
 }
 function makeScorePlots(){
+  makeGenusLegend();
   for(const [id,xpc,ypc] of [['12',0,1],['34',2,3]]){
     const plot={id,xpc,ypc,svg:$('scores'+id)};scorePlots.push(plot);
     new ResizeObserver(()=>drawScorePlot(plot)).observe(plot.svg);
     drawScorePlot(plot);
   }
 }
+function makeGenusLegend(){
+  if(!$('genus-select')||!meta.genus_colors)return;
+  const counts=new Map();
+  for(const row of meta.scores)counts.set(row.genus,(counts.get(row.genus)||0)+1);
+  for(const genus of [...counts.keys()].sort()){
+    const option=document.createElement('option');option.value=genus;option.textContent=genus;$('genus-select').append(option);
+    const item=document.createElement('li'),swatch=document.createElement('span'),label=document.createElement('span'),count=document.createElement('span');
+    item.dataset.genus=genus;swatch.className='genus-swatch';swatch.style.backgroundColor=meta.genus_colors[genus];swatch.setAttribute('aria-hidden','true');
+    label.textContent=genus;label.className=genus==='Unassigned'?'':'genus-name';count.textContent=String(counts.get(genus));count.className='genus-count';
+    item.append(swatch,label,count);$('genus-legend').append(item);
+  }
+  $('genus-select').onchange=applyGenusFocus;
+  applyGenusFocus();
+}
+function applyGenusFocus(){
+  if(!$('genus-select'))return;
+  const selected=$('genus-select').value;
+  for(const point of document.querySelectorAll('.score-point')){
+    const dim=Boolean(selected&&point.dataset.genus!==selected);
+    point.classList.toggle('muted',dim);point.classList.toggle('emphasized',Boolean(selected&&!dim));
+    point.setAttribute('tabindex',dim?'-1':'0');
+  }
+  for(const item of $('genus-legend').children)item.classList.toggle('muted',Boolean(selected&&item.dataset.genus!==selected));
+  const rows=meta.scores.filter(row=>!selected||row.genus===selected),training=rows.filter(row=>row.partition==='Training').length;
+  $('genus-summary').textContent=`${selected||'All genera'}: ${rows.length} specimens (${training} training; ${rows.length-training} tuning)`;
+  $('score-tooltip').hidden=true;
+}
 function drawScorePlot(plot){
-  const {svg,xpc,ypc}=plot,w=Math.max(280,svg.clientWidth),h=360;
+  const {svg,xpc,ypc}=plot,w=Math.max(280,svg.clientWidth),h=w;
   svg.replaceChildren();svg.setAttribute('viewBox',`0 0 ${w} ${h}`);
-  const left=54,right=w-20,top=18,bottom=h-46;
+  // Equal plotting spans and common limits preserve Euclidean score geometry.
+  const left=54,right=w-20,top=20,bottom=h-54;
   const values=meta.scores.flatMap(row=>[row[`PC${xpc+1}_SD`],row[`PC${ypc+1}_SD`]]);
   const lo=Math.floor(Math.min(-2,...values)),hi=Math.ceil(Math.max(2,...values));
   const x=value=>left+(value-lo)/(hi-lo)*(right-left),y=value=>bottom-(value-lo)/(hi-lo)*(bottom-top);
@@ -159,22 +188,30 @@ function drawScorePlot(plot){
     svg.append(svgElement('line',{x1:x(tick),x2:x(tick),y1:top,y2:bottom,stroke}),svgElement('line',{x1:left,x2:right,y1:y(tick),y2:y(tick),stroke}));
     svg.append(svgElement('text',{x:x(tick),y:bottom+20,'text-anchor':'middle',class:'tick'},String(tick)),svgElement('text',{x:left-10,y:y(tick)+4,'text-anchor':'end',class:'tick'},String(tick)));
   }
-  svg.append(svgElement('rect',{x:left,y:top,width:right-left,height:bottom-top,fill:'none',stroke:'#b9c6cb'}));
+  svg.append(svgElement('rect',{class:'score-frame',x:left,y:top,width:right-left,height:bottom-top,fill:'none',stroke:'#b9c6cb'}));
   svg.append(svgElement('text',{x:(left+right)/2,y:h-7,'text-anchor':'middle',class:'axis-label'},`PC${xpc+1} (${(100*active.record.variance_ratio[xpc]).toFixed(1)}%) | SD`));
   svg.append(svgElement('text',{transform:`translate(14 ${(top+bottom)/2}) rotate(-90)`,'text-anchor':'middle',class:'axis-label'},`PC${ypc+1} (${(100*active.record.variance_ratio[ypc]).toFixed(1)}%) | SD`));
   for(const row of meta.scores){
     const px=x(row[`PC${xpc+1}_SD`]),py=y(row[`PC${ypc+1}_SD`]),training=row.partition==='Training';
     const point=training?svgElement('circle',{cx:px,cy:py,r:3.5}):svgElement('path',{d:`M${px},${py-4.5}l4.5,8h-9Z`});
     point.setAttribute('class','score-point '+(training?'train':'tune'));
-    const description=`${row.mesh_id} | ${row.partition} | PC${xpc+1}: ${row[`PC${xpc+1}_SD`].toFixed(3)} SD; PC${ypc+1}: ${row[`PC${ypc+1}_SD`].toFixed(3)} SD`;
+    if(meta.genus_colors){point.style.fill=meta.genus_colors[row.genus];point.dataset.genus=row.genus;}
+    point.setAttribute('tabindex','0');
+    const taxonomy=row.genus?`Genus: ${row.genus} | ${row.taxon_label} | `:'';
+    const description=`${row.mesh_id} | ${taxonomy}${row.partition} | PC${xpc+1}: ${row[`PC${xpc+1}_SD`].toFixed(3)} SD; PC${ypc+1}: ${row[`PC${ypc+1}_SD`].toFixed(3)} SD`;
+    point.setAttribute('aria-label',description);
     point.append(svgElement('title',{},description));
     point.addEventListener('pointerenter',event=>showScoreTooltip(description,event));
     point.addEventListener('pointermove',event=>showScoreTooltip(description,event));
     point.addEventListener('pointerleave',()=>{$('score-tooltip').hidden=true;});
     point.addEventListener('click',event=>showScoreTooltip(description,event));
+    point.addEventListener('focus',()=>{const r=point.getBoundingClientRect();showScoreTooltip(description,{clientX:r.right,clientY:r.bottom});});
+    point.addEventListener('blur',()=>{$('score-tooltip').hidden=true;});
+    point.addEventListener('keydown',event=>{if(event.key==='Escape')$('score-tooltip').hidden=true;});
     svg.append(point);
   }
   plot.guide=svgElement('path',{class:'score-guide',d:''});svg.append(plot.guide);updateScoreGuides();
+  applyGenusFocus();
 }
 function updateScoreGuides(){
   for(const plot of scorePlots){

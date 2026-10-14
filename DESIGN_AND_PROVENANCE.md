@@ -1,5 +1,28 @@
 # Current Release Design and Provenance
 
+## Presentation Revision
+
+The professional presentation revision adds manuscript-in-preparation context,
+methods, directly supported preliminary results and interpretation limits. Shared
+copy in `content/project.json` generates the README and the same project section
+on every dataset page. `scripts/refresh_presentation.py` maintains this copy,
+taxonomy annotations, captions and release hashes. The cuboid viewer's JS/CSS are
+the canonical common UI copied to the other three datasets by this refresh.
+
+Anthropoid and hominoid PCA plots use exact-ID joins to reconciled project sampling
+labels, with consistent genus colors, a counted legend, group emphasis, partition
+symbols and accessible tooltips. Named fossil genera retain their source-label
+status; lacking a comparative tree assignment does not erase a named genus.
+KB3133 remains unassigned. No taxonomy is newly inferred or revised; historical
+names are retained. Source hash and public-only records: `content/taxonomy.json`.
+
+Six boundary tests plus browser checks verify unchanged meshes, scalars, score
+coordinates, axes and exclusions; shared-copy equivalence; taxonomy joins; release
+hashes; and desktop/mobile rendering and interactions. See `PRESENTATION_BRIEF.md`
+for design intent. The author requested exact joint decoding; the fifth-panel
+implementation is deferred to the separately gated plan in
+`EXACT_JOINT_DECODING.md`. No additive approximation is presented as a model output.
+
 The 14 October 2026 update displays the latest completed seed-2071 model for each
 of four current datasets, replacing the live historical epoch-150 anthropoid
 viewer. The update does not select a best seed or adopt scientific conclusions.

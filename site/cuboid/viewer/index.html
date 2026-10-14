@@ -4,13 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Anthropoid cuboids | Current model traversals</title>
-  <link rel="stylesheet" href="traversals.css">
+  <link rel="stylesheet" href="traversals.css?v=presentation-20261014">
   <script type="importmap">{"imports":{"three":"./vendor/three.module.min.js"}}</script>
 </head>
 <body>
+  <div class="project-masthead"><span>Biological shape morphospaces</span><span>Manuscript in preparation</span></div>
   <header>
-    <div><h1>Anthropoid cuboids traversals</h1><p>Latest completed seed | Epoch 250 | Seed 2071 | Initial LR 0.001 | Provisional review</p></div>
-    <nav aria-label="Datasets"><a href="../../cuboid/viewer/" aria-current="page">Anthropoid cuboids</a><a href="../../mandible/viewer/">Mouse mandibles</a><a href="../../hominoids/viewer/">Non-fossil hominoid cuboids</a><a href="../../humeri/viewer/">Mouse humeri</a></nav><nav aria-label="Review sections"><a href="#scores">PCA scores</a></nav>
+    <div><h1>Anthropoid cuboids traversals</h1><p>Latest completed seed | Epoch 250 | Seed 2071 | Initial LR 0.001 | Preliminary results</p></div>
+    <nav aria-label="Datasets"><a href="../../cuboid/viewer/" aria-current="page">Anthropoid cuboids</a><a href="../../mandible/viewer/">Mouse mandibles</a><a href="../../hominoids/viewer/">Non-fossil hominoid cuboids</a><a href="../../humeri/viewer/">Mouse humeri</a></nav><nav aria-label="Review sections"><a href="#scores">PCA scores</a><a href="#project">About the study</a></nav>
   </header>
   <section class="toolbar" aria-label="Traversal controls">
     <label>Color<select id="color"><option value="signed">Signed normal displacement</option><option value="neutral">Neutral surface</option></select></label>
@@ -33,18 +34,46 @@
   </section>
   <p id="status" role="status">Loading verified traversal data...</p>
   <main id="grid" aria-label="Four decoded principal components"></main>
-  <section id="scores" class="scores" aria-labelledby="scores-title">
+  <section id="scores" class="scores genus-scores" aria-labelledby="scores-title">
     <div class="scores-heading"><h2 id="scores-title">Latent PCA</h2><div class="score-legend"><span><b class="training-symbol"></b>Training (244)</span><span><b class="tuning-symbol"></b>Tuning (52)</span><span><b class="guide-symbol">+</b>Slider coordinates</span></div></div>
+    <div class="genus-toolbar"><label for="genus-select">Emphasize genus<select id="genus-select"><option value="">All genera</option></select></label><output id="genus-summary" aria-live="polite"></output></div><ul id="genus-legend" class="genus-legend" aria-label="Genus colors and plotted specimen counts"></ul>
     <div class="plots"><section class="plot-panel"><h3>PC1 / PC2</h3><svg id="scores12" class="score-plot" role="img" aria-label="Training and tuning specimen scores on PC1 and PC2"></svg><output id="score-guide12" class="score-position"></output></section><section class="plot-panel"><h3>PC3 / PC4</h3><svg id="scores34" class="score-plot" role="img" aria-label="Training and tuning specimen scores on PC3 and PC4"></svg><output id="score-guide34" class="score-position"></output></section></div>
+    <p class="taxonomy-note">Point colors identify genus from the reconciled project sampling labels; the same genus has the same color in both cuboid datasets. Circles are training specimens and triangles are projected tuning specimens. Counts in the genus legend include both partitions. Historical project taxonomic names are retained; this is not a taxonomic revision. KB3133 has no assigned genus and remains Unassigned.</p>
     <p class="score-note">PCA fitted to 244 training codes; 52 tuning codes projected. Units: training-score SD. Each surface varies one PC independently. Axes are not aligned across models.</p>
   </section>
   <div id="score-tooltip" class="score-tooltip" role="status" hidden></div>
-  <footer>
+  <!-- PROJECT OVERVIEW START -->
+<section id="project" class="project-overview" aria-labelledby="project-title">
+<div class="project-inner">
+<p class="publication-status">Manuscript in preparation | Preliminary results</p>
+<h2 id="project-title">Dense correspondence and learned biological morphospaces</h2>
+<p class="project-introduction">Biological shape varies across entire surfaces, not only at a small set of anatomical landmarks. This project links dense surface correspondence with a reconstruction-capable morphospace: a statistical representation in which differences between specimens can be examined as changes in three-dimensional anatomy. The current study includes anthropoid cuboids, a non-fossil hominoid cuboid subset, mouse mandibles and mouse humeri.</p>
+<section class="project-section"><h3>Two complementary stages</h3>
+<p>Stage 1 establishes dense correspondences between landmarked skeletal surfaces through a network of specimen and template relationships. Landmark-adapted functional maps, correspondence audits and dataset-specific refinement connect anatomical locations across differently shaped meshes. Correspondence quality is a central methodological question, not simply a preprocessing assumption.</p>
+<p>Stage 2 uses a DiffusionNet-based autoencoder and a shared functional-map basis to learn specimen shape codes. A prism decoder reconstructs surfaces from those codes on a fixed template. Principal-component analysis (PCA) summarizes variation in the training codes; decoding along its axes connects positions in the morphospace to explicit changes in surface anatomy. The method builds on functional-map and DISCO-AE approaches.</p>
+</section>
+<section class="project-section"><h3>Initial results</h3>
+<p>The current models yield decoded shape variation for all four datasets. The first four latent principal components account for 43.2% of training-code variance in anthropoid cuboids, 57.8% in non-fossil hominoid cuboids, 67.2% in mouse mandibles and 66.2% in mouse humeri. These percentages describe the displayed portion of each morphospace; they are not measures of reconstruction accuracy and do not rank the models across datasets.</p>
+<p>Surface quality remains part of the assessment. Among 164 axis-position outputs per model, intersection checks flag 18 anthropoid and 46 hominoid outputs, versus none in the mandible or humerus outputs. The decoded mean is repeated on each axis in this count. No exactly degenerate or near-zero-area faces were detected in these sampled outputs. Absence of a flag does not establish anatomical correctness or validate unsampled shapes.</p>
+</section>
+<section class="project-section"><h3>Implications and limits</h3>
+<p>The intended contribution is a link between dense anatomical correspondence, quantitative shape relationships and reconstructable anatomy. This makes a learned morphospace inspectable beyond a scatterplot: proposed differences can be examined on decoded surfaces and checked for local distortion. Biological, functional and evolutionary interpretations still require anatomical review and supporting analyses.</p>
+<p>This release shows the latest completed seed-2071 model for each dataset, not a selected best seed or a completed repeatability comparison. PCA uses training specimens only, with tuning specimens projected where available; confirmation specimens and reference templates are absent from the score plots. The mouse datasets use all non-template specimens for descriptive training, so their displays are not held-out generalization tests. Shared correspondence construction also limits claims of fully unseen-specimen performance.</p>
+</section>
+<section class="project-section"><h3>What the surfaces represent</h3>
+<p>Each of the four surface panels is an actual decoder output for one principal component, sampled at 41 positions from -2 to +2 training-score standard deviations while the other components remain at the training-code mean. Each dataset has its own model, fixed template and PCA axes; axis numbers are not aligned across datasets or seeds.</p>
+<p>Blue denotes inward and orange/red outward movement relative to the decoded mean, measured along its outward vertex normals and expressed as a percentage of its bounding-box diagonal. White denotes zero normal displacement. This is not reconstruction error, a closest-surface signed distance or a measure of unmapped coverage; tangential movement is not represented.</p>
+</section>
+<p class="project-source"><a href="https://github.com/oothomas/anthropoid-cuboid-signed-traversal-viewer">Project repository</a> | <a href="../traversals/provenance.json">Dataset provenance</a></p>
+</div></section>
+<!-- PROJECT OVERVIEW END -->
+<footer>
+    <h2>Dataset notes and provenance</h2>
     <p>Interactive principal-component traversals of anthropoid cuboids. The seed-2071 model at epoch 250 is decoded on fixed template Cercopithecus_diana_208974_CUB. PCA is fitted to 244 training specimen codes; 52 tuning codes are projected. Panels PC1-PC4 each contain 41 actual decoded positions from -2 to +2 training-score SD. Blue indicates inward and orange/red outward displacement along the decoded-mean normal; white is zero. Values are percent of the mean bounding-box diagonal, not reconstruction error or unmapped coverage; tangential motion is not encoded. The symmetric display limit clips the outer 2% of magnitudes. 18 of 164 positions have geometry flags; counts are per sampled surface, not a guarantee for a continuous path or anatomical validity. Templates and confirmation codes are excluded from PCA fitting and score plots. Axes are within-model, not aligned between seeds or datasets. Anatomical interpretation remains provisional.
 </p>
     <nav aria-label="Evidence"><a href="../traversals/caption.txt">Caption</a><a href="../traversals/geometry.csv">Geometry measurements</a><a href="../traversals/provenance.json">Sources</a><a href="../traversals/QA.txt">Quality checks</a></nav>
   </footer>
   <script src="vendor/lucide.min.js"></script>
-  <script type="module" src="traversals.js"></script>
+  <script type="module" src="traversals.js?v=presentation-20261014"></script>
 </body>
 </html>
