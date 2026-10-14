@@ -35,8 +35,8 @@
   "privacy_note": "Plot values are public browser assets; removing a download link is not access control.",
   "presentation": {
     "generator": "scripts/refresh_presentation.py",
-    "generator_sha256": "8d093eef95706979164fcc9782fb534aeb726f4fb0f740b8ffab77fa79f73850",
-    "shared_copy_sha256": "c5af8d886528bada3b7ed55afb198b2046af0dd29c5dbfbbfd643d64b09fb93e",
+    "generator_sha256": "378e0c6e6e255db3ff1068274ead3ae8626ce4bdb4343d352ba75427f7fd8efe",
+    "shared_copy_sha256": "ef894fdec4cabd74be85a2231f6454026cbf5bb8bc47456472c79e75a43f3c66",
     "scientific_arrays_changed": false,
     "joint_decoder_implemented": false
   }

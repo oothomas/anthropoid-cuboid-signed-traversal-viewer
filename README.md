@@ -1,34 +1,30 @@
-# Dense correspondence and learned biological morphospaces
+# Dense correspondence and interpretable skeletal morphospaces
 
 **Manuscript in preparation | Preliminary results**
 
-Biological shape varies across entire surfaces, not only at a small set of anatomical landmarks. This project links dense surface correspondence with a reconstruction-capable morphospace: a statistical representation in which differences between specimens can be examined as changes in three-dimensional anatomy. The current study includes anthropoid cuboids, a non-fossil hominoid cuboid subset, mouse mandibles and mouse humeri.
+Comparative skeletal biology seeks to relate anatomical variation to function and evolutionary history. The primate cuboid, a bone of the lateral midfoot, presents a demanding case: its joint surfaces, plantar tuberosity and peroneus longus tendon groove form a complex anatomy relevant to foot mechanics. Comparing this anatomy requires measuring differences across curved surfaces, articular margins and local relief, not only at isolated points.
 
 [Explore the results](https://oothomas.github.io/anthropoid-cuboid-signed-traversal-viewer/).
 
-## Two complementary stages
+## The methodological gap
 
-Stage 1 establishes dense correspondences between landmarked skeletal surfaces through a network of specimen and template relationships. Landmark-adapted functional maps, correspondence audits and dataset-specific refinement connect anatomical locations across differently shaped meshes. Correspondence quality is a central methodological question, not simply a preprocessing assumption.
+Three-dimensional scans capture detailed surfaces, but do not establish which locations correspond between specimens. Anatomical landmarks provide expert-defined anchors, yet may undersample variation between them. Dense matching addresses coverage, while learned shape spaces summarize variation; biological interpretation requires connecting both to inspectable anatomy. This study addresses that connection: how to build a quantitative morphospace from anatomically constrained dense matches and reconstruct the surface changes it represents.
 
-Stage 2 uses a DiffusionNet-based autoencoder and a shared functional-map basis to learn specimen shape codes. A prism decoder reconstructs surfaces from those codes on a fixed template. Principal-component analysis (PCA) summarizes variation in the training codes; decoding along its axes connects positions in the morphospace to explicit changes in surface anatomy. The method builds on functional-map and DISCO-AE approaches.
+## A two-stage approach
 
-## Initial results
+Stage 1 uses landmark-adapted functional maps to estimate dense correspondences across a sparse network of specimens and templates. Anatomical anchors constrain the matches; surface diagnostics and targeted refinement address local discontinuities, collapse and incomplete coverage. This correspondence stage is part of the methodological contribution because errors in matching propagate into subsequent shape analysis.
 
-The current models yield decoded shape variation for all four datasets. The first four latent principal components account for 43.2% of training-code variance in anthropoid cuboids, 57.8% in non-fossil hominoid cuboids, 67.2% in mouse mandibles and 66.2% in mouse humeri. These percentages describe the displayed portion of each morphospace; they are not measures of reconstruction accuracy and do not rank the models across datasets.
+Stage 2 synchronizes the maps into a common basis and trains an autoencoder, building on DISCO-AE and DiffusionNet, to encode and reconstruct complete skeletal surfaces. Principal-component analysis (PCA) summarizes variation in the learned codes. Decoding along those axes reveals the associated anatomical changes, linking statistical relationships among specimens to surface geometry.
 
-Surface quality remains part of the assessment. Among 164 axis-position outputs per model, intersection checks flag 18 anthropoid and 46 hominoid outputs, versus none in the mandible or humerus outputs. The decoded mean is repeated on each axis in this count. No exactly degenerate or near-zero-area faces were detected in these sampled outputs. Absence of a flag does not establish anatomical correctness or validate unsampled shapes.
+## Study scope and initial results
 
-## Implications and limits
+Anthropoid cuboids are the primary application. A non-fossil hominoid subset examines the same element within a narrower taxonomic range; mouse mandibles and humeri test the approach on different skeletal geometries. The current models produce reconstructed surfaces and decoded shape variation for all four datasets. These outputs make local contours, projections and depressions available for anatomical inspection alongside specimen relationships in the morphospace.
 
-The intended contribution is a link between dense anatomical correspondence, quantitative shape relationships and reconstructable anatomy. This makes a learned morphospace inspectable beyond a scatterplot: proposed differences can be examined on decoded surfaces and checked for local distortion. Biological, functional and evolutionary interpretations still require anatomical review and supporting analyses.
+Earlier development analyses found agreement between learned shape relationships and manual-landmark and automated pseudolandmark morphometrics, with decoded cuboid axes localizing articular and plantar variation. These findings concern earlier model versions. Reconstruction, morphometric agreement, repeatability, phylogenetic signal and size associations are being reassessed for the revised datasets and models shown here.
 
-This release shows the latest completed seed-2071 model for each dataset, not a selected best seed or a completed repeatability comparison. PCA uses training specimens only, with tuning specimens projected where available; confirmation specimens and reference templates are absent from the score plots. The mouse datasets use all non-template specimens for descriptive training, so their displays are not held-out generalization tests. Shared correspondence construction also limits claims of fully unseen-specimen performance.
+## Biological significance
 
-## What the surfaces represent
-
-Each of the four surface panels is an actual decoder output for one principal component, sampled at 41 positions from -2 to +2 training-score standard deviations while the other components remain at the training-code mean. Each dataset has its own model, fixed template and PCA axes; axis numbers are not aligned across datasets or seeds.
-
-Blue denotes inward and orange/red outward movement relative to the decoded mean, measured along its outward vertex normals and expressed as a percentage of its bounding-box diagonal. White denotes zero normal displacement. This is not reconstruction error, a closest-surface signed distance or a measure of unmapped coverage; tangential movement is not represented.
+The contribution is a connection between whole-surface measurement and anatomical explanation, complementing established geometric morphometrics. Instead of stopping at separation in a scatterplot, researchers can examine where and how surfaces differ and formulate explicit hypotheses about joint form, tendon pathways and skeletal diversity. Such hypotheses still require comparative or biomechanical tests: decoded variation alone does not establish locomotor adaptation or evolutionary causation.
 
 ## Models in this release
 
@@ -39,7 +35,15 @@ Blue denotes inward and orange/red outward movement relative to the decoded mean
 | [Mouse mandibles](https://oothomas.github.io/anthropoid-cuboid-signed-traversal-viewer/mandible/viewer/) | 350 | 44 | 93 | 0 | 0.001 |
 | [Mouse humeri](https://oothomas.github.io/anthropoid-cuboid-signed-traversal-viewer/humeri/viewer/) | 350 | 44 | 77 | 0 | 0.0003 |
 
-All four displays use seed 2071. Counts are specimens represented in the PCA plots, not total dataset sizes. The hominoid dataset is a subset of the anthropoid collection, not independent evidence.
+All four displays use seed 2071, not a selected best seed. Counts are specimens represented in the PCA plots, not total dataset sizes. The hominoid dataset is a subset of the anthropoid collection, not independent evidence.
+
+PCA is fitted to training codes, with tuning specimens projected where available. Confirmation specimens and reference templates are excluded. The mouse models use all non-template specimens for descriptive training, not held-out generalization tests. Shared correspondence construction also limits claims of fully unseen-specimen performance.
+
+## Reading the decoded surfaces
+
+Each panel varies one PC over 41 actual decoder outputs from -2 to +2 training-score standard deviations, holding other components at the training-code mean. Axes are specific to each model and are not aligned across datasets or seeds.
+
+Blue denotes inward and orange/red outward displacement along the decoded mean surface normals, as a percentage of the mean bounding-box diagonal; white is zero. This is not reconstruction error, closest-surface distance or unmapped coverage. Tangential movement is not encoded. Dataset captions and geometry tables report local surface-quality flags; decoded anatomy remains subject to review.
 
 ## Genus annotations
 

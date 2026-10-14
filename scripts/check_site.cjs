@@ -99,6 +99,7 @@ fs.mkdirSync(output,{recursive:true});
       await page.locator('#color').selectOption('signed');await page.locator('#defects').check();await settle();await page.locator('#defects').uncheck();
       await page.locator('#zero-all').click();await step(30);await page.locator('#fit').click();await settle();
       await page.screenshot({path:path.join(output,key+'_desktop.png'),fullPage:true});
+      await page.locator('#project').screenshot({path:path.join(output,key+'_project_desktop.png')});
       const heading=await page.locator('header').innerText();
       const links=await page.locator('nav[aria-label="Datasets"] a').evaluateAll(a=>a.map(x=>x.href));
       if(links.length!==4||links.some(x=>!x.startsWith(base)))throw new Error('Project-prefix navigation broken');
@@ -116,6 +117,7 @@ fs.mkdirSync(output,{recursive:true});
         await page.locator('#genus-select').selectOption('');
       }
       await page.screenshot({path:path.join(output,key+'_mobile.png'),fullPage:true});
+      await page.locator('#project').screenshot({path:path.join(output,key+'_project_mobile.png')});
       records.push({dataset:key,heading,scoreCount:count,frames,mobile,desktopPlots,mobilePlots,genus,sharedCopy:true,animation:true,scoreDownload:false});
       console.log(key,'passed');
     }

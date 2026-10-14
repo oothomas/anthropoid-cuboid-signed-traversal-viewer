@@ -52,9 +52,16 @@ PC variance (axes remain in SD units as labeled).
 
 Single editable copy source: content/project.json. Generated outputs: README.md
 and the project section of all four site/<dataset>/viewer/index.html files.
-Preliminary results report directly reproducible first-four-PC variance and
-sampled geometry flags from the current release, not improvements measured in
-different seeds or uncompleted cross-seed assessments. Genus source is the
+The introduction follows the manuscript's biological problem, correspondence
+gap, two-stage contribution and implications. It names the cuboid joint surfaces,
+plantar tuberosity and tendon groove to establish the anatomical motivation.
+Initial results describe the reconstruction and decoding outputs available for
+all four datasets. Earlier morphometric agreement and anatomical-localization
+findings are explicitly identified as earlier-model development evidence, without
+importing their numerical values or claiming completion of current cross-seed
+and comparative assessments. Run
+details and geometry caveats remain in dataset notes, captions and provenance,
+not the scientific introduction. Genus source is the
 reconciled sampling ledger, recorded by hash and minimal public assignments in
 content/taxonomy.json. Dataset captions, provenance, QA and release hashes are
 updated alongside the presentation. No new hypothesis or evolutionary claim.

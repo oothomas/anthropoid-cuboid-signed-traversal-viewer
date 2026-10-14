@@ -3,6 +3,17 @@
 14 October 2026. State: review-grade draft, pending author review of public copy
 and taxonomic labels. Not manuscript or biological model acceptance.
 
+Scientific-introduction revision: the shared text now follows biological
+motivation, methodological gap, two-stage approach, evidence and implications.
+Cuboid anatomy and earlier development findings were checked against the active
+manuscript's Introduction and Discussion. Earlier-model morphometric findings
+are explicitly separated from the current exports; no historical numerical
+result or axis-specific interpretation is attributed to the newly shown models.
+Technical caveats remain in dataset notes/captions and README technical sections.
+Dedicated desktop/mobile captures of the project section accompany the full-page
+checks. The author should review scientific emphasis and wording, not merely
+confirm successful rendering.
+
 - Six automated boundary tests pass: scientific-array/score preservation against
   the prior published commit; taxonomy joins and fossil-label exceptions; shared
   copy and links; preliminary-result numbers; release/privacy boundaries; and

@@ -110,7 +110,11 @@ def readme(copy, site):
     for d in DATASETS:
         r = read(site / d / 'traversals/provenance.json')
         parts.append(f'| [{NAMES[d]}](https://oothomas.github.io/anthropoid-cuboid-signed-traversal-viewer/{d}/viewer/) | {r["epoch"]} | {r["common_dimension"]} | {r["pca_fit_n"]} | {r["tuning_n"]} | {r["learning_rate"]} |')
-    parts += ['', 'All four displays use seed 2071. Counts are specimens represented in the PCA plots, not total dataset sizes. The hominoid dataset is a subset of the anthropoid collection, not independent evidence.', '',
+    parts += ['', 'All four displays use seed 2071, not a selected best seed. Counts are specimens represented in the PCA plots, not total dataset sizes. The hominoid dataset is a subset of the anthropoid collection, not independent evidence.', '',
+              'PCA is fitted to training codes, with tuning specimens projected where available. Confirmation specimens and reference templates are excluded. The mouse models use all non-template specimens for descriptive training, not held-out generalization tests. Shared correspondence construction also limits claims of fully unseen-specimen performance.', '',
+              '## Reading the decoded surfaces', '',
+              'Each panel varies one PC over 41 actual decoder outputs from -2 to +2 training-score standard deviations, holding other components at the training-code mean. Axes are specific to each model and are not aligned across datasets or seeds.', '',
+              'Blue denotes inward and orange/red outward displacement along the decoded mean surface normals, as a percentage of the mean bounding-box diagonal; white is zero. This is not reconstruction error, closest-surface distance or unmapped coverage. Tangential movement is not encoded. Dataset captions and geometry tables report local surface-quality flags; decoded anatomy remains subject to review.', '',
               '## Genus annotations', '', TAX_NOTE, '',
               'Display annotations are joined by exact specimen identifier. No scores are moved, PCA is not refitted, and no confirmation observations are added. The source hash and minimal public assignments are in `content/taxonomy.json`.', '',
               '## Joint-PC decoding', '',
@@ -192,7 +196,7 @@ def refresh(site, ledger=None):
                       'Browser QA is recorded separately. Joint decoding remains a technical proposal, not a displayed approximation.\n')
     (ROOT / 'README.md').write_text(readme(copy, site))
     release = read(site / 'release.json')
-    release['presentation_revision'] = 'project-context-and-genus-2026-10-14'
+    release['presentation_revision'] = 'manuscript-grounded-introduction-2026-10-14'
     release['files'] = {str(p.relative_to(site)): {'sha256': sha(p), 'bytes': p.stat().st_size}
                         for p in sorted(site.rglob('*')) if p.is_file() and p != site / 'release.json'}
     save(site / 'release.json', release)
