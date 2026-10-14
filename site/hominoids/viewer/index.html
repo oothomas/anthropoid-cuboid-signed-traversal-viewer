@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Non-fossil hominoid cuboids | Current model traversals</title>
+  <link rel="stylesheet" href="traversals.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.min.js"}}</script>
+</head>
+<body>
+  <header>
+    <div><h1>Non-fossil hominoid cuboids traversals</h1><p>Latest completed seed | Epoch 350 | Seed 2071 | Initial LR 0.001 | Provisional review</p></div>
+    <nav aria-label="Datasets"><a href="../../cuboid/viewer/">Anthropoid cuboids</a><a href="../../mandible/viewer/">Mouse mandibles</a><a href="../../hominoids/viewer/" aria-current="page">Non-fossil hominoid cuboids</a><a href="../../humeri/viewer/">Mouse humeri</a></nav><nav aria-label="Review sections"><a href="#scores">PCA scores</a></nav>
+  </header>
+  <section class="toolbar" aria-label="Traversal controls">
+    <label>Color<select id="color"><option value="signed">Signed normal displacement</option><option value="neutral">Neutral surface</option></select></label>
+    <label class="check"><input type="checkbox" id="sync-cameras" checked>Sync cameras</label>
+    <label class="check"><input type="checkbox" id="sync-sliders">Sync sliders</label>
+    <label class="check"><input type="checkbox" id="wire">Wireframe</label>
+    <label class="check"><input type="checkbox" id="defects">Intersection faces</label>
+    <div class="tools">
+      <button id="fit" title="Fit all surfaces" aria-label="Fit all surfaces"><i data-lucide="maximize"></i></button>
+      <button id="flip" title="Opposite side" aria-label="Opposite side"><i data-lucide="flip-horizontal"></i></button>
+      <button id="zero-all" title="Reset all axes to the decoded mean" aria-label="Reset all axes to the decoded mean"><i data-lucide="rotate-ccw"></i></button>
+      <button id="play-all" title="Play all traversals" aria-label="Play all traversals"><i data-lucide="play"></i></button>
+    </div>
+  </section>
+  <section id="scale-bar" class="scale-bar" aria-label="Signed displacement scale">
+    <div class="color-scale"><div class="ramp"></div><div class="ticks"><span id="negative-label"></span><span>0</span><span id="positive-label"></span></div></div>
+    <div class="scale-copy"><strong>Inward / outward from decoded mean</strong><span>% mean bounding-box diagonal | Not reconstruction error</span></div>
+    <label class="scale-input">Limit +/-<input id="limit" type="number" step="0.1" min="0.01" max="20" aria-label="Shared signed displacement limit"></label>
+    <button id="scale-reset" title="Restore the shared 98th-percentile scale" aria-label="Restore default color scale"><i data-lucide="rotate-ccw"></i></button>
+  </section>
+  <p id="status" role="status">Loading verified traversal data...</p>
+  <main id="grid" aria-label="Four decoded principal components"></main>
+  <section id="scores" class="scores" aria-labelledby="scores-title">
+    <div class="scores-heading"><h2 id="scores-title">Latent PCA</h2><div class="score-legend"><span><b class="training-symbol"></b>Training (110)</span><span><b class="tuning-symbol"></b>Tuning (26)</span><span><b class="guide-symbol">+</b>Slider coordinates</span></div></div>
+    <div class="plots"><section class="plot-panel"><h3>PC1 / PC2</h3><svg id="scores12" class="score-plot" role="img" aria-label="Training and tuning specimen scores on PC1 and PC2"></svg><output id="score-guide12" class="score-position"></output></section><section class="plot-panel"><h3>PC3 / PC4</h3><svg id="scores34" class="score-plot" role="img" aria-label="Training and tuning specimen scores on PC3 and PC4"></svg><output id="score-guide34" class="score-position"></output></section></div>
+    <p class="score-note">PCA fitted to 110 training codes; 26 tuning codes projected. Units: training-score SD. Each surface varies one PC independently. Axes are not aligned across models.</p>
+  </section>
+  <div id="score-tooltip" class="score-tooltip" role="status" hidden></div>
+  <footer>
+    <p>Interactive principal-component traversals of non-fossil hominoid cuboids. The seed-2071 model at epoch 350 is decoded on fixed template Gorilla_54355_CUB. PCA is fitted to 110 training specimen codes; 26 tuning codes are projected. Panels PC1-PC4 each contain 41 actual decoded positions from -2 to +2 training-score SD. Blue indicates inward and orange/red outward displacement along the decoded-mean normal; white is zero. Values are percent of the mean bounding-box diagonal, not reconstruction error or unmapped coverage; tangential motion is not encoded. The symmetric display limit clips the outer 2% of magnitudes. 46 of 164 positions have geometry flags; counts are per sampled surface, not a guarantee for a continuous path or anatomical validity. Templates and confirmation codes are excluded from PCA fitting and score plots. Axes are within-model, not aligned between seeds or datasets. Anatomical interpretation remains provisional.
+</p>
+    <nav aria-label="Evidence"><a href="../traversals/caption.txt">Caption</a><a href="../traversals/geometry.csv">Geometry measurements</a><a href="../traversals/provenance.json">Sources</a><a href="../traversals/QA.txt">Quality checks</a></nav>
+  </footer>
+  <script src="vendor/lucide.min.js"></script>
+  <script type="module" src="traversals.js"></script>
+</body>
+</html>

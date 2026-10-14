@@ -1,0 +1,4248 @@
+{
+  "models": {
+    "current": {
+      "vertex_count": 12000,
+      "face_count": 23996,
+      "mean_bbox": 0.9564235405297772,
+      "mean_signed_volume": 0.06647555558400697,
+      "variance_ratio": [
+        0.16712701320648193,
+        0.13029387593269348,
+        0.08582126349210739,
+        0.04901481792330742
+      ],
+      "variance": [
+        0.02092314511537552,
+        0.0163118913769722,
+        0.010744228027760983,
+        0.0061363158747553825
+      ],
+      "vertices": {
+        "path": "../traversals/data/vertices.f32",
+        "dtype": "float32",
+        "sha256": "20a756a44f5698524230f70b35b0cd617a7b96a990ba18423e89fbf201d08aa5",
+        "bytes": 23616000
+      },
+      "signed": {
+        "path": "../traversals/data/signed_pct.f32",
+        "dtype": "float32",
+        "sha256": "5df5ab60fa9fa76b96d504855da72d07348d061d2123539dff0237461a457248",
+        "bytes": 7872000
+      },
+      "faces": {
+        "path": "../traversals/data/faces.u32",
+        "dtype": "uint32",
+        "sha256": "5be29703c8bb4563fe5142454ce449382475af536b285965f5c85a5452e82a7a",
+        "bytes": 287952
+      },
+      "geometry": [
+        [
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 3,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": [
+              17733,
+              17739,
+              17748,
+              17753
+            ]
+          },
+          {
+            "interior_pairs": 3,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": [
+              17733,
+              17739,
+              17748,
+              17753
+            ]
+          },
+          {
+            "interior_pairs": 3,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": [
+              17733,
+              17739,
+              17748,
+              17753
+            ]
+          },
+          {
+            "interior_pairs": 3,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": [
+              17733,
+              17739,
+              17748,
+              17753
+            ]
+          },
+          {
+            "interior_pairs": 3,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": [
+              17733,
+              17739,
+              17748,
+              17753
+            ]
+          },
+          {
+            "interior_pairs": 4,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": [
+              17733,
+              17739,
+              17748,
+              17752,
+              17753
+            ]
+          },
+          {
+            "interior_pairs": 4,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": [
+              17733,
+              17743,
+              17748,
+              17752,
+              17753
+            ]
+          },
+          {
+            "interior_pairs": 4,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": [
+              17733,
+              17743,
+              17748,
+              17752,
+              17753
+            ]
+          },
+          {
+            "interior_pairs": 4,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": [
+              17733,
+              17743,
+              17748,
+              17752,
+              17753
+            ]
+          },
+          {
+            "interior_pairs": 4,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": [
+              17733,
+              17743,
+              17748,
+              17752,
+              17753
+            ]
+          },
+          {
+            "interior_pairs": 4,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": [
+              17733,
+              17743,
+              17748,
+              17752,
+              17753
+            ]
+          },
+          {
+            "interior_pairs": 4,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": [
+              17733,
+              17743,
+              17748,
+              17752,
+              17753
+            ]
+          }
+        ],
+        [
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 4,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": [
+              17733,
+              17739,
+              17748,
+              17752,
+              17753
+            ]
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          }
+        ],
+        [
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 3,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": [
+              17733,
+              17739,
+              17748,
+              17753
+            ]
+          },
+          {
+            "interior_pairs": 3,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": [
+              17733,
+              17739,
+              17748,
+              17753
+            ]
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 4,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": [
+              17733,
+              17743,
+              17748,
+              17752,
+              17753
+            ]
+          },
+          {
+            "interior_pairs": 3,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": [
+              17733,
+              17739,
+              17743,
+              17752
+            ]
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 4,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": [
+              17733,
+              17743,
+              17748,
+              17752,
+              17753
+            ]
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          }
+        ],
+        [
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          },
+          {
+            "interior_pairs": 0,
+            "exact_degenerate_faces": 0,
+            "near_zero_faces": 0,
+            "bad_face_ids": []
+          }
+        ]
+      ],
+      "ranges": [
+        [
+          [
+            -8.901165559780685,
+            6.33719233773765
+          ],
+          [
+            -8.473892248606392,
+            6.016321198373188
+          ],
+          [
+            -8.04215396600785,
+            5.693447761668557
+          ],
+          [
+            -7.6156420862836995,
+            5.365039269529045
+          ],
+          [
+            -7.185816579290231,
+            5.053126958736919
+          ],
+          [
+            -6.753271189741225,
+            4.746514404656499
+          ],
+          [
+            -6.320059992375341,
+            4.4288498450278935
+          ],
+          [
+            -5.886653038360602,
+            4.102541815263479
+          ],
+          [
+            -5.450479168875906,
+            3.8043609505698637
+          ],
+          [
+            -5.011794352436328,
+            3.506173250986819
+          ],
+          [
+            -4.574286197998711,
+            3.203145987959345
+          ],
+          [
+            -4.127226063446754,
+            2.8902237496049197
+          ],
+          [
+            -3.669402644299663,
+            2.572352903432378
+          ],
+          [
+            -3.2130126586327807,
+            2.2481449361571846
+          ],
+          [
+            -2.743111392389756,
+            1.9253772789677546
+          ],
+          [
+            -2.2697474717227553,
+            1.5991506253402084
+          ],
+          [
+            -1.8007681897151842,
+            1.2743178183019044
+          ],
+          [
+            -1.347394828398138,
+            0.9460873811942917
+          ],
+          [
+            -0.8936501898753015,
+            0.6326449561798425
+          ],
+          [
+            -0.43782184566436133,
+            0.3170656667702842
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -0.31326978214468365,
+            0.4143970471714466
+          ],
+          [
+            -0.626910309993943,
+            0.8113609869962498
+          ],
+          [
+            -0.9359319203610276,
+            1.1769578766170503
+          ],
+          [
+            -1.247466599345397,
+            1.515047223309572
+          ],
+          [
+            -1.5640426489561559,
+            1.8517016832207005
+          ],
+          [
+            -1.8792705506826208,
+            2.1756693973302506
+          ],
+          [
+            -2.1925727050371027,
+            2.4931792765261647
+          ],
+          [
+            -2.498024198833201,
+            2.791734785778851
+          ],
+          [
+            -2.8061960545342886,
+            3.0920483642607697
+          ],
+          [
+            -3.181861731542365,
+            3.378184433189542
+          ],
+          [
+            -3.581777341469749,
+            3.727562691165354
+          ],
+          [
+            -3.9881103398789914,
+            4.127048396558515
+          ],
+          [
+            -4.3927852716764715,
+            4.525176248520271
+          ],
+          [
+            -4.785665950298292,
+            4.919306297642001
+          ],
+          [
+            -5.16883654217648,
+            5.309763011482407
+          ],
+          [
+            -5.545142647397582,
+            5.689293134971944
+          ],
+          [
+            -5.916945912157661,
+            6.046324457959541
+          ],
+          [
+            -6.293433230504946,
+            6.38827645781578
+          ],
+          [
+            -6.669707183736862,
+            6.717876917490916
+          ],
+          [
+            -7.05102156058514,
+            7.0451480545078455
+          ]
+        ],
+        [
+          [
+            -5.48953184780308,
+            5.944694159925151
+          ],
+          [
+            -5.21861231496657,
+            5.708445272784485
+          ],
+          [
+            -4.957753424907702,
+            5.471320898995803
+          ],
+          [
+            -4.689030475449753,
+            5.207903337033817
+          ],
+          [
+            -4.443377740105292,
+            4.927809843558687
+          ],
+          [
+            -4.170120391754631,
+            4.633457719312985
+          ],
+          [
+            -3.928548585551064,
+            4.328934292552987
+          ],
+          [
+            -3.6758453002888474,
+            4.013258705617834
+          ],
+          [
+            -3.397803437600637,
+            3.6948550569118654
+          ],
+          [
+            -3.1350907135218673,
+            3.4078430015177696
+          ],
+          [
+            -2.86036538790362,
+            3.112883252489715
+          ],
+          [
+            -2.5889974616290985,
+            2.8111390738589055
+          ],
+          [
+            -2.2873650794532008,
+            2.494546469739083
+          ],
+          [
+            -1.9812451487042988,
+            2.1755897359587197
+          ],
+          [
+            -1.6896885806704462,
+            1.8708245247725166
+          ],
+          [
+            -1.4119629511253595,
+            1.5752752988060728
+          ],
+          [
+            -1.1322246611951188,
+            1.274518677404126
+          ],
+          [
+            -0.8594550040864674,
+            0.96912013166088
+          ],
+          [
+            -0.5873015041457144,
+            0.6535128078767317
+          ],
+          [
+            -0.2968420309882056,
+            0.32960642323146316
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -0.3353441716820267,
+            0.2966831966135985
+          ],
+          [
+            -0.6662160835669857,
+            0.5939084422452064
+          ],
+          [
+            -1.0170517141995863,
+            0.8915963115040612
+          ],
+          [
+            -1.357238161530483,
+            1.192975581375693
+          ],
+          [
+            -1.6849660320310498,
+            1.4971406646940046
+          ],
+          [
+            -1.9983843399283276,
+            1.8024687428482307
+          ],
+          [
+            -2.319900270777814,
+            2.1235617538182185
+          ],
+          [
+            -2.6699481968847425,
+            2.454778443368733
+          ],
+          [
+            -3.0108611141547987,
+            2.79766314590136
+          ],
+          [
+            -3.3248455108110333,
+            3.11923265447729
+          ],
+          [
+            -3.6211156275925163,
+            3.412967809972477
+          ],
+          [
+            -3.908515143181652,
+            3.6852582148740725
+          ],
+          [
+            -4.161999074680084,
+            3.9686749311069547
+          ],
+          [
+            -4.416680554548417,
+            4.264462193076827
+          ],
+          [
+            -4.668108989526795,
+            4.537045081283465
+          ],
+          [
+            -4.92218422414679,
+            4.794009351921876
+          ],
+          [
+            -5.17867451952384,
+            5.03277146981526
+          ],
+          [
+            -5.43500833568641,
+            5.255043241982914
+          ],
+          [
+            -5.675596914241949,
+            5.497682314574671
+          ],
+          [
+            -5.936088149041208,
+            5.769327171164346
+          ]
+        ],
+        [
+          [
+            -5.735475851433288,
+            3.8890241443058753
+          ],
+          [
+            -5.515582942072514,
+            3.700449614986282
+          ],
+          [
+            -5.277662995458969,
+            3.5149811951031746
+          ],
+          [
+            -5.02941948445163,
+            3.3313138878219033
+          ],
+          [
+            -4.788190021461214,
+            3.1459841979290077
+          ],
+          [
+            -4.53286166403568,
+            2.9585616327896576
+          ],
+          [
+            -4.261147069755903,
+            2.7709737850008818
+          ],
+          [
+            -3.9739363651246156,
+            2.5840994270122337
+          ],
+          [
+            -3.688960847438594,
+            2.39553432140004
+          ],
+          [
+            -3.402255176361439,
+            2.2028562804896477
+          ],
+          [
+            -3.095462831919589,
+            2.0042944881424294
+          ],
+          [
+            -2.806422314909349,
+            1.8082179218179744
+          ],
+          [
+            -2.5118786484006774,
+            1.6162819414272334
+          ],
+          [
+            -2.226760712716323,
+            1.4199228823102437
+          ],
+          [
+            -1.9295761601547334,
+            1.2202694284220879
+          ],
+          [
+            -1.6166697237388745,
+            1.0133824526089268
+          ],
+          [
+            -1.293144621387561,
+            0.811303387157497
+          ],
+          [
+            -0.9689373063169703,
+            0.6093136764953672
+          ],
+          [
+            -0.6499686826655743,
+            0.4086226231709754
+          ],
+          [
+            -0.3266953674685769,
+            0.2073594181121931
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -0.2073317518299447,
+            0.3277169986892843
+          ],
+          [
+            -0.417898090264008,
+            0.6499091287397945
+          ],
+          [
+            -0.6306407371614999,
+            0.9731213260462318
+          ],
+          [
+            -0.8460546325745177,
+            1.2863749296619496
+          ],
+          [
+            -1.0607991161493842,
+            1.5918215996155922
+          ],
+          [
+            -1.2733179802228416,
+            1.8856528970143138
+          ],
+          [
+            -1.4812284185320563,
+            2.1789948408322006
+          ],
+          [
+            -1.6873996135992229,
+            2.4968884731598253
+          ],
+          [
+            -1.8914491642820486,
+            2.8061342670838885
+          ],
+          [
+            -2.0949265051004047,
+            3.1085492917306827
+          ],
+          [
+            -2.2981813001205804,
+            3.3994342392462045
+          ],
+          [
+            -2.505178549838054,
+            3.6847406860066028
+          ],
+          [
+            -2.719913606831392,
+            3.961208607635957
+          ],
+          [
+            -2.929409714252315,
+            4.231855267928881
+          ],
+          [
+            -3.100435305523961,
+            4.500648227827015
+          ],
+          [
+            -3.2628591008924555,
+            4.767064564417768
+          ],
+          [
+            -3.4108848679374253,
+            5.027630384956539
+          ],
+          [
+            -3.5601798587957396,
+            5.283385956987654
+          ],
+          [
+            -3.7143080289134365,
+            5.524842056549183
+          ],
+          [
+            -3.8691366287258138,
+            5.778608195271334
+          ]
+        ],
+        [
+          [
+            -3.1121167227185778,
+            3.27443513021188
+          ],
+          [
+            -2.965984378778636,
+            3.1181969342915736
+          ],
+          [
+            -2.81422591394217,
+            2.9614469986009015
+          ],
+          [
+            -2.6596077861460454,
+            2.8019695558191637
+          ],
+          [
+            -2.5074698127726105,
+            2.639686689774112
+          ],
+          [
+            -2.353926498034237,
+            2.477143249616191
+          ],
+          [
+            -2.1993021599593536,
+            2.3102286880617293
+          ],
+          [
+            -2.050919482476254,
+            2.142375337809434
+          ],
+          [
+            -1.8987411549016922,
+            1.973257007026752
+          ],
+          [
+            -1.738257149861333,
+            1.8009216202958531
+          ],
+          [
+            -1.5761348573672085,
+            1.628895989830623
+          ],
+          [
+            -1.4140836226647029,
+            1.4593349867055663
+          ],
+          [
+            -1.252239726199794,
+            1.2950042713661962
+          ],
+          [
+            -1.090387559863929,
+            1.1300243406833792
+          ],
+          [
+            -0.9286218624769829,
+            0.965104162513718
+          ],
+          [
+            -0.7670506400744705,
+            0.8016350170238424
+          ],
+          [
+            -0.6079763750934676,
+            0.6409151834853721
+          ],
+          [
+            -0.4536778883978138,
+            0.4807017541938547
+          ],
+          [
+            -0.3001609612208743,
+            0.3203622207934344
+          ],
+          [
+            -0.14952321726023182,
+            0.16013828911904976
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -0.15829575791020004,
+            0.14655531098177962
+          ],
+          [
+            -0.31134612886933755,
+            0.29530424707467295
+          ],
+          [
+            -0.45951759605751313,
+            0.4429843227776228
+          ],
+          [
+            -0.6069478769692946,
+            0.589587558303551
+          ],
+          [
+            -0.7582468617167664,
+            0.735577494243887
+          ],
+          [
+            -0.9052353405871675,
+            0.8816887152698392
+          ],
+          [
+            -1.0516061664671406,
+            1.0268447872409927
+          ],
+          [
+            -1.1960441809101119,
+            1.1713472622823393
+          ],
+          [
+            -1.338451717836263,
+            1.33115345919651
+          ],
+          [
+            -1.4808947237887584,
+            1.4924562650787412
+          ],
+          [
+            -1.6238915577220479,
+            1.656032324999981
+          ],
+          [
+            -1.7666595853973848,
+            1.820967366639359
+          ],
+          [
+            -1.9046967005640745,
+            1.9874237641213761
+          ],
+          [
+            -2.0461916003051477,
+            2.1541908434090686
+          ],
+          [
+            -2.1774911936043138,
+            2.319939956772969
+          ],
+          [
+            -2.298238009601025,
+            2.4835978663515306
+          ],
+          [
+            -2.4315135721595764,
+            2.646950823440288
+          ],
+          [
+            -2.569782080906249,
+            2.808498877510265
+          ],
+          [
+            -2.706038305013957,
+            2.9677061740490633
+          ],
+          [
+            -2.8397320931744576,
+            3.121290050055725
+          ]
+        ]
+      ]
+    }
+  },
+  "model_labels": {
+    "current": "Anthropoid cuboids | Epoch 250 | Seed 2071 | Initial LR 0.001"
+  },
+  "steps": [
+    -2.0,
+    -1.9,
+    -1.8,
+    -1.7,
+    -1.6,
+    -1.5,
+    -1.4,
+    -1.2999999999999998,
+    -1.2,
+    -1.1,
+    -1.0,
+    -0.8999999999999999,
+    -0.7999999999999998,
+    -0.7,
+    -0.5999999999999999,
+    -0.5,
+    -0.3999999999999999,
+    -0.2999999999999998,
+    -0.19999999999999996,
+    -0.09999999999999987,
+    0.0,
+    0.10000000000000009,
+    0.20000000000000018,
+    0.30000000000000027,
+    0.40000000000000036,
+    0.5,
+    0.6000000000000001,
+    0.7000000000000002,
+    0.8000000000000003,
+    0.9000000000000004,
+    1.0,
+    1.1,
+    1.2000000000000002,
+    1.3000000000000003,
+    1.4000000000000004,
+    1.5,
+    1.6,
+    1.7000000000000002,
+    1.8000000000000003,
+    1.9000000000000004,
+    2.0
+  ],
+  "mean_index": 20,
+  "template": "Cercopithecus_diana_208974_CUB",
+  "n_training": 244,
+  "n_tuning": 52,
+  "pose": {
+    "view_normal": [
+      0.726,
+      -0.584,
+      0.364
+    ],
+    "view_up": [
+      0,
+      0,
+      1
+    ]
+  },
+  "bounds": [
+    [
+      -0.2957209050655365,
+      -0.2362908124923706,
+      -0.3543225824832916
+    ],
+    [
+      0.3253507614135742,
+      0.23244042694568634,
+      0.35031184554100037
+    ]
+  ],
+  "default_limit_pct": 3.317878551851102,
+  "maximum_abs_pct": 8.901165559780685,
+  "scores": [
+    {
+      "mesh_id": "Alouatta_belzebul_133537_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.8100273013114929,
+      "PC2_SD": -0.9961669445037842,
+      "PC3_SD": 2.6651692390441895,
+      "PC4_SD": 2.129136800765991
+    },
+    {
+      "mesh_id": "Alouatta_caraya_209917_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.7786459922790527,
+      "PC2_SD": -1.3036435842514038,
+      "PC3_SD": 2.103024482727051,
+      "PC4_SD": 1.4189205169677734
+    },
+    {
+      "mesh_id": "Alouatta_caraya_211511_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.7918969988822937,
+      "PC2_SD": -0.962307333946228,
+      "PC3_SD": 1.785065770149231,
+      "PC4_SD": 1.5475045442581177
+    },
+    {
+      "mesh_id": "Alouatta_caraya_211512_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -0.5491711497306824,
+      "PC2_SD": -1.2724496126174927,
+      "PC3_SD": 1.7630500793457031,
+      "PC4_SD": 0.9783930778503418
+    },
+    {
+      "mesh_id": "Alouatta_seniculus_188002_CUB",
+      "partition": "Training",
+      "PC1_SD": -1.0294841527938843,
+      "PC2_SD": -0.5492072105407715,
+      "PC3_SD": 1.0210760831832886,
+      "PC4_SD": 1.8589318990707397
+    },
+    {
+      "mesh_id": "Alouatta_seniculus_188006_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.40118056535720825,
+      "PC2_SD": -0.9384554624557495,
+      "PC3_SD": 1.3325793743133545,
+      "PC4_SD": 1.0038645267486572
+    },
+    {
+      "mesh_id": "Alouatta_seniculus_211528_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.9740791916847229,
+      "PC2_SD": -0.9661809802055359,
+      "PC3_SD": 2.156346082687378,
+      "PC4_SD": 2.1918609142303467
+    },
+    {
+      "mesh_id": "Alouatta_seniculus_211529_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -0.26262497901916504,
+      "PC2_SD": -0.30446764826774597,
+      "PC3_SD": 0.6090853214263916,
+      "PC4_SD": 1.0616000890731812
+    },
+    {
+      "mesh_id": "Alouatta_seniculus_211531_CUB",
+      "partition": "Training",
+      "PC1_SD": -1.157167673110962,
+      "PC2_SD": -0.9291681051254272,
+      "PC3_SD": 1.7688814401626587,
+      "PC4_SD": 2.4827840328216553
+    },
+    {
+      "mesh_id": "Alouatta_seniculus_211532_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.7061893343925476,
+      "PC2_SD": -1.343260407447815,
+      "PC3_SD": 1.6566908359527588,
+      "PC4_SD": 1.4953563213348389
+    },
+    {
+      "mesh_id": "Alouatta_seniculus_211534_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.893670916557312,
+      "PC2_SD": -0.4992077350616455,
+      "PC3_SD": 1.0997042655944824,
+      "PC4_SD": 1.9117250442504883
+    },
+    {
+      "mesh_id": "Alouatta_seniculus_211535_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.5596805810928345,
+      "PC2_SD": -1.0789759159088135,
+      "PC3_SD": 1.4355484247207642,
+      "PC4_SD": 1.7606157064437866
+    },
+    {
+      "mesh_id": "Alouatta_seniculus_23334_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.518421471118927,
+      "PC2_SD": -1.617842197418213,
+      "PC3_SD": 2.185346841812134,
+      "PC4_SD": 1.9864529371261597
+    },
+    {
+      "mesh_id": "Alouatta_seniculus_23342_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.7465765476226807,
+      "PC2_SD": -1.1104847192764282,
+      "PC3_SD": 2.264475107192993,
+      "PC4_SD": 1.9962987899780273
+    },
+    {
+      "mesh_id": "Alouatta_seniculus_23351_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.8051406145095825,
+      "PC2_SD": -1.2017970085144043,
+      "PC3_SD": 2.0742363929748535,
+      "PC4_SD": 2.3995521068573
+    },
+    {
+      "mesh_id": "Alouatta_seniculus_23549_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.7123298645019531,
+      "PC2_SD": -1.2793781757354736,
+      "PC3_SD": 1.560764193534851,
+      "PC4_SD": 1.614848256111145
+    },
+    {
+      "mesh_id": "Alouatta_seniculus_42316_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -0.26038694381713867,
+      "PC2_SD": -1.489800214767456,
+      "PC3_SD": 2.192647933959961,
+      "PC4_SD": 2.0472750663757324
+    },
+    {
+      "mesh_id": "Ateles_belzebuth_201294_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.8799561262130737,
+      "PC2_SD": -1.1364161968231201,
+      "PC3_SD": 2.4093313217163086,
+      "PC4_SD": 1.5641052722930908
+    },
+    {
+      "mesh_id": "Ateles_belzebuth_259_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.7724676728248596,
+      "PC2_SD": -0.43258532881736755,
+      "PC3_SD": 1.020316481590271,
+      "PC4_SD": 1.88004469871521
+    },
+    {
+      "mesh_id": "Ateles_fusciceps_188135_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.27535492181777954,
+      "PC2_SD": -1.0635550022125244,
+      "PC3_SD": 1.486993670463562,
+      "PC4_SD": 1.28684401512146
+    },
+    {
+      "mesh_id": "Ateles_fusciceps_188140_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.3814942240715027,
+      "PC2_SD": -1.0449395179748535,
+      "PC3_SD": 1.8925927877426147,
+      "PC4_SD": 1.8387017250061035
+    },
+    {
+      "mesh_id": "Ateles_geoffroyi_28420_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.5082544684410095,
+      "PC2_SD": -1.156957745552063,
+      "PC3_SD": 2.254361152648926,
+      "PC4_SD": 1.969997763633728
+    },
+    {
+      "mesh_id": "Ateles_marginatus_95039_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.09134140610694885,
+      "PC2_SD": -0.9708810448646545,
+      "PC3_SD": 1.7954261302947998,
+      "PC4_SD": 1.5796570777893066
+    },
+    {
+      "mesh_id": "Ateles_paniscus_35449_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.566639244556427,
+      "PC2_SD": -0.4681805372238159,
+      "PC3_SD": 1.0753173828125,
+      "PC4_SD": 1.5385910272598267
+    },
+    {
+      "mesh_id": "Ateles_paniscus_3768_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.44347521662712097,
+      "PC2_SD": -1.1737178564071655,
+      "PC3_SD": 1.7209889888763428,
+      "PC4_SD": 1.5059462785720825
+    },
+    {
+      "mesh_id": "Cacajoa_calvus_70192_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.508927047252655,
+      "PC2_SD": -1.05637526512146,
+      "PC3_SD": 0.6617240309715271,
+      "PC4_SD": -0.14191588759422302
+    },
+    {
+      "mesh_id": "Cebus_apella_133606_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.7221007943153381,
+      "PC2_SD": -0.467896044254303,
+      "PC3_SD": 0.7014232873916626,
+      "PC4_SD": -0.3772551715373993
+    },
+    {
+      "mesh_id": "Cebus_apella_133607_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.7298641800880432,
+      "PC2_SD": -0.44708186388015747,
+      "PC3_SD": 0.4124247133731842,
+      "PC4_SD": -0.15031997859477997
+    },
+    {
+      "mesh_id": "Cebus_apella_133620_CUB",
+      "partition": "Training",
+      "PC1_SD": -1.056994080543518,
+      "PC2_SD": -0.6739425659179688,
+      "PC3_SD": 0.40319040417671204,
+      "PC4_SD": -0.7216361165046692
+    },
+    {
+      "mesh_id": "Cebus_apella_133622_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.9235385060310364,
+      "PC2_SD": -0.4854743480682373,
+      "PC3_SD": 0.6156973838806152,
+      "PC4_SD": -0.8580365777015686
+    },
+    {
+      "mesh_id": "Cebus_apella_133624_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.7215763926506042,
+      "PC2_SD": -0.6268123388290405,
+      "PC3_SD": 0.6756514310836792,
+      "PC4_SD": -0.4931962788105011
+    },
+    {
+      "mesh_id": "Cebus_apella_133628_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -0.6817831993103027,
+      "PC2_SD": -0.4769701659679413,
+      "PC3_SD": 0.5371357798576355,
+      "PC4_SD": -0.8050193190574646
+    },
+    {
+      "mesh_id": "Cebus_apella_133637_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.7747673392295837,
+      "PC2_SD": -0.3076852560043335,
+      "PC3_SD": 0.5606243014335632,
+      "PC4_SD": -0.7458740472793579
+    },
+    {
+      "mesh_id": "Cebus_apella_133640_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.6731213927268982,
+      "PC2_SD": -0.5009902119636536,
+      "PC3_SD": 0.902290940284729,
+      "PC4_SD": -0.8294359445571899
+    },
+    {
+      "mesh_id": "Cebus_apella_133642_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.880879819393158,
+      "PC2_SD": -0.6794620752334595,
+      "PC3_SD": 0.29913657903671265,
+      "PC4_SD": -0.4568158686161041
+    },
+    {
+      "mesh_id": "Cebus_apella_133654_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -0.9036054611206055,
+      "PC2_SD": -0.48852503299713135,
+      "PC3_SD": 0.8013787269592285,
+      "PC4_SD": -0.6113085150718689
+    },
+    {
+      "mesh_id": "Cebus_apella_133674_CUB",
+      "partition": "Training",
+      "PC1_SD": -1.0202033519744873,
+      "PC2_SD": -0.09242220968008041,
+      "PC3_SD": 0.23399436473846436,
+      "PC4_SD": -0.3087058663368225
+    },
+    {
+      "mesh_id": "Cercocebus_atys_200896_CUB",
+      "partition": "Training",
+      "PC1_SD": -1.2381293773651123,
+      "PC2_SD": -0.09670092910528183,
+      "PC3_SD": -0.14540879428386688,
+      "PC4_SD": -0.5494419932365417
+    },
+    {
+      "mesh_id": "Cercocebus_atys_355043_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.8550075888633728,
+      "PC2_SD": 0.43754270672798157,
+      "PC3_SD": 0.03522800654172897,
+      "PC4_SD": -0.7897310853004456
+    },
+    {
+      "mesh_id": "Cercopithecus_ascanius_52554_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -0.7933576703071594,
+      "PC2_SD": 0.010824364610016346,
+      "PC3_SD": 0.163074791431427,
+      "PC4_SD": -0.28842705488204956
+    },
+    {
+      "mesh_id": "Cercopithecus_ascanius_52563_CUB",
+      "partition": "Training",
+      "PC1_SD": -1.072051763534546,
+      "PC2_SD": -0.23215268552303314,
+      "PC3_SD": -0.16033168137073517,
+      "PC4_SD": -0.6385630369186401
+    },
+    {
+      "mesh_id": "Cercopithecus_cephus_119623_CUB",
+      "partition": "Training",
+      "PC1_SD": -1.1902031898498535,
+      "PC2_SD": 0.43766677379608154,
+      "PC3_SD": 0.08079279959201813,
+      "PC4_SD": -0.4862302839756012
+    },
+    {
+      "mesh_id": "Cercopithecus_cephus_90081_CUB",
+      "partition": "Training",
+      "PC1_SD": -1.38193678855896,
+      "PC2_SD": 0.2520967125892639,
+      "PC3_SD": 0.16407068073749542,
+      "PC4_SD": -0.4492745101451874
+    },
+    {
+      "mesh_id": "Cercopithecus_diana_238067_CUB",
+      "partition": "Training",
+      "PC1_SD": -1.6441209316253662,
+      "PC2_SD": 0.46330973505973816,
+      "PC3_SD": 0.1279487907886505,
+      "PC4_SD": -0.7195122838020325
+    },
+    {
+      "mesh_id": "Cercopithecus_mitis_187375_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -1.460556983947754,
+      "PC2_SD": 0.5486094951629639,
+      "PC3_SD": 0.10914241522550583,
+      "PC4_SD": -0.1594412922859192
+    },
+    {
+      "mesh_id": "Cercopithecus_mitis_52368_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.612184464931488,
+      "PC2_SD": 0.36352989077568054,
+      "PC3_SD": 0.26015907526016235,
+      "PC4_SD": -0.6671472191810608
+    },
+    {
+      "mesh_id": "Cercopithecus_mitis_52398_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.756870687007904,
+      "PC2_SD": -0.07373818010091782,
+      "PC3_SD": 0.07044386863708496,
+      "PC4_SD": -0.818433940410614
+    },
+    {
+      "mesh_id": "Cercopithecus_mitis_52401_CUB",
+      "partition": "Training",
+      "PC1_SD": -1.0424267053604126,
+      "PC2_SD": 0.03633594140410423,
+      "PC3_SD": 0.34025076031684875,
+      "PC4_SD": -0.8684092164039612
+    },
+    {
+      "mesh_id": "Cercopithecus_mitis_52402_CUB",
+      "partition": "Training",
+      "PC1_SD": -1.2168279886245728,
+      "PC2_SD": -0.05291837826371193,
+      "PC3_SD": -0.2905053198337555,
+      "PC4_SD": -0.18680647015571594
+    },
+    {
+      "mesh_id": "Cercopithecus_mitis_82411_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.36957234144210815,
+      "PC2_SD": -0.3111574649810791,
+      "PC3_SD": 0.10968179255723953,
+      "PC4_SD": -0.19042140245437622
+    },
+    {
+      "mesh_id": "Cercopithecus_mona_52482_CUB",
+      "partition": "Training",
+      "PC1_SD": -1.1656171083450317,
+      "PC2_SD": -0.41259536147117615,
+      "PC3_SD": -0.5419811010360718,
+      "PC4_SD": -0.2318972945213318
+    },
+    {
+      "mesh_id": "Cercopithecus_mona_52521_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -1.045035481452942,
+      "PC2_SD": -0.3285754919052124,
+      "PC3_SD": -0.10821632295846939,
+      "PC4_SD": 0.356477290391922
+    },
+    {
+      "mesh_id": "Cercopithecus_neglectus_52421_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.9215389490127563,
+      "PC2_SD": 0.5215833783149719,
+      "PC3_SD": -0.5039772391319275,
+      "PC4_SD": -0.25455373525619507
+    },
+    {
+      "mesh_id": "Cercopithecus_neglectus_52429_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.961728572845459,
+      "PC2_SD": 0.04396161809563637,
+      "PC3_SD": 0.06173068657517433,
+      "PC4_SD": -1.1099880933761597
+    },
+    {
+      "mesh_id": "Chlorocebus_aethiops_2900_CUB",
+      "partition": "Training",
+      "PC1_SD": -1.1047492027282715,
+      "PC2_SD": 0.15909415483474731,
+      "PC3_SD": -0.05218895524740219,
+      "PC4_SD": -0.7285089492797852
+    },
+    {
+      "mesh_id": "Chlorocebus_aethiops_52468_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.8612185120582581,
+      "PC2_SD": 0.3092226982116699,
+      "PC3_SD": -0.054033227264881134,
+      "PC4_SD": -0.7696579098701477
+    },
+    {
+      "mesh_id": "Chlorocebus_cynosuros_80787_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.665432870388031,
+      "PC2_SD": -0.1395195573568344,
+      "PC3_SD": 0.18252937495708466,
+      "PC4_SD": -0.18773745000362396
+    },
+    {
+      "mesh_id": "Chlorocebus_pygerythrus_27705_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.6266549825668335,
+      "PC2_SD": 0.12971532344818115,
+      "PC3_SD": -0.20323744416236877,
+      "PC4_SD": -0.4906421899795532
+    },
+    {
+      "mesh_id": "Chlorocebus_pygerythrus_34716_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.7516108751296997,
+      "PC2_SD": 0.6514815092086792,
+      "PC3_SD": 0.2081916481256485,
+      "PC4_SD": 0.6942797303199768
+    },
+    {
+      "mesh_id": "Chlorocebus_sabaeus_21532_CUB",
+      "partition": "Training",
+      "PC1_SD": -1.4695972204208374,
+      "PC2_SD": -0.3274012804031372,
+      "PC3_SD": -0.5329146981239319,
+      "PC4_SD": 0.04673704877495766
+    },
+    {
+      "mesh_id": "Colobus_angolensis_52142_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.27035534381866455,
+      "PC2_SD": -1.0639930963516235,
+      "PC3_SD": -0.47650688886642456,
+      "PC4_SD": -0.9324584603309631
+    },
+    {
+      "mesh_id": "Colobus_angolensis_52151_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -1.039395809173584,
+      "PC2_SD": -0.4067365825176239,
+      "PC3_SD": -0.45637214183807373,
+      "PC4_SD": -0.725225031375885
+    },
+    {
+      "mesh_id": "Colobus_angolensis_52174_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.5120868682861328,
+      "PC2_SD": -0.7670747637748718,
+      "PC3_SD": -0.19792960584163666,
+      "PC4_SD": -0.683931291103363
+    },
+    {
+      "mesh_id": "Colobus_guereza_187392_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -0.6104147434234619,
+      "PC2_SD": -1.0773546695709229,
+      "PC3_SD": -0.21942879259586334,
+      "PC4_SD": -0.4731021821498871
+    },
+    {
+      "mesh_id": "Colobus_guereza_27711_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.555293619632721,
+      "PC2_SD": -1.164462685585022,
+      "PC3_SD": -0.41657930612564087,
+      "PC4_SD": -0.703575074672699
+    },
+    {
+      "mesh_id": "Colobus_guereza_52248_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.8093283176422119,
+      "PC2_SD": -0.8188251256942749,
+      "PC3_SD": -0.005553162191063166,
+      "PC4_SD": -0.8909065127372742
+    },
+    {
+      "mesh_id": "Colobus_polykomos_21149_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.24910540878772736,
+      "PC2_SD": -1.1741225719451904,
+      "PC3_SD": -0.22318194806575775,
+      "PC4_SD": -0.645407497882843
+    },
+    {
+      "mesh_id": "Colobus_polykomos_95879_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.45622217655181885,
+      "PC2_SD": -1.2823786735534668,
+      "PC3_SD": 0.2869311571121216,
+      "PC4_SD": -0.666373074054718
+    },
+    {
+      "mesh_id": "Erythrocebus_patas_14020_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.4386541545391083,
+      "PC2_SD": 0.6674517393112183,
+      "PC3_SD": -0.45156097412109375,
+      "PC4_SD": -0.8176999688148499
+    },
+    {
+      "mesh_id": "Erythrocebus_patas_34709_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.6139700412750244,
+      "PC2_SD": 0.24881787598133087,
+      "PC3_SD": -0.35161641240119934,
+      "PC4_SD": -0.7676366567611694
+    },
+    {
+      "mesh_id": "Erythrocebus_patas_34713_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.8477441668510437,
+      "PC2_SD": 0.6485840678215027,
+      "PC3_SD": -0.5430864691734314,
+      "PC4_SD": -0.6176130771636963
+    },
+    {
+      "mesh_id": "Erythrocebus_patas_34714_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.6277063488960266,
+      "PC2_SD": 0.7969727516174316,
+      "PC3_SD": -0.33699938654899597,
+      "PC4_SD": 0.14268772304058075
+    },
+    {
+      "mesh_id": "Erythrocebus_patas_CPRC_1080_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -1.1161805391311646,
+      "PC2_SD": 0.333693265914917,
+      "PC3_SD": -0.2508200407028198,
+      "PC4_SD": -1.0988315343856812
+    },
+    {
+      "mesh_id": "Erythrocebus_patas_CPRC_1108_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.9962711930274963,
+      "PC2_SD": 0.5500401258468628,
+      "PC3_SD": -0.9975500106811523,
+      "PC4_SD": -0.7713204026222229
+    },
+    {
+      "mesh_id": "Erythrocebus_patas_CPRC_1523_CUB",
+      "partition": "Training",
+      "PC1_SD": -1.0094618797302246,
+      "PC2_SD": 0.42861345410346985,
+      "PC3_SD": -0.7792828679084778,
+      "PC4_SD": -0.7056826949119568
+    },
+    {
+      "mesh_id": "Fossil_KB3133_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.2029828280210495,
+      "PC2_SD": -0.8030084371566772,
+      "PC3_SD": 0.1484217494726181,
+      "PC4_SD": -0.9870967864990234
+    },
+    {
+      "mesh_id": "Gorilla_115609_CUB",
+      "partition": "Tuning",
+      "PC1_SD": 1.8809642791748047,
+      "PC2_SD": -0.4301353096961975,
+      "PC3_SD": 0.04467529058456421,
+      "PC4_SD": -0.34134528040885925
+    },
+    {
+      "mesh_id": "Gorilla_167335_CUB",
+      "partition": "Training",
+      "PC1_SD": 2.092371702194214,
+      "PC2_SD": -0.6695693135261536,
+      "PC3_SD": -0.2239547222852707,
+      "PC4_SD": 0.5505720973014832
+    },
+    {
+      "mesh_id": "Gorilla_167338_CUB",
+      "partition": "Tuning",
+      "PC1_SD": 1.7774549722671509,
+      "PC2_SD": -0.025129707530140877,
+      "PC3_SD": -0.004747397731989622,
+      "PC4_SD": -0.03647743538022041
+    },
+    {
+      "mesh_id": "Gorilla_167339_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.39128577709198,
+      "PC2_SD": -0.1598823368549347,
+      "PC3_SD": -0.5792430639266968,
+      "PC4_SD": -0.101976178586483
+    },
+    {
+      "mesh_id": "Gorilla_167340_CUB",
+      "partition": "Training",
+      "PC1_SD": 2.172220468521118,
+      "PC2_SD": -0.6519359350204468,
+      "PC3_SD": -0.4939144253730774,
+      "PC4_SD": 0.25770217180252075
+    },
+    {
+      "mesh_id": "Gorilla_17684_CUB",
+      "partition": "Training",
+      "PC1_SD": 2.597740650177002,
+      "PC2_SD": -0.6547147035598755,
+      "PC3_SD": -0.03053106926381588,
+      "PC4_SD": -0.42667171359062195
+    },
+    {
+      "mesh_id": "Gorilla_20038_CUB",
+      "partition": "Training",
+      "PC1_SD": 2.006082773208618,
+      "PC2_SD": -0.6741904616355896,
+      "PC3_SD": -0.16008570790290833,
+      "PC4_SD": -0.6854056119918823
+    },
+    {
+      "mesh_id": "Gorilla_20039_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.6603314876556396,
+      "PC2_SD": -1.0457063913345337,
+      "PC3_SD": 0.08139162510633469,
+      "PC4_SD": -0.44926244020462036
+    },
+    {
+      "mesh_id": "Gorilla_20043_CUB",
+      "partition": "Tuning",
+      "PC1_SD": 1.8284912109375,
+      "PC2_SD": -0.8168684244155884,
+      "PC3_SD": -0.3386797606945038,
+      "PC4_SD": -0.31181269884109497
+    },
+    {
+      "mesh_id": "Gorilla_214103_CUB",
+      "partition": "Tuning",
+      "PC1_SD": 2.0973739624023438,
+      "PC2_SD": -0.902930498123169,
+      "PC3_SD": -0.024194497615098953,
+      "PC4_SD": -0.4199763536453247
+    },
+    {
+      "mesh_id": "Gorilla_23160_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.8139668703079224,
+      "PC2_SD": -0.6761699318885803,
+      "PC3_SD": -0.08957326412200928,
+      "PC4_SD": -0.3994297385215759
+    },
+    {
+      "mesh_id": "Gorilla_23162_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.7889559268951416,
+      "PC2_SD": -0.6744100451469421,
+      "PC3_SD": -0.17339935898780823,
+      "PC4_SD": -0.7260971069335938
+    },
+    {
+      "mesh_id": "Gorilla_23182_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.317862629890442,
+      "PC2_SD": -0.4557938277721405,
+      "PC3_SD": -0.7785899639129639,
+      "PC4_SD": 0.5102535486221313
+    },
+    {
+      "mesh_id": "Gorilla_26850_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.9856518507003784,
+      "PC2_SD": -0.9511617422103882,
+      "PC3_SD": 0.1295517534017563,
+      "PC4_SD": 0.06678489595651627
+    },
+    {
+      "mesh_id": "Gorilla_29047_CUB",
+      "partition": "Training",
+      "PC1_SD": 2.0691773891448975,
+      "PC2_SD": -0.9161712527275085,
+      "PC3_SD": -0.37293288111686707,
+      "PC4_SD": -0.25089818239212036
+    },
+    {
+      "mesh_id": "Gorilla_29048_CUB",
+      "partition": "Training",
+      "PC1_SD": 2.216449022293091,
+      "PC2_SD": -0.6102443337440491,
+      "PC3_SD": -0.22336941957473755,
+      "PC4_SD": 0.6577485203742981
+    },
+    {
+      "mesh_id": "Gorilla_38326_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.903847575187683,
+      "PC2_SD": -0.645950198173523,
+      "PC3_SD": -0.5640163421630859,
+      "PC4_SD": 0.7156082391738892
+    },
+    {
+      "mesh_id": "Gorilla_54327_CUB",
+      "partition": "Training",
+      "PC1_SD": 2.193441867828369,
+      "PC2_SD": -0.5631993412971497,
+      "PC3_SD": -0.36110129952430725,
+      "PC4_SD": -0.4078894853591919
+    },
+    {
+      "mesh_id": "Gorilla_81651_CUB",
+      "partition": "Training",
+      "PC1_SD": 2.3862931728363037,
+      "PC2_SD": -0.6603602766990662,
+      "PC3_SD": -0.48667046427726746,
+      "PC4_SD": -0.555270254611969
+    },
+    {
+      "mesh_id": "Gorilla_90291_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.6856670379638672,
+      "PC2_SD": -0.8362698554992676,
+      "PC3_SD": -0.03208164498209953,
+      "PC4_SD": 0.11183498054742813
+    },
+    {
+      "mesh_id": "Gorilla_9911577_CUB",
+      "partition": "Tuning",
+      "PC1_SD": 1.690959095954895,
+      "PC2_SD": -0.6332849860191345,
+      "PC3_SD": -0.6617376804351807,
+      "PC4_SD": 1.300873875617981
+    },
+    {
+      "mesh_id": "Gorilla_9911578_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.9325730800628662,
+      "PC2_SD": -1.049631953239441,
+      "PC3_SD": -0.810571551322937,
+      "PC4_SD": 0.8619137406349182
+    },
+    {
+      "mesh_id": "Gorilla_9912055_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.6131727695465088,
+      "PC2_SD": -0.848247766494751,
+      "PC3_SD": -0.39365822076797485,
+      "PC4_SD": 1.2771855592727661
+    },
+    {
+      "mesh_id": "Fossil_Homo_habilis_OH8_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.2728180885314941,
+      "PC2_SD": 2.2121851444244385,
+      "PC3_SD": 0.7657688856124878,
+      "PC4_SD": -0.1233668178319931
+    },
+    {
+      "mesh_id": "Homo_98116_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.4743672311306,
+      "PC2_SD": 2.366284132003784,
+      "PC3_SD": 1.0414824485778809,
+      "PC4_SD": -0.23091040551662445
+    },
+    {
+      "mesh_id": "Homo_98133_CUB",
+      "partition": "Tuning",
+      "PC1_SD": 0.3445838987827301,
+      "PC2_SD": 2.716459274291992,
+      "PC3_SD": 1.5568130016326904,
+      "PC4_SD": 0.1357436329126358
+    },
+    {
+      "mesh_id": "Homo_98135_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.8364790678024292,
+      "PC2_SD": 2.476477861404419,
+      "PC3_SD": 1.2193944454193115,
+      "PC4_SD": -0.5072205662727356
+    },
+    {
+      "mesh_id": "Homo_98166_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.5870636701583862,
+      "PC2_SD": 2.3425145149230957,
+      "PC3_SD": 1.3159632682800293,
+      "PC4_SD": -0.40211012959480286
+    },
+    {
+      "mesh_id": "Homo_98182_CUB",
+      "partition": "Tuning",
+      "PC1_SD": 0.6116788387298584,
+      "PC2_SD": 2.5387330055236816,
+      "PC3_SD": 1.0559747219085693,
+      "PC4_SD": -0.10231976956129074
+    },
+    {
+      "mesh_id": "Homo_98183_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.6191592216491699,
+      "PC2_SD": 2.0444793701171875,
+      "PC3_SD": 1.2942936420440674,
+      "PC4_SD": 0.019033951684832573
+    },
+    {
+      "mesh_id": "Homo_98186_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.8695263266563416,
+      "PC2_SD": 2.496241569519043,
+      "PC3_SD": 1.5235482454299927,
+      "PC4_SD": -0.1520577073097229
+    },
+    {
+      "mesh_id": "Homo_98191_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.533607542514801,
+      "PC2_SD": 2.171699285507202,
+      "PC3_SD": 1.4882025718688965,
+      "PC4_SD": -0.05494418367743492
+    },
+    {
+      "mesh_id": "Homo_98193_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.41298767924308777,
+      "PC2_SD": 2.024602174758911,
+      "PC3_SD": 0.5906726121902466,
+      "PC4_SD": 0.29711291193962097
+    },
+    {
+      "mesh_id": "Homo_98206_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.5045414566993713,
+      "PC2_SD": 2.9689059257507324,
+      "PC3_SD": 1.2526476383209229,
+      "PC4_SD": 0.42453721165657043
+    },
+    {
+      "mesh_id": "Homo_98210_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.49696141481399536,
+      "PC2_SD": 2.7441442012786865,
+      "PC3_SD": 1.096191167831421,
+      "PC4_SD": -0.018291553482413292
+    },
+    {
+      "mesh_id": "Homo_98227_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.8217324018478394,
+      "PC2_SD": 2.295926809310913,
+      "PC3_SD": 0.7288686633110046,
+      "PC4_SD": -0.4319080710411072
+    },
+    {
+      "mesh_id": "Homo_98271_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.07229334861040115,
+      "PC2_SD": 1.760236144065857,
+      "PC3_SD": 1.1642131805419922,
+      "PC4_SD": 0.005127689801156521
+    },
+    {
+      "mesh_id": "Homo_98305_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.5475306510925293,
+      "PC2_SD": 3.2084171772003174,
+      "PC3_SD": 0.6635320782661438,
+      "PC4_SD": -0.11628970503807068
+    },
+    {
+      "mesh_id": "Homo_98316_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.5096840262413025,
+      "PC2_SD": 2.6945831775665283,
+      "PC3_SD": 1.4068708419799805,
+      "PC4_SD": -0.3450893461704254
+    },
+    {
+      "mesh_id": "Homo_98319_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.772318422794342,
+      "PC2_SD": 1.8264378309249878,
+      "PC3_SD": 1.5481704473495483,
+      "PC4_SD": -0.6435885429382324
+    },
+    {
+      "mesh_id": "Homo_98339_CUB",
+      "partition": "Tuning",
+      "PC1_SD": 0.4257815480232239,
+      "PC2_SD": 2.442241907119751,
+      "PC3_SD": 0.7616703510284424,
+      "PC4_SD": 0.4898736774921417
+    },
+    {
+      "mesh_id": "Homo_98375_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.6128748655319214,
+      "PC2_SD": 2.828733444213867,
+      "PC3_SD": 1.4949170351028442,
+      "PC4_SD": -0.25174814462661743
+    },
+    {
+      "mesh_id": "Homo_9858_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.28036466240882874,
+      "PC2_SD": 3.1504974365234375,
+      "PC3_SD": 1.1145933866500854,
+      "PC4_SD": 0.5096938610076904
+    },
+    {
+      "mesh_id": "Homo_9859_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.42570871114730835,
+      "PC2_SD": 2.6221694946289062,
+      "PC3_SD": 1.5575331449508667,
+      "PC4_SD": -0.18941403925418854
+    },
+    {
+      "mesh_id": "Homo_9863_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.42182251811027527,
+      "PC2_SD": 2.307203531265259,
+      "PC3_SD": 0.7670828104019165,
+      "PC4_SD": -0.09410154819488525
+    },
+    {
+      "mesh_id": "Homo_9864_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.1527246236801147,
+      "PC2_SD": 2.445469617843628,
+      "PC3_SD": 1.8836212158203125,
+      "PC4_SD": -0.32664167881011963
+    },
+    {
+      "mesh_id": "Homo_9866_CUB",
+      "partition": "Tuning",
+      "PC1_SD": 0.9505608677864075,
+      "PC2_SD": 2.265094518661499,
+      "PC3_SD": 1.7882367372512817,
+      "PC4_SD": -0.01730538159608841
+    },
+    {
+      "mesh_id": "Homo_9871_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.24144859611988068,
+      "PC2_SD": 2.193307638168335,
+      "PC3_SD": 0.740605354309082,
+      "PC4_SD": 0.04491902515292168
+    },
+    {
+      "mesh_id": "Homo_9872_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.4065048396587372,
+      "PC2_SD": 1.9611579179763794,
+      "PC3_SD": 0.6359656453132629,
+      "PC4_SD": -0.6025129556655884
+    },
+    {
+      "mesh_id": "Homo_9885_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.49642688035964966,
+      "PC2_SD": 2.913182020187378,
+      "PC3_SD": 1.3474704027175903,
+      "PC4_SD": -0.1699904352426529
+    },
+    {
+      "mesh_id": "Homo_9888_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.29774925112724304,
+      "PC2_SD": 2.7652056217193604,
+      "PC3_SD": 1.4488763809204102,
+      "PC4_SD": -0.39876943826675415
+    },
+    {
+      "mesh_id": "Homo_9895_CUB",
+      "partition": "Tuning",
+      "PC1_SD": 0.5515885353088379,
+      "PC2_SD": 2.599641799926758,
+      "PC3_SD": 1.2173248529434204,
+      "PC4_SD": -0.44314125180244446
+    },
+    {
+      "mesh_id": "Homo_9899_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.6490005850791931,
+      "PC2_SD": 2.375159502029419,
+      "PC3_SD": 0.8815401792526245,
+      "PC4_SD": 0.23917730152606964
+    },
+    {
+      "mesh_id": "Hylobates_112721_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -0.74116450548172,
+      "PC2_SD": 0.8039692044258118,
+      "PC3_SD": -1.4931604862213135,
+      "PC4_SD": 0.40263164043426514
+    },
+    {
+      "mesh_id": "Hylobates_41424_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.46045708656311035,
+      "PC2_SD": 0.48165395855903625,
+      "PC3_SD": -1.7840758562088013,
+      "PC4_SD": 1.5210082530975342
+    },
+    {
+      "mesh_id": "Hylobates_87253_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.07784140855073929,
+      "PC2_SD": 0.5448080897331238,
+      "PC3_SD": -1.1130012273788452,
+      "PC4_SD": 0.8837263584136963
+    },
+    {
+      "mesh_id": "Hylobates_agilis_103664_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.0198289193212986,
+      "PC2_SD": 0.21758148074150085,
+      "PC3_SD": -1.649221420288086,
+      "PC4_SD": 0.7328701019287109
+    },
+    {
+      "mesh_id": "Hylobates_agilis_103665_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -0.473289430141449,
+      "PC2_SD": 0.3815707564353943,
+      "PC3_SD": -1.9161443710327148,
+      "PC4_SD": 0.9794372320175171
+    },
+    {
+      "mesh_id": "Hylobates_agilis_103667_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.05246695503592491,
+      "PC2_SD": 0.2667946219444275,
+      "PC3_SD": -1.8153489828109741,
+      "PC4_SD": 1.1123610734939575
+    },
+    {
+      "mesh_id": "Hylobates_agilis_106575_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.22139346599578857,
+      "PC2_SD": 0.33445224165916443,
+      "PC3_SD": -1.2812707424163818,
+      "PC4_SD": 0.5957098007202148
+    },
+    {
+      "mesh_id": "Hylobates_concolor_gabriellae_87252_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.48032575845718384,
+      "PC2_SD": 0.4057823717594147,
+      "PC3_SD": -1.7322840690612793,
+      "PC4_SD": 0.8108346462249756
+    },
+    {
+      "mesh_id": "Hylobates_hoolock_80068_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.1425832360982895,
+      "PC2_SD": 0.2262498289346695,
+      "PC3_SD": -0.9104693531990051,
+      "PC4_SD": -0.48818132281303406
+    },
+    {
+      "mesh_id": "Hylobates_hoolock_83420_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -0.2881479263305664,
+      "PC2_SD": 0.40273892879486084,
+      "PC3_SD": -0.8336855173110962,
+      "PC4_SD": -0.4436211884021759
+    },
+    {
+      "mesh_id": "Hylobates_hoolock_83425_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.4821346402168274,
+      "PC2_SD": 0.15693368017673492,
+      "PC3_SD": -0.6933570504188538,
+      "PC4_SD": 0.3144415020942688
+    },
+    {
+      "mesh_id": "Hylobates_hoolock_83427_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -0.2533301115036011,
+      "PC2_SD": 0.004087178502231836,
+      "PC3_SD": -0.5488246083259583,
+      "PC4_SD": -0.5638458132743835
+    },
+    {
+      "mesh_id": "Hylobates_klossi_103344_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.029722929000854492,
+      "PC2_SD": 0.027849311009049416,
+      "PC3_SD": -1.3878870010375977,
+      "PC4_SD": 1.1818187236785889
+    },
+    {
+      "mesh_id": "Hylobates_klossi_103345_CUB",
+      "partition": "Tuning",
+      "PC1_SD": 0.2088569700717926,
+      "PC2_SD": 0.26303499937057495,
+      "PC3_SD": -1.4572563171386719,
+      "PC4_SD": 1.2547852993011475
+    },
+    {
+      "mesh_id": "Hylobates_klossi_103347_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.27178746461868286,
+      "PC2_SD": 0.7519940137863159,
+      "PC3_SD": -1.1048675775527954,
+      "PC4_SD": 0.9602106809616089
+    },
+    {
+      "mesh_id": "Hylobates_lar_37385_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.4699449837207794,
+      "PC2_SD": 0.6342207193374634,
+      "PC3_SD": -1.886407732963562,
+      "PC4_SD": 1.9988799095153809
+    },
+    {
+      "mesh_id": "Hylobates_lar_41417_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.5432088375091553,
+      "PC2_SD": 0.9956022500991821,
+      "PC3_SD": -2.087956428527832,
+      "PC4_SD": 1.3717337846755981
+    },
+    {
+      "mesh_id": "Hylobates_lar_41427_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.5509653687477112,
+      "PC2_SD": 0.7254305481910706,
+      "PC3_SD": -2.613945722579956,
+      "PC4_SD": 2.0767767429351807
+    },
+    {
+      "mesh_id": "Hylobates_lar_41445_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.34798938035964966,
+      "PC2_SD": 0.9926201105117798,
+      "PC3_SD": -2.415076494216919,
+      "PC4_SD": 1.3509706258773804
+    },
+    {
+      "mesh_id": "Hylobates_lar_41447_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.552236020565033,
+      "PC2_SD": 0.7707881927490234,
+      "PC3_SD": -2.4104981422424316,
+      "PC4_SD": 1.2834548950195312
+    },
+    {
+      "mesh_id": "Hylobates_lar_41449_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.39593830704689026,
+      "PC2_SD": 0.4242039620876312,
+      "PC3_SD": -1.5459522008895874,
+      "PC4_SD": 0.996318519115448
+    },
+    {
+      "mesh_id": "Hylobates_lar_41451_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.4851016104221344,
+      "PC2_SD": 0.5408953428268433,
+      "PC3_SD": -2.3039157390594482,
+      "PC4_SD": 1.9348034858703613
+    },
+    {
+      "mesh_id": "Hylobates_lar_41453_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -0.34565016627311707,
+      "PC2_SD": 0.7310652136802673,
+      "PC3_SD": -1.893035888671875,
+      "PC4_SD": 1.1973141431808472
+    },
+    {
+      "mesh_id": "Hylobates_lar_41454_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.1223059892654419,
+      "PC2_SD": 0.6013704538345337,
+      "PC3_SD": -1.6232794523239136,
+      "PC4_SD": 1.1882421970367432
+    },
+    {
+      "mesh_id": "Hylobates_lar_41458_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -0.3939589262008667,
+      "PC2_SD": 0.6985926032066345,
+      "PC3_SD": -2.0206313133239746,
+      "PC4_SD": 1.3551186323165894
+    },
+    {
+      "mesh_id": "Hylobates_lar_41459_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.38583317399024963,
+      "PC2_SD": 0.7387414574623108,
+      "PC3_SD": -2.2255775928497314,
+      "PC4_SD": 1.7274198532104492
+    },
+    {
+      "mesh_id": "Hylobates_lar_41463_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.1410980522632599,
+      "PC2_SD": 0.7325076460838318,
+      "PC3_SD": -1.7872270345687866,
+      "PC4_SD": 0.9666280746459961
+    },
+    {
+      "mesh_id": "Hylobates_lar_41465_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.3270666301250458,
+      "PC2_SD": 0.5287462472915649,
+      "PC3_SD": -2.3618922233581543,
+      "PC4_SD": 1.0071011781692505
+    },
+    {
+      "mesh_id": "Hylobates_lar_41472_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.21301719546318054,
+      "PC2_SD": 0.3990118205547333,
+      "PC3_SD": -1.838260293006897,
+      "PC4_SD": 1.264246940612793
+    },
+    {
+      "mesh_id": "Hylobates_lar_41532_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.111261285841465,
+      "PC2_SD": 0.3842025399208069,
+      "PC3_SD": -1.3236379623413086,
+      "PC4_SD": 0.977258563041687
+    },
+    {
+      "mesh_id": "Hylobates_lar_41565_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.5897732377052307,
+      "PC2_SD": 0.7374030947685242,
+      "PC3_SD": -1.9510822296142578,
+      "PC4_SD": 1.5847724676132202
+    },
+    {
+      "mesh_id": "Hylobates_lar_MCZ_35950_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.01621674932539463,
+      "PC2_SD": 0.7019055485725403,
+      "PC3_SD": -1.794960379600525,
+      "PC4_SD": 0.9128118753433228
+    },
+    {
+      "mesh_id": "Hylobates_lar_MCZ_41456_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.42153221368789673,
+      "PC2_SD": 0.8437435030937195,
+      "PC3_SD": -1.9627310037612915,
+      "PC4_SD": 1.5613888502120972
+    },
+    {
+      "mesh_id": "Hylobates_moloch_200853_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.1469467580318451,
+      "PC2_SD": 0.3293401598930359,
+      "PC3_SD": -1.7827872037887573,
+      "PC4_SD": 1.6668013334274292
+    },
+    {
+      "mesh_id": "Hylobates_pileatus_140230_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.7475541830062866,
+      "PC2_SD": 0.39536669850349426,
+      "PC3_SD": -1.4466196298599243,
+      "PC4_SD": 0.738733172416687
+    },
+    {
+      "mesh_id": "Lagothrix_lagortricha_201310_CUB",
+      "partition": "Training",
+      "PC1_SD": -1.1145771741867065,
+      "PC2_SD": -0.6266767978668213,
+      "PC3_SD": 1.9932048320770264,
+      "PC4_SD": 1.182161808013916
+    },
+    {
+      "mesh_id": "Lagothrix_lagotricha_188150_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -0.8093178272247314,
+      "PC2_SD": -1.001068115234375,
+      "PC3_SD": 2.3491060733795166,
+      "PC4_SD": 1.6717991828918457
+    },
+    {
+      "mesh_id": "Lophocebus_albigena_14018_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.4135008454322815,
+      "PC2_SD": 0.15997450053691864,
+      "PC3_SD": 0.21882593631744385,
+      "PC4_SD": -1.2336376905441284
+    },
+    {
+      "mesh_id": "Lophocebus_albigena_52598_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.944338321685791,
+      "PC2_SD": 0.5320563912391663,
+      "PC3_SD": -0.3588019013404846,
+      "PC4_SD": -0.49217644333839417
+    },
+    {
+      "mesh_id": "Lophocebus_albigena_52603_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.3861561417579651,
+      "PC2_SD": 0.09623613953590393,
+      "PC3_SD": -0.2373329997062683,
+      "PC4_SD": -0.9190797805786133
+    },
+    {
+      "mesh_id": "Lophocebus_albigena_86705_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -0.8979083895683289,
+      "PC2_SD": 0.023849783465266228,
+      "PC3_SD": -0.5010764598846436,
+      "PC4_SD": -0.606220543384552
+    },
+    {
+      "mesh_id": "Macaca_Fasicularis_185134_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -1.1924681663513184,
+      "PC2_SD": 0.053234122693538666,
+      "PC3_SD": -0.7433229088783264,
+      "PC4_SD": -0.019885966554284096
+    },
+    {
+      "mesh_id": "Macaca_fascicularis_103661_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.6044546365737915,
+      "PC2_SD": 0.25134798884391785,
+      "PC3_SD": -0.8055593967437744,
+      "PC4_SD": -0.13936863839626312
+    },
+    {
+      "mesh_id": "Macaca_fascicularis_35613_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.697504997253418,
+      "PC2_SD": -0.36625444889068604,
+      "PC3_SD": -0.2804919183254242,
+      "PC4_SD": -0.21329465508460999
+    },
+    {
+      "mesh_id": "Macaca_fascicularis_35677_CUB",
+      "partition": "Training",
+      "PC1_SD": -1.2543355226516724,
+      "PC2_SD": -0.24512125551700592,
+      "PC3_SD": -0.596588671207428,
+      "PC4_SD": -0.060557231307029724
+    },
+    {
+      "mesh_id": "Macaca_fuscata_201285_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.957647442817688,
+      "PC2_SD": -0.17612779140472412,
+      "PC3_SD": -0.41814929246902466,
+      "PC4_SD": -0.07846181839704514
+    },
+    {
+      "mesh_id": "Macaca_fuscata_356407_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.8179543018341064,
+      "PC2_SD": -0.14763876795768738,
+      "PC3_SD": 0.05880369991064072,
+      "PC4_SD": -0.33075833320617676
+    },
+    {
+      "mesh_id": "Macaca_mulatta_221_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -0.8721598386764526,
+      "PC2_SD": -0.38671913743019104,
+      "PC3_SD": -0.1130259707570076,
+      "PC4_SD": -0.833928108215332
+    },
+    {
+      "mesh_id": "Macaca_mulatta_323_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.6794885396957397,
+      "PC2_SD": -0.8840938210487366,
+      "PC3_SD": 0.7056833505630493,
+      "PC4_SD": -1.5886493921279907
+    },
+    {
+      "mesh_id": "Macaca_mulatta_495_CUB",
+      "partition": "Training",
+      "PC1_SD": -1.017913579940796,
+      "PC2_SD": -0.5729862451553345,
+      "PC3_SD": -0.21805129945278168,
+      "PC4_SD": -1.1468251943588257
+    },
+    {
+      "mesh_id": "Macaca_mulatta_551_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.9340676069259644,
+      "PC2_SD": -0.2909461557865143,
+      "PC3_SD": -0.04795118048787117,
+      "PC4_SD": -1.2840685844421387
+    },
+    {
+      "mesh_id": "Macaca_nemestrina_106563_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.7711622714996338,
+      "PC2_SD": -0.4270952641963959,
+      "PC3_SD": -0.03454221040010452,
+      "PC4_SD": -0.44627630710601807
+    },
+    {
+      "mesh_id": "Macaca_nemestrina_11091_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.8117688894271851,
+      "PC2_SD": 0.23201203346252441,
+      "PC3_SD": -0.5909070372581482,
+      "PC4_SD": -0.46581965684890747
+    },
+    {
+      "mesh_id": "Macaca_nemistrina_106564_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.6619645953178406,
+      "PC2_SD": 0.3645097613334656,
+      "PC3_SD": -0.8094114065170288,
+      "PC4_SD": -0.22175747156143188
+    },
+    {
+      "mesh_id": "Macaca_nemistrina_119514_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.8236442804336548,
+      "PC2_SD": -0.33144956827163696,
+      "PC3_SD": -0.6561722755432129,
+      "PC4_SD": -1.0314403772354126
+    },
+    {
+      "mesh_id": "Macaca_nemistrina_12795_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -0.837925374507904,
+      "PC2_SD": 0.07742365449666977,
+      "PC3_SD": -0.5167121887207031,
+      "PC4_SD": -0.621326744556427
+    },
+    {
+      "mesh_id": "Macaca_thibetana_60160_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.13123366236686707,
+      "PC2_SD": -0.5785770416259766,
+      "PC3_SD": -0.21411123871803284,
+      "PC4_SD": -1.2715086936950684
+    },
+    {
+      "mesh_id": "Macaca_tonkeana_152905_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.5118857622146606,
+      "PC2_SD": -0.6139044761657715,
+      "PC3_SD": -0.31838953495025635,
+      "PC4_SD": -1.7090251445770264
+    },
+    {
+      "mesh_id": "Macaca_tonkeana_152906_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.45275700092315674,
+      "PC2_SD": -0.30691808462142944,
+      "PC3_SD": -0.018021235242486,
+      "PC4_SD": -1.1982208490371704
+    },
+    {
+      "mesh_id": "Macaca_tonkeana_152907_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -0.6085754632949829,
+      "PC2_SD": -0.23726579546928406,
+      "PC3_SD": -0.8660438060760498,
+      "PC4_SD": -0.5174389481544495
+    },
+    {
+      "mesh_id": "Macaca_tonkeana_153401_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.8798502683639526,
+      "PC2_SD": -0.7337395548820496,
+      "PC3_SD": 0.5591249465942383,
+      "PC4_SD": 0.1385437250137329
+    },
+    {
+      "mesh_id": "Macaca_tonkeana_35102_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.8984296917915344,
+      "PC2_SD": -0.5153946280479431,
+      "PC3_SD": 0.20197302103042603,
+      "PC4_SD": -0.7987241744995117
+    },
+    {
+      "mesh_id": "Nasalis_larvatus_103670_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -0.4006153345108032,
+      "PC2_SD": -0.8339644074440002,
+      "PC3_SD": -0.4074270725250244,
+      "PC4_SD": -0.527044415473938
+    },
+    {
+      "mesh_id": "Nasalis_larvatus_103671_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.4592970013618469,
+      "PC2_SD": -0.5399033427238464,
+      "PC3_SD": -0.16005580127239227,
+      "PC4_SD": -1.0414425134658813
+    },
+    {
+      "mesh_id": "Nasalis_larvatus_106272_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.33978143334388733,
+      "PC2_SD": -0.35173499584198,
+      "PC3_SD": -0.4903598725795746,
+      "PC4_SD": -0.6570618748664856
+    },
+    {
+      "mesh_id": "Nasalis_larvatus_106273_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.013890327885746956,
+      "PC2_SD": -0.21118144690990448,
+      "PC3_SD": 0.07064390927553177,
+      "PC4_SD": -0.7230398058891296
+    },
+    {
+      "mesh_id": "Nasalis_larvatus_106275_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.038566943258047104,
+      "PC2_SD": -0.8259212970733643,
+      "PC3_SD": -0.25416672229766846,
+      "PC4_SD": -0.919786274433136
+    },
+    {
+      "mesh_id": "Nasalis_larvatus_21747_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.6520746946334839,
+      "PC2_SD": -0.4479277431964874,
+      "PC3_SD": -0.6585456728935242,
+      "PC4_SD": -0.18327690660953522
+    },
+    {
+      "mesh_id": "Nasalis_larvatus_21748_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.3453643023967743,
+      "PC2_SD": -0.5179592967033386,
+      "PC3_SD": -0.3708391785621643,
+      "PC4_SD": -0.8270016312599182
+    },
+    {
+      "mesh_id": "Nasalis_larvatus_28255_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -0.3713702857494354,
+      "PC2_SD": -0.06888087838888168,
+      "PC3_SD": -0.7504588961601257,
+      "PC4_SD": -0.08964853733778
+    },
+    {
+      "mesh_id": "Nasalis_larvatus_37343_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.520849883556366,
+      "PC2_SD": -0.4891516864299774,
+      "PC3_SD": -0.4486122131347656,
+      "PC4_SD": 0.01388776209205389
+    },
+    {
+      "mesh_id": "Nasalis_larvatus_41557_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.11039332300424576,
+      "PC2_SD": -0.14463262259960175,
+      "PC3_SD": -0.1961487978696823,
+      "PC4_SD": -0.5752103328704834
+    },
+    {
+      "mesh_id": "Nasalis_larvatus_41559_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.45464611053466797,
+      "PC2_SD": -0.28812599182128906,
+      "PC3_SD": -0.7906007766723633,
+      "PC4_SD": -0.3372439742088318
+    },
+    {
+      "mesh_id": "Nasalis_larvatus_41561_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.10217343270778656,
+      "PC2_SD": -0.6284934282302856,
+      "PC3_SD": 0.10286176204681396,
+      "PC4_SD": -0.88522869348526
+    },
+    {
+      "mesh_id": "Nasalis_larvatus_41562_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.5538486242294312,
+      "PC2_SD": -0.6730826497077942,
+      "PC3_SD": -0.4566787779331207,
+      "PC4_SD": -0.4370690584182739
+    },
+    {
+      "mesh_id": "Pan_10736_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.582322359085083,
+      "PC2_SD": -0.8663032650947571,
+      "PC3_SD": -0.21123263239860535,
+      "PC4_SD": 1.4719045162200928
+    },
+    {
+      "mesh_id": "Pan_15312_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.3062238693237305,
+      "PC2_SD": -0.03452466055750847,
+      "PC3_SD": -0.4349096119403839,
+      "PC4_SD": 1.2980566024780273
+    },
+    {
+      "mesh_id": "Pan_167344_CUB",
+      "partition": "Tuning",
+      "PC1_SD": 2.0638375282287598,
+      "PC2_SD": -0.6919490694999695,
+      "PC3_SD": -0.0667218267917633,
+      "PC4_SD": 0.8214590549468994
+    },
+    {
+      "mesh_id": "Pan_167346_CUB",
+      "partition": "Tuning",
+      "PC1_SD": 2.1846866607666016,
+      "PC2_SD": -0.1995268315076828,
+      "PC3_SD": -0.11516272276639938,
+      "PC4_SD": 0.2351725995540619
+    },
+    {
+      "mesh_id": "Pan_174860_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.8388245105743408,
+      "PC2_SD": -0.27512866258621216,
+      "PC3_SD": 0.005091051571071148,
+      "PC4_SD": 0.7792233228683472
+    },
+    {
+      "mesh_id": "Pan_174861_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.793837070465088,
+      "PC2_SD": -0.3491092026233673,
+      "PC3_SD": -0.34011074900627136,
+      "PC4_SD": 0.869593620300293
+    },
+    {
+      "mesh_id": "Pan_20041_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.462316870689392,
+      "PC2_SD": -0.28756412863731384,
+      "PC3_SD": -0.1955883651971817,
+      "PC4_SD": 1.222197413444519
+    },
+    {
+      "mesh_id": "Pan_26847_CUB",
+      "partition": "Tuning",
+      "PC1_SD": 2.022313356399536,
+      "PC2_SD": -0.7144891023635864,
+      "PC3_SD": 0.2616654932498932,
+      "PC4_SD": 0.6789865493774414
+    },
+    {
+      "mesh_id": "Pan_26849_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.8465149402618408,
+      "PC2_SD": -0.5820809602737427,
+      "PC3_SD": -0.11368668079376221,
+      "PC4_SD": 0.20190192759037018
+    },
+    {
+      "mesh_id": "Pan_48686_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.780836582183838,
+      "PC2_SD": -0.3324006497859955,
+      "PC3_SD": -0.3074862062931061,
+      "PC4_SD": 1.2025195360183716
+    },
+    {
+      "mesh_id": "Pan_51278_CUB",
+      "partition": "Training",
+      "PC1_SD": 2.1668026447296143,
+      "PC2_SD": -0.33483096957206726,
+      "PC3_SD": 0.1116696149110794,
+      "PC4_SD": 0.10303167998790741
+    },
+    {
+      "mesh_id": "Pan_51393_CUB",
+      "partition": "Tuning",
+      "PC1_SD": 1.6702989339828491,
+      "PC2_SD": -0.8221123218536377,
+      "PC3_SD": 0.10442743450403214,
+      "PC4_SD": 0.512282133102417
+    },
+    {
+      "mesh_id": "Pan_51394_CUB",
+      "partition": "Training",
+      "PC1_SD": 2.0375986099243164,
+      "PC2_SD": -0.907529354095459,
+      "PC3_SD": -0.2923656404018402,
+      "PC4_SD": 0.8183070421218872
+    },
+    {
+      "mesh_id": "Pan_89351_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.3880051374435425,
+      "PC2_SD": -0.9818223118782043,
+      "PC3_SD": -0.24080246686935425,
+      "PC4_SD": 1.515143871307373
+    },
+    {
+      "mesh_id": "Pan_89353_CUB",
+      "partition": "Tuning",
+      "PC1_SD": 1.3589681386947632,
+      "PC2_SD": -0.6187441349029541,
+      "PC3_SD": -0.5066371560096741,
+      "PC4_SD": 1.8675312995910645
+    },
+    {
+      "mesh_id": "Pan_89426_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.5842479467391968,
+      "PC2_SD": -0.7628942728042603,
+      "PC3_SD": 0.3362307548522949,
+      "PC4_SD": 1.0607168674468994
+    },
+    {
+      "mesh_id": "Pan_90191_CUB",
+      "partition": "Training",
+      "PC1_SD": 2.20660662651062,
+      "PC2_SD": -0.5225583910942078,
+      "PC3_SD": 0.2561701238155365,
+      "PC4_SD": 0.15378588438034058
+    },
+    {
+      "mesh_id": "Pan_paniscus_38020_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.455328106880188,
+      "PC2_SD": -0.15169817209243774,
+      "PC3_SD": -0.0753171294927597,
+      "PC4_SD": 0.24133582413196564
+    },
+    {
+      "mesh_id": "Pan_troglodytes_10276_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.27289617061615,
+      "PC2_SD": -0.10539628565311432,
+      "PC3_SD": -0.25181514024734497,
+      "PC4_SD": 1.8421152830123901
+    },
+    {
+      "mesh_id": "Pan_troglodytes_167343_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.5922433137893677,
+      "PC2_SD": -0.04447313770651817,
+      "PC3_SD": 0.721725583076477,
+      "PC4_SD": 0.20352843403816223
+    },
+    {
+      "mesh_id": "Pan_troglodytes_201588_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.7591302394866943,
+      "PC2_SD": -0.46926501393318176,
+      "PC3_SD": 0.13522998988628387,
+      "PC4_SD": 0.7748250961303711
+    },
+    {
+      "mesh_id": "Pan_troglodytes_51205_CUB",
+      "partition": "Training",
+      "PC1_SD": 2.1521413326263428,
+      "PC2_SD": -0.47847452759742737,
+      "PC3_SD": -0.011065928265452385,
+      "PC4_SD": -0.12565523386001587
+    },
+    {
+      "mesh_id": "Pan_troglodytes_51376_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.8944991827011108,
+      "PC2_SD": -0.2975403666496277,
+      "PC3_SD": -0.14714480936527252,
+      "PC4_SD": 0.5563105940818787
+    },
+    {
+      "mesh_id": "Pan_troglodytes_51381_CUB",
+      "partition": "Training",
+      "PC1_SD": 2.105938673019409,
+      "PC2_SD": -0.6929180026054382,
+      "PC3_SD": -0.22340399026870728,
+      "PC4_SD": -0.20804168283939362
+    },
+    {
+      "mesh_id": "Pan_troglodytes_54330_CUB",
+      "partition": "Training",
+      "PC1_SD": 2.039524793624878,
+      "PC2_SD": -0.4244166910648346,
+      "PC3_SD": -0.7026110291481018,
+      "PC4_SD": 0.2036961168050766
+    },
+    {
+      "mesh_id": "Pan_troglodytes_89406_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.3370907306671143,
+      "PC2_SD": -0.4407208561897278,
+      "PC3_SD": -0.451311856508255,
+      "PC4_SD": 1.3907684087753296
+    },
+    {
+      "mesh_id": "Papio_anubis_51380_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -0.44148173928260803,
+      "PC2_SD": 0.04839443787932396,
+      "PC3_SD": 0.23081615567207336,
+      "PC4_SD": -1.0499430894851685
+    },
+    {
+      "mesh_id": "Papio_anubis_52668_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.38441258668899536,
+      "PC2_SD": -0.03609612211585045,
+      "PC3_SD": 0.21573182940483093,
+      "PC4_SD": -0.9158449769020081
+    },
+    {
+      "mesh_id": "Papio_cynocephalus_80796_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.2950688898563385,
+      "PC2_SD": 0.12798215448856354,
+      "PC3_SD": -0.09498281031847,
+      "PC4_SD": -0.8035014867782593
+    },
+    {
+      "mesh_id": "Papio_hamadryas_120388_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -0.21873800456523895,
+      "PC2_SD": -0.26749491691589355,
+      "PC3_SD": 0.2387787103652954,
+      "PC4_SD": -1.2155944108963013
+    },
+    {
+      "mesh_id": "Papio_hamadryas_200847_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.6429527997970581,
+      "PC2_SD": -0.595464289188385,
+      "PC3_SD": -0.18868890404701233,
+      "PC4_SD": -0.6246476173400879
+    },
+    {
+      "mesh_id": "Papio_hamadryas_82096_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.16892573237419128,
+      "PC2_SD": 0.034137628972530365,
+      "PC3_SD": 0.5165128707885742,
+      "PC4_SD": -1.336308479309082
+    },
+    {
+      "mesh_id": "Papio_ursinus_216249_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.4335896670818329,
+      "PC2_SD": 0.04445003718137741,
+      "PC3_SD": 0.20929160714149475,
+      "PC4_SD": -1.2257328033447266
+    },
+    {
+      "mesh_id": "Papio_ursinus_216250_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.8567097187042236,
+      "PC2_SD": 0.08066918700933456,
+      "PC3_SD": -0.1958867311477661,
+      "PC4_SD": -0.9685259461402893
+    },
+    {
+      "mesh_id": "Papio_ursinus_216251_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.42482614517211914,
+      "PC2_SD": 0.13899345695972443,
+      "PC3_SD": -0.008837460540235043,
+      "PC4_SD": -0.988655686378479
+    },
+    {
+      "mesh_id": "Papio_ursinus_42384_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -0.46339768171310425,
+      "PC2_SD": -0.6621946096420288,
+      "PC3_SD": 0.005114987026900053,
+      "PC4_SD": -0.784440279006958
+    },
+    {
+      "mesh_id": "Papio_ursinus_42387_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.6487206816673279,
+      "PC2_SD": -0.33015957474708557,
+      "PC3_SD": 0.05480470508337021,
+      "PC4_SD": -0.9949172139167786
+    },
+    {
+      "mesh_id": "Papio_ursinus_SBU_B_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.7257105708122253,
+      "PC2_SD": -0.2878953516483307,
+      "PC3_SD": 0.2502642571926117,
+      "PC4_SD": -0.865362286567688
+    },
+    {
+      "mesh_id": "Pithecia_monachus_187978_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -0.7615107297897339,
+      "PC2_SD": -0.36364248394966125,
+      "PC3_SD": 0.4906396269798279,
+      "PC4_SD": 0.3169178366661072
+    },
+    {
+      "mesh_id": "Pithecia_monachus_207701_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.8780390024185181,
+      "PC2_SD": 0.002975261537358165,
+      "PC3_SD": -0.6792117953300476,
+      "PC4_SD": 0.8331215381622314
+    },
+    {
+      "mesh_id": "Pithecia_pithecia_202373_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.8390236496925354,
+      "PC2_SD": -0.650784969329834,
+      "PC3_SD": 0.024836521595716476,
+      "PC4_SD": 0.35374537110328674
+    },
+    {
+      "mesh_id": "Pithecia_pithecia_70377_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.7632049322128296,
+      "PC2_SD": -0.08593574911355972,
+      "PC3_SD": 0.028123335912823677,
+      "PC4_SD": 0.33701077103614807
+    },
+    {
+      "mesh_id": "Pongo_142169_CUB",
+      "partition": "Tuning",
+      "PC1_SD": 0.959129273891449,
+      "PC2_SD": -0.8323758840560913,
+      "PC3_SD": -0.3050634264945984,
+      "PC4_SD": -1.8895394802093506
+    },
+    {
+      "mesh_id": "Pongo_142170_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.1673461198806763,
+      "PC2_SD": -0.07296773046255112,
+      "PC3_SD": 0.10233941674232483,
+      "PC4_SD": -1.2735515832901
+    },
+    {
+      "mesh_id": "Pongo_143588_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.9933441281318665,
+      "PC2_SD": -0.5301008224487305,
+      "PC3_SD": 0.19132040441036224,
+      "PC4_SD": -1.233923077583313
+    },
+    {
+      "mesh_id": "Pongo_143590_Cuboid_L",
+      "partition": "Training",
+      "PC1_SD": 1.2758758068084717,
+      "PC2_SD": -0.5314409136772156,
+      "PC3_SD": 0.7675172686576843,
+      "PC4_SD": -0.8614089488983154
+    },
+    {
+      "mesh_id": "Pongo_143596_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.1055580377578735,
+      "PC2_SD": -0.7962635159492493,
+      "PC3_SD": 1.0332931280136108,
+      "PC4_SD": -1.1150380373001099
+    },
+    {
+      "mesh_id": "Pongo_143597_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.575496256351471,
+      "PC2_SD": -0.3289283514022827,
+      "PC3_SD": -0.5683798789978027,
+      "PC4_SD": -0.5203247666358948
+    },
+    {
+      "mesh_id": "Pongo_143602_CUB",
+      "partition": "Tuning",
+      "PC1_SD": 0.8319668769836426,
+      "PC2_SD": -0.9267693161964417,
+      "PC3_SD": 0.017271608114242554,
+      "PC4_SD": -0.9851405024528503
+    },
+    {
+      "mesh_id": "Pongo_145300_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.894020676612854,
+      "PC2_SD": -0.8466700315475464,
+      "PC3_SD": 0.4298533499240875,
+      "PC4_SD": -2.1425940990448
+    },
+    {
+      "mesh_id": "Pongo_145301_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.5606666803359985,
+      "PC2_SD": -0.9223014712333679,
+      "PC3_SD": 0.5017074942588806,
+      "PC4_SD": -1.5386407375335693
+    },
+    {
+      "mesh_id": "Pongo_145302_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.6786925792694092,
+      "PC2_SD": -0.9039337635040283,
+      "PC3_SD": 0.42903146147727966,
+      "PC4_SD": -1.526438593864441
+    },
+    {
+      "mesh_id": "Pongo_145304_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.0937665700912476,
+      "PC2_SD": -0.9452645778656006,
+      "PC3_SD": 0.6672190427780151,
+      "PC4_SD": -1.5281462669372559
+    },
+    {
+      "mesh_id": "Pongo_145305_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.5693177580833435,
+      "PC2_SD": -1.0346719026565552,
+      "PC3_SD": -0.32829347252845764,
+      "PC4_SD": -1.6299512386322021
+    },
+    {
+      "mesh_id": "Pongo_145308_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.6934438347816467,
+      "PC2_SD": -0.5927907228469849,
+      "PC3_SD": 0.24888396263122559,
+      "PC4_SD": -1.543352723121643
+    },
+    {
+      "mesh_id": "Pongo_145309_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.7037535905838013,
+      "PC2_SD": -0.7876362800598145,
+      "PC3_SD": 0.024116508662700653,
+      "PC4_SD": -1.7070380449295044
+    },
+    {
+      "mesh_id": "Pongo_22937_CUB",
+      "partition": "Tuning",
+      "PC1_SD": 0.7077125310897827,
+      "PC2_SD": -0.9586934447288513,
+      "PC3_SD": 0.3744925260543823,
+      "PC4_SD": -1.598685622215271
+    },
+    {
+      "mesh_id": "Pongo_267325_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.0126328468322754,
+      "PC2_SD": -1.2365102767944336,
+      "PC3_SD": 0.03706394508481026,
+      "PC4_SD": -1.5589715242385864
+    },
+    {
+      "mesh_id": "Pongo_270807_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.6006938219070435,
+      "PC2_SD": -1.0691708326339722,
+      "PC3_SD": -0.07282457500696182,
+      "PC4_SD": -1.465229868888855
+    },
+    {
+      "mesh_id": "Pongo_37363_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.28562796115875244,
+      "PC2_SD": 0.036992397159338,
+      "PC3_SD": -0.8591610789299011,
+      "PC4_SD": -0.4008249342441559
+    },
+    {
+      "mesh_id": "Pongo_37365_CUB",
+      "partition": "Training",
+      "PC1_SD": 1.7084555625915527,
+      "PC2_SD": -0.9877786636352539,
+      "PC3_SD": 0.23802907764911652,
+      "PC4_SD": -1.9646838903427124
+    },
+    {
+      "mesh_id": "Pongo_50958_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.4877866804599762,
+      "PC2_SD": -0.9235301613807678,
+      "PC3_SD": -0.0634608194231987,
+      "PC4_SD": -0.9976991415023804
+    },
+    {
+      "mesh_id": "Pongo_50960_CUB",
+      "partition": "Tuning",
+      "PC1_SD": 1.0821380615234375,
+      "PC2_SD": -0.8370916843414307,
+      "PC3_SD": 0.014186989516019821,
+      "PC4_SD": -1.3320883512496948
+    },
+    {
+      "mesh_id": "Presbytis_aygula_106276_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.07198275625705719,
+      "PC2_SD": -0.2557663917541504,
+      "PC3_SD": -0.767932116985321,
+      "PC4_SD": -0.7032046914100647
+    },
+    {
+      "mesh_id": "Presbytis_cristatus_102461_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.5475517511367798,
+      "PC2_SD": 0.01978415995836258,
+      "PC3_SD": -0.6638309359550476,
+      "PC4_SD": -0.9278805255889893
+    },
+    {
+      "mesh_id": "Presbytis_cristatus_106596_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.5532780885696411,
+      "PC2_SD": 0.6855625510215759,
+      "PC3_SD": -0.9634711146354675,
+      "PC4_SD": 0.730779767036438
+    },
+    {
+      "mesh_id": "Presbytis_melalophos_106600_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.37596163153648376,
+      "PC2_SD": -0.4499671757221222,
+      "PC3_SD": -0.15860168635845184,
+      "PC4_SD": -0.9583438038825989
+    },
+    {
+      "mesh_id": "Presbytis_melalophos_106606_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.46634167432785034,
+      "PC2_SD": -0.26048001646995544,
+      "PC3_SD": -0.3441478908061981,
+      "PC4_SD": -0.9400386214256287
+    },
+    {
+      "mesh_id": "Presbytis_obscuros_112976_CUB",
+      "partition": "Training",
+      "PC1_SD": -1.079485297203064,
+      "PC2_SD": -0.03513628616929054,
+      "PC3_SD": -1.5977336168289185,
+      "PC4_SD": 0.37758782505989075
+    },
+    {
+      "mesh_id": "Presbytis_obscuros_112977_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.1965627819299698,
+      "PC2_SD": 0.03698653355240822,
+      "PC3_SD": -1.3507338762283325,
+      "PC4_SD": -0.4943937063217163
+    },
+    {
+      "mesh_id": "Presbytis_rubicunda_103639_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.5278638601303101,
+      "PC2_SD": -0.4168267250061035,
+      "PC3_SD": 0.18328596651554108,
+      "PC4_SD": -0.9890034198760986
+    },
+    {
+      "mesh_id": "Procolobus_badius_52278_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.8690602779388428,
+      "PC2_SD": -0.5506058931350708,
+      "PC3_SD": -0.2487363964319229,
+      "PC4_SD": -1.051627516746521
+    },
+    {
+      "mesh_id": "Procolobus_badius_52287_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -0.9797024726867676,
+      "PC2_SD": -0.2970445454120636,
+      "PC3_SD": -0.49004992842674255,
+      "PC4_SD": -1.1786952018737793
+    },
+    {
+      "mesh_id": "Procolobus_badius_54279_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.32320237159729004,
+      "PC2_SD": -0.49494314193725586,
+      "PC3_SD": -0.14642946422100067,
+      "PC4_SD": -0.8546483516693115
+    },
+    {
+      "mesh_id": "Pygathrix_nemaeus_87256_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.004715012386441231,
+      "PC2_SD": -0.3259744346141815,
+      "PC3_SD": -0.23622477054595947,
+      "PC4_SD": -0.7998489141464233
+    },
+    {
+      "mesh_id": "Pygathrix_nemaeus_87257_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.4977329671382904,
+      "PC2_SD": 0.5984249711036682,
+      "PC3_SD": -0.7381166815757751,
+      "PC4_SD": -0.6644954085350037
+    },
+    {
+      "mesh_id": "Rhinopithecus_roxellana_112976_CUB",
+      "partition": "Training",
+      "PC1_SD": -1.0237889289855957,
+      "PC2_SD": -0.04848853126168251,
+      "PC3_SD": -1.5395362377166748,
+      "PC4_SD": 0.28743866086006165
+    },
+    {
+      "mesh_id": "Rhinopithecus_roxellana_117413_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -0.7058922648429871,
+      "PC2_SD": -0.17636163532733917,
+      "PC3_SD": -0.11063297092914581,
+      "PC4_SD": -0.9212306141853333
+    },
+    {
+      "mesh_id": "Rhinopithecus_roxellana_117415_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.501413106918335,
+      "PC2_SD": -0.1684073507785797,
+      "PC3_SD": -0.09721163660287857,
+      "PC4_SD": -0.927274227142334
+    },
+    {
+      "mesh_id": "Rhinopithecus_roxellana_119648_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.6523414254188538,
+      "PC2_SD": 0.02801361493766308,
+      "PC3_SD": -0.11791963875293732,
+      "PC4_SD": -0.3824661672115326
+    },
+    {
+      "mesh_id": "Rhinopithecus_roxellana_119664_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.7892060875892639,
+      "PC2_SD": -0.035735663026571274,
+      "PC3_SD": -0.35818228125572205,
+      "PC4_SD": -1.0413845777511597
+    },
+    {
+      "mesh_id": "Saimiri_boliviensis_211637_CUB",
+      "partition": "Training",
+      "PC1_SD": -1.1685959100723267,
+      "PC2_SD": -0.679468035697937,
+      "PC3_SD": 0.0459686815738678,
+      "PC4_SD": 0.2798539400100708
+    },
+    {
+      "mesh_id": "Saimiri_boliviensis_211643_CUB",
+      "partition": "Training",
+      "PC1_SD": -1.088102102279663,
+      "PC2_SD": -0.08875846117734909,
+      "PC3_SD": 0.4252358675003052,
+      "PC4_SD": 0.4434950649738312
+    },
+    {
+      "mesh_id": "Saimiri_sciureus_188086_CUB",
+      "partition": "Training",
+      "PC1_SD": -1.523011326789856,
+      "PC2_SD": 0.7556390762329102,
+      "PC3_SD": 0.71861732006073,
+      "PC4_SD": 0.09976044297218323
+    },
+    {
+      "mesh_id": "Saimiri_sciureus_188089_CUB",
+      "partition": "Training",
+      "PC1_SD": -1.0819077491760254,
+      "PC2_SD": 0.3084864616394043,
+      "PC3_SD": 0.9639391303062439,
+      "PC4_SD": -0.33273938298225403
+    },
+    {
+      "mesh_id": "Saimiri_sciureus_188090_CUB",
+      "partition": "Tuning",
+      "PC1_SD": -1.201033592224121,
+      "PC2_SD": 0.32101961970329285,
+      "PC3_SD": 1.13489830493927,
+      "PC4_SD": 0.24425210058689117
+    },
+    {
+      "mesh_id": "Saimiri_sciureus_188093_CUB",
+      "partition": "Training",
+      "PC1_SD": -1.4813714027404785,
+      "PC2_SD": 1.0095466375350952,
+      "PC3_SD": 0.7847152352333069,
+      "PC4_SD": 0.6043999195098877
+    },
+    {
+      "mesh_id": "Symphalangus_syndactylus_106584_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.09767748415470123,
+      "PC2_SD": 0.8549225926399231,
+      "PC3_SD": -1.2747958898544312,
+      "PC4_SD": 0.19679182767868042
+    },
+    {
+      "mesh_id": "Symphalangus_syndactylus_237504_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.27334341406822205,
+      "PC2_SD": 0.35667091608047485,
+      "PC3_SD": -0.7254309058189392,
+      "PC4_SD": 0.31140217185020447
+    },
+    {
+      "mesh_id": "Fossil_Theropithecus_KNM_TH_46700_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.8048917055130005,
+      "PC2_SD": -0.32390138506889343,
+      "PC3_SD": -0.1465408056974411,
+      "PC4_SD": -0.930773913860321
+    },
+    {
+      "mesh_id": "Trachypithecus_johnii_21843_CUB",
+      "partition": "Training",
+      "PC1_SD": 0.1883576214313507,
+      "PC2_SD": -0.8298617005348206,
+      "PC3_SD": 0.09617176651954651,
+      "PC4_SD": -1.034437894821167
+    },
+    {
+      "mesh_id": "Trachypithecus_johnii_54760_CUB",
+      "partition": "Training",
+      "PC1_SD": -0.5306686758995056,
+      "PC2_SD": -0.22535724937915802,
+      "PC3_SD": -0.3187880218029022,
+      "PC4_SD": -0.9413771033287048
+    }
+  ],
+  "scalar": "signed_normal_displacement_pct_mean_bbox",
+  "interpolated": false
+}

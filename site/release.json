@@ -1,0 +1,326 @@
+{
+  "release": "current-models-2026-10-14",
+  "state": "review-grade-draft",
+  "score_download": false,
+  "browser_data_public": true,
+  "datasets": {
+    "cuboid": {
+      "epoch": 250,
+      "seed": 2071,
+      "geometry": {
+        "status": "complete",
+        "decoded_positions": 164,
+        "flagged_positions": 18,
+        "intersection_pairs": 64,
+        "near_zero_faces": 0,
+        "degenerate_faces": 0
+      },
+      "viewer": "cuboid/viewer/"
+    },
+    "hominoids": {
+      "epoch": 350,
+      "seed": 2071,
+      "geometry": {
+        "status": "complete",
+        "decoded_positions": 164,
+        "flagged_positions": 46,
+        "intersection_pairs": 399,
+        "near_zero_faces": 0,
+        "degenerate_faces": 0
+      },
+      "viewer": "hominoids/viewer/"
+    },
+    "mandible": {
+      "epoch": 350,
+      "seed": 2071,
+      "geometry": {
+        "status": "complete",
+        "decoded_positions": 164,
+        "flagged_positions": 0,
+        "intersection_pairs": 0,
+        "near_zero_faces": 0,
+        "degenerate_faces": 0
+      },
+      "viewer": "mandible/viewer/"
+    },
+    "humeri": {
+      "epoch": 350,
+      "seed": 2071,
+      "geometry": {
+        "status": "complete",
+        "decoded_positions": 164,
+        "flagged_positions": 0,
+        "intersection_pairs": 0,
+        "near_zero_faces": 0,
+        "degenerate_faces": 0
+      },
+      "viewer": "humeri/viewer/"
+    }
+  },
+  "files": {
+    ".nojekyll": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "cuboid/traversals/QA.txt": {
+      "sha256": "31bd3fa638622b159c39275c70d72e3ff2cfc89084e8017c02ef12a0092c8fc6",
+      "bytes": 695
+    },
+    "cuboid/traversals/caption.txt": {
+      "sha256": "0ddfaaa7b8322946b2249b729c7c400f0e987029710756149585f9657a986dad",
+      "bytes": 958
+    },
+    "cuboid/traversals/data/faces.u32": {
+      "sha256": "5be29703c8bb4563fe5142454ce449382475af536b285965f5c85a5452e82a7a",
+      "bytes": 287952
+    },
+    "cuboid/traversals/data/signed_pct.f32": {
+      "sha256": "5df5ab60fa9fa76b96d504855da72d07348d061d2123539dff0237461a457248",
+      "bytes": 7872000
+    },
+    "cuboid/traversals/data/vertices.f32": {
+      "sha256": "20a756a44f5698524230f70b35b0cd617a7b96a990ba18423e89fbf201d08aa5",
+      "bytes": 23616000
+    },
+    "cuboid/traversals/data.json": {
+      "sha256": "a7181d1812b029772c6f6b3f6a7866ee7dda2cc707e5ef56affc48edb52b016a",
+      "bytes": 115190
+    },
+    "cuboid/traversals/geometry.csv": {
+      "sha256": "531c19a448c507b361e9b3a5b5fc0b0d2b61c51f2248b32566c77336bc9f4579",
+      "bytes": 10217
+    },
+    "cuboid/traversals/provenance.json": {
+      "sha256": "71c433991cec95949daadab4828e74def5463a041659594a6bd50a778e49caf5",
+      "bytes": 1473
+    },
+    "cuboid/traversals/summary.json": {
+      "sha256": "56bd310fc76edb7f2806e8aca2b88527d98fcfd3a75c228aadf4f3933229eb9f",
+      "bytes": 159
+    },
+    "cuboid/viewer/index.html": {
+      "sha256": "e9130fa08d2c4a1377d3d159a3ecffc304602c946ae825523f397e59f96209ec",
+      "bytes": 5362
+    },
+    "cuboid/viewer/traversals.css": {
+      "sha256": "603bb8c9970acbd6a4b2d2acfb92a9b86bdec673572b3e58ef32d01c9d06bd3e",
+      "bytes": 6201
+    },
+    "cuboid/viewer/traversals.js": {
+      "sha256": "6d8f15cf7be67ea4a4f300c1d3377fe28a94e0e5d275ac5429aa545507ede2ac",
+      "bytes": 16417
+    },
+    "cuboid/viewer/vendor/controls/TrackballControls.js": {
+      "sha256": "413ed6a4fe187db7622717222318adba7c98866398aa3d49755ff1c01f5bcacc",
+      "bytes": 17409
+    },
+    "cuboid/viewer/vendor/lucide.LICENSE": {
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57",
+      "bytes": 3208
+    },
+    "cuboid/viewer/vendor/lucide.min.js": {
+      "sha256": "ab85225ecc1daa2033607856f03dd2dabcbc08e2d260a5b97e17c690aa929766",
+      "bytes": 397450
+    },
+    "cuboid/viewer/vendor/three.module.min.js": {
+      "sha256": "3e690ac7d180b0aadf0891bea39eec643e29e2d3e75c99b18689518665f69ba6",
+      "bytes": 670681
+    },
+    "hominoids/traversals/QA.txt": {
+      "sha256": "31bd3fa638622b159c39275c70d72e3ff2cfc89084e8017c02ef12a0092c8fc6",
+      "bytes": 695
+    },
+    "hominoids/traversals/caption.txt": {
+      "sha256": "63d547ac070816b7acbf6f5191828eb2e8fab9c69ad9e6922cd1a8f446a0395c",
+      "bytes": 954
+    },
+    "hominoids/traversals/data/faces.u32": {
+      "sha256": "d0dbe9401ae4e14d53ff39e1805cbc234d5187eaf024d0acd385afa82ffcfbf0",
+      "bytes": 287952
+    },
+    "hominoids/traversals/data/signed_pct.f32": {
+      "sha256": "1c2204fa77e72c608c2341624c95be3cecbb870efaa88908df500143048e71b5",
+      "bytes": 7872000
+    },
+    "hominoids/traversals/data/vertices.f32": {
+      "sha256": "8cac43e866f3ea0c8077a0bf8ffa1a5cc2730b176e6f44e00317a8a5fc95697f",
+      "bytes": 23616000
+    },
+    "hominoids/traversals/data.json": {
+      "sha256": "d9de35ce500049c5fc6d67a0eec6911ecf409597cbb8efb2166d6ffbf6eedfd1",
+      "bytes": 84460
+    },
+    "hominoids/traversals/geometry.csv": {
+      "sha256": "147803c55fccf0a806c65b036308e9e9bd8627ebaa8acfde6a2b4d1160164c6d",
+      "bytes": 10244
+    },
+    "hominoids/traversals/provenance.json": {
+      "sha256": "cb0a2bd75cc33c6d068283b21be410d0d85949d7ec3d6393a3139c588ce81a6a",
+      "bytes": 1461
+    },
+    "hominoids/traversals/summary.json": {
+      "sha256": "9df9743e2e8d4a8b9ac66371f7524892d39faf82af6e882d591e1652d5721bc6",
+      "bytes": 160
+    },
+    "hominoids/viewer/index.html": {
+      "sha256": "3d45d68920726ca95f83ba7953adadd6d7d6afa8360494048f6b49f57fa6b88f",
+      "bytes": 5376
+    },
+    "hominoids/viewer/traversals.css": {
+      "sha256": "603bb8c9970acbd6a4b2d2acfb92a9b86bdec673572b3e58ef32d01c9d06bd3e",
+      "bytes": 6201
+    },
+    "hominoids/viewer/traversals.js": {
+      "sha256": "6d8f15cf7be67ea4a4f300c1d3377fe28a94e0e5d275ac5429aa545507ede2ac",
+      "bytes": 16417
+    },
+    "hominoids/viewer/vendor/controls/TrackballControls.js": {
+      "sha256": "413ed6a4fe187db7622717222318adba7c98866398aa3d49755ff1c01f5bcacc",
+      "bytes": 17409
+    },
+    "hominoids/viewer/vendor/lucide.LICENSE": {
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57",
+      "bytes": 3208
+    },
+    "hominoids/viewer/vendor/lucide.min.js": {
+      "sha256": "ab85225ecc1daa2033607856f03dd2dabcbc08e2d260a5b97e17c690aa929766",
+      "bytes": 397450
+    },
+    "hominoids/viewer/vendor/three.module.min.js": {
+      "sha256": "3e690ac7d180b0aadf0891bea39eec643e29e2d3e75c99b18689518665f69ba6",
+      "bytes": 670681
+    },
+    "humeri/traversals/QA.txt": {
+      "sha256": "31bd3fa638622b159c39275c70d72e3ff2cfc89084e8017c02ef12a0092c8fc6",
+      "bytes": 695
+    },
+    "humeri/traversals/caption.txt": {
+      "sha256": "0ac03a93654613e528c8fe46ea6053386df8a094f6f46bfd8742b0a1c3a08723",
+      "bytes": 942
+    },
+    "humeri/traversals/data/faces.u32": {
+      "sha256": "bb105d3f9da353769716e439a92aec916b6a4343aa26701c33e802b200919825",
+      "bytes": 287952
+    },
+    "humeri/traversals/data/signed_pct.f32": {
+      "sha256": "18d31e923febf68c0e606129fd0446de043a8c38245d859a5dc6044b023da6df",
+      "bytes": 7872000
+    },
+    "humeri/traversals/data/vertices.f32": {
+      "sha256": "5967c2e7b49deeaf1313d9413e777bfc0216184e406947eeac96a7cf437a8c01",
+      "bytes": 23616000
+    },
+    "humeri/traversals/data.json": {
+      "sha256": "c78ee4eea8c7967ab0c2c800193c81a9b4caf0d4cfe7f057ee3b2fe81aeeeb69",
+      "bytes": 62287
+    },
+    "humeri/traversals/geometry.csv": {
+      "sha256": "90d12b15557c45500075df83036ae9629f95bfea2c50a75a713e8cd6384864fe",
+      "bytes": 10431
+    },
+    "humeri/traversals/provenance.json": {
+      "sha256": "dd35161f22269552b06dcbf9f661b514be9c6c03e3cedc879cca91f91febea50",
+      "bytes": 1463
+    },
+    "humeri/traversals/summary.json": {
+      "sha256": "499dc5adf45e437200941366c8d7878dcfccec9ed6ed758e54c641bd08e6f4fe",
+      "bytes": 157
+    },
+    "humeri/viewer/index.html": {
+      "sha256": "726dd3b486bfffeb6f2d8f76f547411db46796e9aa286645a7e624f4aee1b938",
+      "bytes": 5279
+    },
+    "humeri/viewer/traversals.css": {
+      "sha256": "603bb8c9970acbd6a4b2d2acfb92a9b86bdec673572b3e58ef32d01c9d06bd3e",
+      "bytes": 6201
+    },
+    "humeri/viewer/traversals.js": {
+      "sha256": "6d8f15cf7be67ea4a4f300c1d3377fe28a94e0e5d275ac5429aa545507ede2ac",
+      "bytes": 16417
+    },
+    "humeri/viewer/vendor/controls/TrackballControls.js": {
+      "sha256": "413ed6a4fe187db7622717222318adba7c98866398aa3d49755ff1c01f5bcacc",
+      "bytes": 17409
+    },
+    "humeri/viewer/vendor/lucide.LICENSE": {
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57",
+      "bytes": 3208
+    },
+    "humeri/viewer/vendor/lucide.min.js": {
+      "sha256": "ab85225ecc1daa2033607856f03dd2dabcbc08e2d260a5b97e17c690aa929766",
+      "bytes": 397450
+    },
+    "humeri/viewer/vendor/three.module.min.js": {
+      "sha256": "3e690ac7d180b0aadf0891bea39eec643e29e2d3e75c99b18689518665f69ba6",
+      "bytes": 670681
+    },
+    "index.html": {
+      "sha256": "b113a51a5abad33216bca245bff1cfb26412890458ae09c07feefd12b53e837b",
+      "bytes": 319
+    },
+    "mandible/traversals/QA.txt": {
+      "sha256": "31bd3fa638622b159c39275c70d72e3ff2cfc89084e8017c02ef12a0092c8fc6",
+      "bytes": 695
+    },
+    "mandible/traversals/caption.txt": {
+      "sha256": "7362356e280eb9b0c43d4bd58ed37479d48012a025f3701c0a994873fabe2cfb",
+      "bytes": 928
+    },
+    "mandible/traversals/data/faces.u32": {
+      "sha256": "8ee5ce0d0a7d01845e8b1938b88d805d642db318e2081c1c5648f0ca7757fc20",
+      "bytes": 287880
+    },
+    "mandible/traversals/data/signed_pct.f32": {
+      "sha256": "82c614de6a675ebc14bce63778e8e7161aa36b1ee1f5ecf0fef5b8ae484f2a49",
+      "bytes": 7870032
+    },
+    "mandible/traversals/data/vertices.f32": {
+      "sha256": "824eeb197a3a8d6831619c9044a458412d27e5a2f843f26b2ae9b9f2ad4c8034",
+      "bytes": 23610096
+    },
+    "mandible/traversals/data.json": {
+      "sha256": "2be5956819834ae2594b6baaa4df546dabd0ab3891f37d03fe1453d0a2e031da",
+      "bytes": 64703
+    },
+    "mandible/traversals/geometry.csv": {
+      "sha256": "2394876d47474a5045d1a27d98bb592a9e4940f543fde4c02dfa5190a70d9494",
+      "bytes": 10459
+    },
+    "mandible/traversals/provenance.json": {
+      "sha256": "969d875fea820ca3d34dd9edf8c808733283ac702b7bde7a0432f784a8dccdfb",
+      "bytes": 1445
+    },
+    "mandible/traversals/summary.json": {
+      "sha256": "499dc5adf45e437200941366c8d7878dcfccec9ed6ed758e54c641bd08e6f4fe",
+      "bytes": 157
+    },
+    "mandible/viewer/index.html": {
+      "sha256": "ece8336191c74481760c33d2d01a42cd81040749d6b427a85a5297d4e6562247",
+      "bytes": 5270
+    },
+    "mandible/viewer/traversals.css": {
+      "sha256": "603bb8c9970acbd6a4b2d2acfb92a9b86bdec673572b3e58ef32d01c9d06bd3e",
+      "bytes": 6201
+    },
+    "mandible/viewer/traversals.js": {
+      "sha256": "6d8f15cf7be67ea4a4f300c1d3377fe28a94e0e5d275ac5429aa545507ede2ac",
+      "bytes": 16417
+    },
+    "mandible/viewer/vendor/controls/TrackballControls.js": {
+      "sha256": "413ed6a4fe187db7622717222318adba7c98866398aa3d49755ff1c01f5bcacc",
+      "bytes": 17409
+    },
+    "mandible/viewer/vendor/lucide.LICENSE": {
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57",
+      "bytes": 3208
+    },
+    "mandible/viewer/vendor/lucide.min.js": {
+      "sha256": "ab85225ecc1daa2033607856f03dd2dabcbc08e2d260a5b97e17c690aa929766",
+      "bytes": 397450
+    },
+    "mandible/viewer/vendor/three.module.min.js": {
+      "sha256": "3e690ac7d180b0aadf0891bea39eec643e29e2d3e75c99b18689518665f69ba6",
+      "bytes": 670681
+    }
+  }
+}

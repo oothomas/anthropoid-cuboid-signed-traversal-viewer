@@ -7,7 +7,7 @@ import socketserver
 import webbrowser
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent / "site"
 
 
 class Handler(http.server.SimpleHTTPRequestHandler):

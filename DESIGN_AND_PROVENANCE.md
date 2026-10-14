@@ -1,4 +1,54 @@
-# Design and provenance note
+# Current Release Design and Provenance
+
+The 14 October 2026 update displays the latest completed seed-2071 model for each
+of four current datasets, replacing the live historical epoch-150 anthropoid
+viewer. The update does not select a best seed or adopt scientific conclusions.
+
+## Current Sources
+
+All exports use verified final checkpoints, frozen input operators/common bases
+and archived endpoint codes. One saved training reconstruction was replayed
+exactly per model. Weights were checked unchanged; no encoder forward pass,
+training or confirmation-code evaluation was performed.
+
+Training-code PCA defines PC1-PC4 independently for each model. Tuning codes are
+projected where present. Each axis has 41 actual decodes from -2 to +2 training
+score SD on one fixed template. Surface panels are not combined two-PC decodes;
+axes are not aligned across datasets or seeds. Templates are decoder contexts,
+not PCA observations. See the README for epochs, counts and learning rates.
+
+The scalar is `100 * dot(decoded - mean, outward mean normal) / mean bbox
+diagonal`, using area-weighted mean normals. Blue is inward, white zero,
+orange/red outward. Each dataset defaults to a symmetric scale at the 98th
+percentile of absolute displacement. It is not reconstruction error or
+closest-surface signed distance and does not show tangential motion.
+
+Exact triangle-intersection and degeneracy checks cover all 164 sampled positions
+per dataset. Anthropoid and hominoid viewers have 18 and 46 flagged positions;
+mandible and humerus viewers have none under these tests. No sampled surface has
+an exactly degenerate or near-zero-area face. Warnings remain visible, including
+intersections at the hominoid decoded mean. Anatomy and unsampled continuous
+paths are not certified by these tests.
+
+Public provenance records checkpoint/decoded-array hashes, seed, epoch, common
+dimension, learning rate, template, fit counts, replay error and source-exporter
+identity. Geometry and signed arrays are copied without smoothing or repair.
+Private local paths and full operational receipts are not published.
+
+The public viewer has no score CSV or score-download control. Values and IDs
+needed for the visible score plots remain public browser assets. Each dataset
+includes a provisional caption, editable geometry measurements, source data,
+provenance and QA note. Anatomical and cross-seed review remain pending.
+
+See `PUBLICATION_BRIEF.md` for reader task, hierarchy, accessibility, salience
+self-audit and publication checks. Only `site/` is deployed.
+
+---
+
+# Historical Epoch-150 Viewer (Not Deployed)
+
+The following preserved notes describe the original June release, not the
+current four-dataset viewer.
 
 ## Reader task
 

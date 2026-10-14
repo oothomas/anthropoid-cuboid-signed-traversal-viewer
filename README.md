@@ -1,23 +1,30 @@
-# Anthropoid cuboid signed traversal viewer
+# Current Biological Shape Traversals
 
-Static GitHub Pages-ready viewer for the selected anthropoid cuboid
-epoch-150 decoded PC traversals. The page has four separate Three.js
-viewers, one for each of PC1-PC4. Each viewer uses a negative-to-zero-to-
-positive slider over 41 precomputed traversal states. Surface colors encode
-precomputed signed normal displacement from the midpoint mesh, interpolated
-together with the geometry as the slider moves.
+Interactive PC1-PC4 traversals for four current seed-2071 models:
 
-Mouse interaction uses free trackball rotation, so the bone can be tumbled
-around any viewing axis rather than being held to a fixed upright camera.
-The `Sync viewers` button links camera orientation, pan, and zoom across all
-four panels while leaving the PC sliders independently controllable unless
-`Sync sliders` is also enabled.
+| Dataset | Epoch | Common dimension | PCA training specimens | Projected tuning specimens | Initial learning rate |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Anthropoid cuboids | 250 | 44 | 244 | 52 | 0.001 |
+| Non-fossil hominoid cuboids | 350 | 40 | 110 | 26 | 0.001 |
+| Revised-map mouse mandibles | 350 | 44 | 93 | 0 | 0.001 |
+| Repaired mouse humeri | 350 | 44 | 77 | 0 | 0.0003 |
 
-The bottom section redraws the active manuscript Fig 9A PCA/pPCA source
-data for PC1-PC4: ordinary PC1-PC2, PC1-PC3, PC1-PC4, and phylogenetic
-pPC1-pPC2, pPC1-pPC3, pPC1-pPC4. Species/subspecies means and projected
-individual specimens use the same clade color encoding as the manuscript
-figure.
+[Open the viewer](https://oothomas.github.io/anthropoid-cuboid-signed-traversal-viewer/).
+
+Each axis contains 41 actual decoder outputs from -2 to +2 training-score
+standard deviations, with interactive rotation, animation, camera/slider syncing,
+neutral and signed colors, wireframe and sampled-surface geometry warnings.
+
+Blue denotes inward and orange/red outward displacement along the decoded-mean
+normal, expressed as a percentage of its bounding-box diagonal. This is not
+reconstruction error or closest-surface signed distance, and omits tangential
+movement. PCA is fitted only to training codes; confirmation and template codes
+are absent from the plots. Axes are not aligned between models.
+
+These are provisional anatomical inspection outputs, not selected best seeds,
+scientific model acceptance or a completed cross-seed comparison. Geometry
+warnings are preserved. Each dataset includes a caption, geometry table,
+quality note and sanitized provenance.
 
 ## Local review
 
@@ -25,31 +32,20 @@ figure.
 python3 run_server.py
 ```
 
-Open the printed localhost URL. Direct `file://` loading will not work in
-most browsers because the page fetches local binary assets.
+This serves `site/` on an available localhost port. Use HTTP, not `file://`, since
+the viewer fetches binary data and verifies its checksums.
 
-## Standalone GitHub repository deployment
+## Publishing Boundary
 
-This repository is designed to be published as its own GitHub Pages site. After
-creating an empty GitHub repository, push this folder to `main`:
+GitHub Actions deploys **only `site/`** on a push to `main`. The historical root
+viewer/assets remain in the repository for provenance but are excluded from the
+new Pages artifact. No checkpoints, raw latent codes, local filesystem paths,
+private run logs, score CSVs or score-download controls are deployed.
 
-```bash
-git remote add origin https://github.com/oothomas/anthropoid-cuboid-signed-traversal-viewer.git
-git push -u origin main
-```
+Values needed to draw the public score plots remain browser-readable; removing
+download controls does not create access control or confidentiality.
 
-The included GitHub Actions workflow deploys the static site to GitHub Pages.
-For a repository named `anthropoid-cuboid-signed-traversal-viewer`, the public
-page should be:
-
-```text
-https://oothomas.github.io/anthropoid-cuboid-signed-traversal-viewer/
-```
-
-The viewer is static and does not rerun any analysis or generate new
-decoded surfaces. It only displays the precomputed traversal geometry and
-signed displacement scalars and Fig 9A PCA context data in `assets/data/`.
-
-If GitHub Pages is not enabled automatically after the first push, open the
-repository Settings, choose Pages, and set Build and deployment to GitHub
-Actions.
+`site/release.json` identifies the release and hashes every included asset.
+`scripts/package_current_traversals.py` builds it from the verified local review.
+See `PUBLICATION_BRIEF.md` and `DESIGN_AND_PROVENANCE.md` for the design, QA and
+scientific boundaries. No analysis or model inference runs in the browser.
