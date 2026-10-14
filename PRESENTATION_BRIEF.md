@@ -81,6 +81,49 @@ See EXACT_JOINT_DECODING.md for the implementation and validation proposal.
 
 ## QA And Promotion
 
+### Citation And Software Attribution Update, 14 October 2026
+
+Reader question: which published methods support each step, and which upstream
+implementations underpin this study? Add sentence-level numbered citation links,
+an always-visible reference list and a separate source-software list after the
+scientific narrative. One registry supplies the README and all four pages;
+references are numbered by first appearance. Use full bibliographic titles and
+author names/initials, linked to DOI or primary sources. Repository credits name
+the implementation's specific role rather than implying upstream endorsement.
+
+Correct the dataset-specific Stage 1 attribution: the revised mandibles use a
+separately initialized adaptive-triangulation surface-map method, not merely a
+Panine refinement. Credit the SNK-inspired prism head without describing the
+autoencoder as SNK's pairwise matching method. Credit Robin Magnet's pyFM directly
+as software; do not imply that other papers by the author were used without
+implementation evidence. Citations support background and borrowed methods,
+not this study's unpublished model-specific findings.
+
+Keep anatomy as the first visual signal. References use an unframed ordered list,
+14px type, hanging numbers, generous line height and wrapping titles; no color
+encoding is needed beyond the existing accessible link color. Add jump links,
+descriptive citation labels and keyboard-focus targets. Test desktop/mobile
+readability, citation order and destinations, identical shared text, unchanged
+scientific hashes and 1:1 PCA plots. Source registry: content/references.json;
+generator: scripts/refresh_presentation.py; QA: PRESENTATION_QA.md and the local
+traversal_citations_20261014 review package. No new analytical figure or table is
+created by the citation update.
+
+### Author-Supplied README Screenshot
+
+The author subsequently selected a 1692 x 1159 px screenshot of the current
+non-fossil hominoid viewer, showing PC1-PC4 at +1.6 SD. Reuse this image exactly,
+without cropping, retouching, rescaling its stored pixels or hiding geometry
+warnings. Place it after the README introduction and link it to the hominoid
+viewer. It illustrates decoded anatomical variation for readers arriving at the
+repository; it is not a new manuscript figure or evidence of biological validity.
+Keep the original aspect ratio. The caption identifies the seed/epoch, the 110
+training specimens used for PCA, independent single-PC changes and signed
+mean-normal displacement. Source image, caption and provenance live under
+assets/readme/. Check image hash, dimensions, caption against export metadata,
+and GitHub rendering. Salience: colored anatomy should be noticed before the
+interface controls; preserve the visible scale and geometry warnings as context.
+
 Check shared-copy equivalence, exact taxonomy joins, unchanged coordinates and
 binary hashes, all relative links under the Pages project prefix, absent score
 downloads, finite plots, keyboard/touch interaction, consistent colors, and

@@ -1,19 +1,19 @@
 {
   "title": "Dense correspondence and interpretable skeletal morphospaces",
   "status": "Manuscript in preparation | Preliminary results",
-  "introduction": "Comparative skeletal biology seeks to relate anatomical variation to function and evolutionary history. The primate cuboid, a bone of the lateral midfoot, presents a demanding case: its joint surfaces, plantar tuberosity and peroneus longus tendon groove form a complex anatomy relevant to foot mechanics. Comparing this anatomy requires measuring differences across curved surfaces, articular margins and local relief, not only at isolated points.",
+  "introduction": "Comparative skeletal biology seeks to relate anatomical variation to function and evolutionary history. The primate cuboid, a bone of the lateral midfoot, presents a demanding case: its joint surfaces, plantar tuberosity and peroneus longus tendon groove form a complex anatomy relevant to foot mechanics. [@bojsen1979] [@nowak2010] Comparing this anatomy requires measuring differences across curved surfaces, articular margins and local relief, not only at isolated points.",
   "sections": [
     {
       "heading": "The methodological gap",
       "paragraphs": [
-        "Three-dimensional scans capture detailed surfaces, but do not establish which locations correspond between specimens. Anatomical landmarks provide expert-defined anchors, yet may undersample variation between them. Dense matching addresses coverage, while learned shape spaces summarize variation; biological interpretation requires connecting both to inspectable anatomy. This study addresses that connection: how to build a quantitative morphospace from anatomically constrained dense matches and reconstruct the surface changes it represents."
+        "Three-dimensional scans capture detailed surfaces, but do not establish which locations correspond between specimens. Anatomical landmarks provide expert-defined anchors, yet may undersample variation between them. [@watanabe2018] Earlier work, including morphVQ, brought learned descriptors and functional maps into biological morphometrics. [@thomas2023] This study connects anatomically constrained dense matching to a reconstruction-capable morphospace, so that statistical variation can be examined as changes in surface anatomy."
       ]
     },
     {
       "heading": "A two-stage approach",
       "paragraphs": [
-        "Stage 1 uses landmark-adapted functional maps to estimate dense correspondences across a sparse network of specimens and templates. Anatomical anchors constrain the matches; surface diagnostics and targeted refinement address local discontinuities, collapse and incomplete coverage. This correspondence stage is part of the methodological contribution because errors in matching propagate into subsequent shape analysis.",
-        "Stage 2 synchronizes the maps into a common basis and trains an autoencoder, building on DISCO-AE and DiffusionNet, to encode and reconstruct complete skeletal surfaces. Principal-component analysis (PCA) summarizes variation in the learned codes. Decoding along those axes reveals the associated anatomical changes, linking statistical relationships among specimens to surface geometry."
+        "Stage 1 builds dense correspondences across a sparse network of specimens and templates. The functional-map formulation and Panine et al.'s landmark-adapted bases provide the initial matching framework. [@ovsjanikov2012] [@panine2022] Anatomical anchors, surface diagnostics and targeted refinement address discontinuities, collapse and incomplete coverage. The revised mandible models shown here instead use separately initialized maps based on Surface Maps via Adaptive Triangulations, with project-specific safeguards. [@schmidt2023] Correspondence is a methodological component in its own right because matching errors propagate into shape analysis.",
+        "Stage 2 uses functional-map networks and a limit-shape common basis to make surface features comparable across specimens. [@huang2014] [@huang2019] The autoencoder builds on DISCO-AE, with DiffusionNet surface layers and an SNK-inspired prism decoder adapted for reconstruction from a common latent code. [@hahner2024] [@sharp2022] [@attaiki2023] Principal-component analysis (PCA) summarizes variation in those codes. Decoding along the axes reveals associated anatomical changes, linking statistical relationships among specimens to surface geometry."
       ]
     },
     {

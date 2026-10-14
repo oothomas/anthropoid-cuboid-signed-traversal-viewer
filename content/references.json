@@ -1,0 +1,141 @@
+{
+  "verified_on": "2026-10-14",
+  "references": [
+    {
+      "id": "bojsen1979",
+      "authors": "Bojsen-M\u00f8ller F.",
+      "title": "Calcaneocuboid joint and stability of the longitudinal arch of the foot at high and low gear push off",
+      "publication": "J Anat. 1979;129(Pt 1):165-176.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1233091/",
+      "verification": ["https://pubmed.ncbi.nlm.nih.gov/511760/"]
+    },
+    {
+      "id": "nowak2010",
+      "authors": "Nowak MG, Carlson KJ, Patel BA.",
+      "title": "Apparent density of the primate calcaneo-cuboid joint and its association with locomotor mode, foot posture, and the midtarsal break",
+      "publication": "Am J Phys Anthropol. 2010;142(2):180-193.",
+      "url": "https://doi.org/10.1002/ajpa.21210",
+      "verification": ["https://api.crossref.org/works/10.1002/ajpa.21210", "https://pubmed.ncbi.nlm.nih.gov/19918985/"]
+    },
+    {
+      "id": "watanabe2018",
+      "authors": "Watanabe A.",
+      "title": "How many landmarks are enough to characterize shape and size variation?",
+      "publication": "PLoS One. 2018;13(6):e0198341.",
+      "url": "https://doi.org/10.1371/journal.pone.0198341",
+      "verification": ["https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0198341"]
+    },
+    {
+      "id": "thomas2023",
+      "authors": "Thomas OO, Shen H, Raaum RL, Harcourt-Smith WEH, Polk JD, Hasegawa-Johnson M.",
+      "title": "Automated morphological phenotyping using learned shape descriptors and functional maps: A novel approach to geometric morphometrics",
+      "publication": "PLoS Comput Biol. 2023;19(1):e1009061.",
+      "url": "https://doi.org/10.1371/journal.pcbi.1009061",
+      "verification": ["https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009061"]
+    },
+    {
+      "id": "ovsjanikov2012",
+      "authors": "Ovsjanikov M, Ben-Chen M, Solomon J, Butscher A, Guibas L.",
+      "title": "Functional maps: a flexible representation of maps between shapes",
+      "publication": "ACM Trans Graph. 2012;31(4):30:1-30:11.",
+      "url": "https://doi.org/10.1145/2185520.2185526",
+      "verification": ["https://graphics.stanford.edu/courses/cs233-21-spring/ReferencedPapers/hwg-fmnaelsc-14.pdf"]
+    },
+    {
+      "id": "panine2022",
+      "authors": "Panine M, Kirgo M, Ovsjanikov M.",
+      "title": "Non-isometric shape matching via functional maps on landmark-adapted bases",
+      "publication": "Comput Graph Forum. 2022;41(6):394-417.",
+      "url": "https://doi.org/10.1111/cgf.14579",
+      "verification": ["https://github.com/mpanine/DirichletSteklovLandmarkMatching", "https://api.crossref.org/works/10.1111/cgf.14579"]
+    },
+    {
+      "id": "schmidt2023",
+      "authors": "Schmidt P, Pieper D, Kobbelt L.",
+      "title": "Surface Maps via Adaptive Triangulations",
+      "publication": "Comput Graph Forum. 2023;42(2):103-117.",
+      "url": "https://doi.org/10.1111/cgf.14747",
+      "verification": ["https://www.graphics.rwth-aachen.de/publication/03345/", "https://api.crossref.org/works/10.1111/cgf.14747"]
+    },
+    {
+      "id": "huang2014",
+      "authors": "Huang Q, Wang F, Guibas L.",
+      "title": "Functional map networks for analyzing and exploring large shape collections",
+      "publication": "ACM Trans Graph. 2014;33(4):36:1-36:11.",
+      "url": "https://doi.org/10.1145/2601097.2601111",
+      "verification": ["https://geometry.stanford.edu/lgl_2024/paper.php?id=hwg-fmnaelsc-14"]
+    },
+    {
+      "id": "huang2019",
+      "authors": "Huang R, Achlioptas P, Guibas L, Ovsjanikov M.",
+      "title": "Limit Shapes: A Tool for Understanding Shape Differences and Variability in 3D Model Collections",
+      "publication": "Comput Graph Forum. 2019;38(5):187-202.",
+      "url": "https://doi.org/10.1111/cgf.13799",
+      "verification": ["https://api.crossref.org/works/10.1111/cgf.13799"]
+    },
+    {
+      "id": "hahner2024",
+      "authors": "Hahner S, Attaiki S, Garcke J, Ovsjanikov M.",
+      "title": "Unsupervised representation learning for diverse deformable shape collections",
+      "publication": "2024 International Conference on 3D Vision (3DV). 2024. p. 1594-1604.",
+      "url": "https://doi.org/10.1109/3DV62453.2024.00158",
+      "verification": ["https://github.com/Fraunhofer-SCAI/DISCO-AE", "https://arxiv.org/abs/2310.18141"]
+    },
+    {
+      "id": "sharp2022",
+      "authors": "Sharp N, Attaiki S, Crane K, Ovsjanikov M.",
+      "title": "DiffusionNet: discretization agnostic learning on surfaces",
+      "publication": "ACM Trans Graph. 2022;41(3):1-16.",
+      "url": "https://doi.org/10.1145/3507905",
+      "verification": ["https://github.com/nmwsharp/diffusion-net", "https://api.crossref.org/works/10.1145/3507905"]
+    },
+    {
+      "id": "attaiki2023",
+      "authors": "Attaiki S, Ovsjanikov M.",
+      "title": "Shape Non-rigid Kinematics (SNK): A Zero-Shot Method for Non-Rigid Shape Matching via Unsupervised Functional Map Regularized Reconstruction",
+      "publication": "Adv Neural Inf Process Syst. 2023;36.",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/dd9b76f050a86a3ded6135ad3556e786-Abstract-Conference.html",
+      "verification": ["https://github.com/pvnieo/SNK", "https://proceedings.neurips.cc/paper_files/paper/2023/hash/dd9b76f050a86a3ded6135ad3556e786-Abstract-Conference.html"]
+    },
+    {
+      "id": "magnetpyfm",
+      "authors": "Magnet R.",
+      "title": "pyFM: Python implementation of Functional Maps",
+      "publication": "GitHub [software]. Cited 2026 Oct 14.",
+      "url": "https://github.com/RobinMagnet/pyFM",
+      "verification": ["https://github.com/RobinMagnet/pyFM#contact-and-citation"]
+    }
+  ],
+  "software": [
+    {
+      "name": "Panine landmark-adapted matching",
+      "url": "https://github.com/mpanine/DirichletSteklovLandmarkMatching",
+      "role": "Stage 1 non-isometric functional matching with anatomical landmark constraints. [@panine2022]"
+    },
+    {
+      "name": "Surface Maps via Adaptive Triangulations",
+      "url": "https://github.com/patr-schm/surface-maps-via-adaptive-triangulations",
+      "role": "Foundation for the revised mandible correspondence branch, with project-specific initialization, anchor, solver and export safeguards. [@schmidt2023]"
+    },
+    {
+      "name": "DISCO-AE",
+      "url": "https://github.com/Fraunhofer-SCAI/DISCO-AE",
+      "role": "Common-basis autoencoding framework underlying Stage 2. [@hahner2024]"
+    },
+    {
+      "name": "DiffusionNet",
+      "url": "https://github.com/nmwsharp/diffusion-net",
+      "role": "Surface-network layers used in the encoder and decoder. [@sharp2022]"
+    },
+    {
+      "name": "SNK",
+      "url": "https://github.com/pvnieo/SNK",
+      "role": "Prism-decoder design adapted within our common-basis autoencoder, not an application of SNK's pairwise zero-shot matching procedure. [@attaiki2023]"
+    },
+    {
+      "name": "Robin Magnet's pyFM",
+      "url": "https://github.com/RobinMagnet/pyFM",
+      "role": "Mesh, spectral and functional-map-network utilities used by the pipeline. Cited directly as software, following the author's attribution guidance. [@magnetpyfm]"
+    }
+  ]
+}

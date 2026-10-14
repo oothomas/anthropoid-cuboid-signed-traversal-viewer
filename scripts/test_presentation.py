@@ -1,10 +1,14 @@
 """Scientific-boundary and presentation checks against the prior published release."""
 import hashlib
+import copy
+import csv
 from html.parser import HTMLParser
 import json
 from pathlib import Path
 import subprocess
+import struct
 import unittest
+import refresh_presentation as presentation
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = '2d82a7a186894692ec275227dd96daadf49b1209'
@@ -32,6 +36,23 @@ class Page(HTMLParser):
 
 
 class PresentationTests(unittest.TestCase):
+    def test_readme_screenshot(self):
+        preview = read(ROOT / 'assets/readme/hominoid-traversals-provenance.json')
+        png = (ROOT / preview['image']).read_bytes()
+        self.assertEqual(hashlib.sha256(png).hexdigest(), preview['sha256'])
+        self.assertEqual(png[:8], b'\x89PNG\r\n\x1a\n')
+        self.assertEqual(struct.unpack('>II', png[16:24]), (preview['width'], preview['height']))
+        provenance = read(ROOT / preview['dataset_provenance'])
+        for key in ('seed', 'epoch', 'pca_fit_n'):
+            self.assertEqual(preview[key], provenance[key])
+        with (ROOT / preview['geometry_source']).open(newline='') as stream:
+            rows = [r for r in csv.DictReader(stream) if int(r['step']) == preview['step_zero_based']]
+        self.assertEqual([int(r['interior_pairs']) for r in rows], preview['intersection_pairs_pc1_to_pc4'])
+        self.assertTrue(all(abs(float(r['sd']) - preview['sd']) < 1e-10 for r in rows))
+        markdown = (ROOT / 'README.md').read_text()
+        self.assertIn(f'[![{preview["alt"]}]({preview["image"]})]({preview["viewer_url"]})', markdown)
+        self.assertIn((ROOT / preview['caption']).read_text().strip(), markdown)
+
     def test_preserved_scientific_data(self):
         for d in DATASETS:
             name = f'site/{d}/traversals/data.json'
@@ -65,6 +86,7 @@ class PresentationTests(unittest.TestCase):
 
     def test_shared_text_and_links(self):
         copy = read(ROOT / 'content/project.json')
+        citations = presentation.Citations(copy, read(ROOT / 'content/references.json'))
         shared = []
         for d in DATASETS:
             path = ROOT / 'site' / d / 'viewer/index.html'
@@ -74,13 +96,58 @@ class PresentationTests(unittest.TestCase):
             self.assertFalse(parsed.downloads)
             self.assertEqual(len(parsed.ids), len(set(parsed.ids)))
             for link in parsed.links:
-                if link.startswith(('https://', '#')):
+                if link.startswith('#'):
+                    self.assertIn(link[1:], parsed.ids, link)
+                    continue
+                if link.startswith('https://'):
                     continue
                 self.assertTrue((path.parent / link.split('#')[0].split('?')[0]).exists(), link)
             for section in copy['sections']:
                 for p in section['paragraphs']:
-                    self.assertIn(p, (ROOT / 'README.md').read_text())
+                    self.assertIn(citations.render(p), (ROOT / 'README.md').read_text())
         self.assertTrue(all(s == shared[0] for s in shared))
+
+    def test_reference_order_and_credits(self):
+        project = read(ROOT / 'content/project.json')
+        registry = read(ROOT / 'content/references.json')
+        citations = presentation.Citations(project, registry)
+        self.assertEqual(list(citations.numbers.values()), list(range(1, 14)))
+        self.assertEqual(list(citations.numbers)[0], 'bojsen1979')
+        self.assertEqual(list(citations.numbers)[-1], 'magnetpyfm')
+        markdown = (ROOT / 'README.md').read_text()
+        self.assertNotIn('[@', markdown)
+        for key, number in citations.numbers.items():
+            self.assertIn(f'[[{number}]](#ref-{key})', markdown)
+            self.assertIn(f'{number}. <a id="ref-{key}"></a>', markdown)
+        for dataset in DATASETS:
+            page = (ROOT / 'site' / dataset / 'viewer/index.html').read_text()
+            self.assertNotIn('[@', page)
+            parsed = Page(); parsed.feed(page)
+            self.assertEqual([i for i in parsed.ids if i.startswith('ref-')],
+                             [f'ref-{k}' for k in citations.numbers])
+            for r in registry['references'] + registry['software']:
+                self.assertIn(r['url'], parsed.links)
+                self.assertIn(r['url'], markdown)
+        # Published work supports borrowed methods, not the new results themselves.
+        results = next(s for s in project['sections'] if s['heading'] == 'Study scope and initial results')
+        self.assertTrue(all('[@' not in p for p in results['paragraphs']))
+
+    def test_reference_validation_and_escaping(self):
+        project = read(ROOT / 'content/project.json')
+        registry = read(ROOT / 'content/references.json')
+        citations = presentation.Citations(project, registry)
+        self.assertIn('&lt;script&gt;', citations.render('<script> [@panine2022]', html=True))
+        for invalid in ('[@missing]', '[@BAD]'):
+            bad = copy.deepcopy(project); bad['introduction'] += invalid
+            with self.assertRaises(ValueError):
+                presentation.Citations(bad, registry)
+        bad = copy.deepcopy(registry)
+        bad['references'].append({'id': 'unused', 'url': 'https://example.com'})
+        with self.assertRaises(ValueError):
+            presentation.Citations(project, bad)
+        bad = copy.deepcopy(registry); bad['software'][0]['url'] = 'javascript:alert(1)'
+        with self.assertRaises(ValueError):
+            presentation.Citations(project, bad)
 
     def test_claim_numbers(self):
         expected_variance = [43.2, 57.8, 67.2, 66.2]

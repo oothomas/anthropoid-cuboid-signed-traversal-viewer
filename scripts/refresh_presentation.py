@@ -5,6 +5,7 @@ import hashlib
 from html import escape
 import json
 from pathlib import Path
+import re
 
 ROOT = Path(__file__).resolve().parents[1]
 DATASETS = ("cuboid", "hominoids", "mandible", "humeri")
@@ -83,27 +84,105 @@ def taxonomy_from_ledger(path, site):
             "taxonomy_revised": False, "assignments": assignments}
 
 
-def overview_html(copy):
+CITATION = re.compile(r'\[@([a-z0-9]+)\]')
+
+
+class Citations:
+    """Resolve controlled citation markers in the shared text, in reading order."""
+    def __init__(self, copy, registry):
+        self.references = {r['id']: r for r in registry['references']}
+        assert len(self.references) == len(registry['references']), 'Duplicate reference ID'
+        self.software = registry['software']
+        self.numbers = {}
+        paragraphs = [copy['introduction']]
+        paragraphs += [p for s in copy['sections'] for p in s['paragraphs']]
+        paragraphs += [s['role'] for s in self.software]
+        for p in paragraphs:
+            for key in CITATION.findall(p):
+                if key not in self.references:
+                    raise ValueError(f'Unknown citation: {key}')
+                self.numbers.setdefault(key, len(self.numbers) + 1)
+            if '[@' in CITATION.sub('', p):
+                raise ValueError(f'Malformed citation: {p}')
+        if set(self.references) != set(self.numbers):
+            raise ValueError('Reference registry contains uncited entries')
+        for r in [*self.references.values(), *self.software]:
+            if not r['url'].startswith('https://'):
+                raise ValueError('References and software must use HTTPS URLs')
+
+    def render(self, text, html=False):
+        parts, start = [], 0
+        for match in CITATION.finditer(text):
+            key = match[1]
+            n = self.numbers[key]
+            before = text[start:match.start()]
+            parts.append(escape(before) if html else before)
+            if html:
+                title = escape(self.references[key]['title'], quote=True)
+                parts.append(f'<a class="citation" href="#ref-{key}" aria-label="Reference {n}: {title}">[{n}]</a>')
+            else:
+                parts.append(f'[[{n}]](#ref-{key})')
+            start = match.end()
+        parts.append(escape(text[start:]) if html else text[start:])
+        return ''.join(parts)
+
+    def sections_html(self):
+        parts = ['<section id="software" class="project-sources" aria-labelledby="software-title">',
+                 '<h3 id="software-title">Source software and methodological credit</h3>',
+                 '<p>These upstream projects underpin the methods and implementation. Our biological adaptations, quality controls and results are the responsibility of this study.</p>',
+                 '<ul class="software-list">']
+        for s in self.software:
+            parts.append(f'<li><a href="{escape(s["url"])}">{escape(s["name"])}</a><p>{self.render(s["role"], html=True)}</p></li>')
+        parts += ['</ul></section>', '<section id="references" class="project-sources" aria-labelledby="references-title">',
+                  '<h3 id="references-title">References</h3>', '<ol class="reference-list">']
+        for key in self.numbers:
+            r = self.references[key]
+            stop = '' if r['title'].endswith(('.', '?', '!')) else '.'
+            parts.append(f'<li id="ref-{key}" tabindex="-1">{escape(r["authors"])} <a href="{escape(r["url"])}">{escape(r["title"])}</a>{stop} {escape(r["publication"])}</li>')
+        parts += ['</ol></section>']
+        return parts
+
+    def sections_markdown(self):
+        parts = ['## Source software and methodological credit', '',
+                 'These upstream projects underpin the methods and implementation. Our biological adaptations, quality controls and results are the responsibility of this study.', '']
+        for s in self.software:
+            parts += [f'- [{s["name"]}]({s["url"]}): {self.render(s["role"])}']
+        parts += ['', '## References', '']
+        for key, n in self.numbers.items():
+            r = self.references[key]
+            stop = '' if r['title'].endswith(('.', '?', '!')) else '.'
+            parts.append(f'{n}. <a id="ref-{key}"></a>{r["authors"]} [{r["title"]}]({r["url"]}){stop} {r["publication"]}')
+        return parts + ['']
+
+
+def overview_html(copy, citations):
     parts = [START, '<section id="project" class="project-overview" aria-labelledby="project-title">',
              '<div class="project-inner">', f'<p class="publication-status">{escape(copy["status"])}</p>',
              f'<h2 id="project-title">{escape(copy["title"])}</h2>',
-             f'<p class="project-introduction">{escape(copy["introduction"])}</p>']
+             f'<p class="project-introduction">{citations.render(copy["introduction"], html=True)}</p>',
+             '<nav class="project-links" aria-label="Study sources"><a href="#software">Source software</a><a href="#references">References</a></nav>']
     for section in copy["sections"]:
         parts.append(f'<section class="project-section"><h3>{escape(section["heading"])}</h3>')
-        parts.extend(f'<p>{escape(p)}</p>' for p in section["paragraphs"])
+        parts.extend(f'<p>{citations.render(p, html=True)}</p>' for p in section["paragraphs"])
         parts.append('</section>')
-    parts += ['<p class="project-source"><a href="https://github.com/oothomas/anthropoid-cuboid-signed-traversal-viewer">Project repository</a> | <a href="../traversals/provenance.json">Dataset provenance</a></p>',
+    parts += citations.sections_html()
+    parts += ['<p class="project-source"><a href="https://github.com/oothomas/anthropoid-cuboid-signed-traversal-viewer">Project repository</a> | <a href="../traversals/provenance.json">Dataset provenance</a> | <a href="#project">Back to study introduction</a></p>',
               '</div></section>', END]
     return "\n".join(parts)
 
 
-def readme(copy, site):
-    parts = [f'# {copy["title"]}', '', f'**{copy["status"]}**', '', copy["introduction"], '',
-             '[Explore the results](https://oothomas.github.io/anthropoid-cuboid-signed-traversal-viewer/).', '']
+def readme(copy, site, citations):
+    preview = read(ROOT / 'assets/readme/hominoid-traversals-provenance.json')
+    assert sha(ROOT / preview['image']) == preview['sha256'], 'README screenshot changed'
+    parts = [f'# {copy["title"]}', '', f'**{copy["status"]}**', '', citations.render(copy["introduction"]), '',
+             '[Explore the results](https://oothomas.github.io/anthropoid-cuboid-signed-traversal-viewer/) | [Source software](#source-software-and-methodological-credit) | [References](#references)', '',
+             f'[![{preview["alt"]}]({preview["image"]})]({preview["viewer_url"]})', '',
+             (ROOT / preview['caption']).read_text().strip(), '']
     for section in copy["sections"]:
         parts += [f'## {section["heading"]}', '']
         for p in section["paragraphs"]:
-            parts += [p, '']
+            parts += [citations.render(p), '']
+    parts += citations.sections_markdown()
     parts += ['## Models in this release', '',
               '| Dataset | Epoch | Common dimension | Training PCA | Projected tuning | Initial learning rate |',
               '| --- | ---: | ---: | ---: | ---: | ---: |']
@@ -124,13 +203,14 @@ def readme(copy, site):
               '## Reproducibility and publishing', '',
               'GitHub Actions publishes only `site/`. The historical root viewer and assets are preserved in the repository but are not deployed. Each dataset includes an editable geometry table, caption, quality note and sanitized provenance. `site/release.json` hashes every deployed asset.', '',
               'No checkpoints, raw latent codes, private filesystem paths, run logs, score CSVs or score-download controls are deployed. On-screen score values and identifiers remain public browser assets; removing downloads does not create access control.', '',
-              'The shared scientific introduction is maintained in `content/project.json` and rendered into this README and all four traversal pages. After a presentation edit, run `python3 scripts/refresh_presentation.py`. `scripts/package_current_traversals.py` creates the initial allowlisted scientific package from a verified local export; presentation refresh is a separate step. Read `PRESENTATION_BRIEF.md` and `DESIGN_AND_PROVENANCE.md` for the communication and scientific boundaries.', '',
+              'The shared scientific introduction is maintained in `content/project.json`; bibliographic records and software credits are in `content/references.json`. Citation markers are resolved in first-appearance order into this README and all four traversal pages. After a presentation edit, run `python3 scripts/refresh_presentation.py`. `scripts/package_current_traversals.py` creates the initial allowlisted scientific package from a verified local export; presentation refresh is a separate step. Read `PRESENTATION_BRIEF.md` and `DESIGN_AND_PROVENANCE.md` for the communication and scientific boundaries.', '',
               'Public project copy is a review-grade draft. The manuscript is in preparation; no publication, peer-review outcome or completed biological validation is implied.', '']
     return '\n'.join(parts)
 
 
 def refresh(site, ledger=None):
     copy = read(ROOT / 'content/project.json')
+    citations = Citations(copy, read(ROOT / 'content/references.json'))
     ui = {name: (ROOT / 'site/cuboid/viewer' / name).read_text()
           for name in ('traversals.js', 'traversals.css')}
     taxonomy_path = ROOT / 'content/taxonomy.json'
@@ -141,7 +221,7 @@ def refresh(site, ledger=None):
     assert len(assigned_genera) <= len(GENUS_COLORS)
     colors = dict(zip(assigned_genera, GENUS_COLORS))
     colors['Unassigned'] = '#687278'
-    block = overview_html(copy)
+    block = overview_html(copy, citations)
     for dataset in DATASETS:
         for name, source in ui.items():
             (site / dataset / 'viewer' / name).write_text(source)
@@ -162,6 +242,7 @@ def refresh(site, ledger=None):
             text = text.replace('<a href="#scores">PCA scores</a>', '<a href="#scores">PCA scores</a><a href="#project">About the study</a>')
         text = text.replace(' | Provisional review', ' | Preliminary results')
         text = text.replace('href="traversals.css"', 'href="traversals.css?v=presentation-20261014"')
+        text = text.replace('traversals.css?v=presentation-20261014', 'traversals.css?v=references-20261014')
         text = text.replace('src="traversals.js"', 'src="traversals.js?v=presentation-20261014"')
         if dataset in ('cuboid', 'hominoids') and 'id="genus-select"' not in text:
             controls = ('<div class="genus-toolbar"><label for="genus-select">Emphasize genus'
@@ -178,6 +259,7 @@ def refresh(site, ledger=None):
         prov['presentation'] = {'generator': 'scripts/refresh_presentation.py',
                                 'generator_sha256': sha(Path(__file__)),
                                 'shared_copy_sha256': sha(ROOT / 'content/project.json'),
+                                'references_sha256': sha(ROOT / 'content/references.json'),
                                 'scientific_arrays_changed': False,
                                 'joint_decoder_implemented': False}
         if dataset in ('cuboid', 'hominoids'):
@@ -194,9 +276,9 @@ def refresh(site, ledger=None):
                       'Scientific meshes, displacement fields, score coordinates and PCA fits are unchanged. '
                       'Genus joins use exact published specimen identifiers; unassigned taxonomy remains explicit. '
                       'Browser QA is recorded separately. Joint decoding remains a technical proposal, not a displayed approximation.\n')
-    (ROOT / 'README.md').write_text(readme(copy, site))
+    (ROOT / 'README.md').write_text(readme(copy, site, citations))
     release = read(site / 'release.json')
-    release['presentation_revision'] = 'manuscript-grounded-introduction-2026-10-14'
+    release['presentation_revision'] = 'method-citations-and-software-credit-2026-10-14'
     release['files'] = {str(p.relative_to(site)): {'sha256': sha(p), 'bytes': p.stat().st_size}
                         for p in sorted(site.rglob('*')) if p.is_file() and p != site / 'release.json'}
     save(site / 'release.json', release)

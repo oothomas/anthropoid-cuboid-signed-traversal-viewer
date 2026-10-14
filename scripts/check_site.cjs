@@ -4,6 +4,12 @@ const fs=require('node:fs');
 const path=require('node:path');
 const base=process.argv[2], output=process.argv[3];
 const project=JSON.parse(fs.readFileSync(path.join(__dirname,'../content/project.json'),'utf8'));
+const bibliography=JSON.parse(fs.readFileSync(path.join(__dirname,'../content/references.json'),'utf8'));
+const citationNumbers=new Map();
+for(const p of [project.introduction,...project.sections.flatMap(s=>s.paragraphs),...bibliography.software.map(s=>s.role)]){
+  for(const [,key] of p.matchAll(/\[@([a-z0-9]+)\]/g))if(!citationNumbers.has(key))citationNumbers.set(key,citationNumbers.size+1);
+}
+const citedText=p=>p.replace(/\[@([a-z0-9]+)\]/g,(_,key)=>`[${citationNumbers.get(key)}]`);
 if(!base||!output)throw new Error('Usage: node check_site.cjs BASE_URL OUTPUT_DIR');
 fs.mkdirSync(output,{recursive:true});
 
@@ -59,7 +65,18 @@ fs.mkdirSync(output,{recursive:true});
       const desktopPlots=await squarePlots();
       if(await page.locator('#project-title').innerText()!==project.title)throw new Error('Missing project identity');
       const paragraphs=await page.locator('#project .project-section p').allTextContents();
-      if(JSON.stringify(paragraphs)!==JSON.stringify(project.sections.flatMap(s=>s.paragraphs)))throw new Error('Shared project copy drift');
+      if(JSON.stringify(paragraphs)!==JSON.stringify(project.sections.flatMap(s=>s.paragraphs).map(citedText)))throw new Error('Shared project copy drift');
+      if(await page.locator('.project-introduction').innerText()!==citedText(project.introduction))throw new Error('Introduction citation drift');
+      if(await page.locator('.reference-list li').count()!==bibliography.references.length)throw new Error('Incomplete bibliography');
+      const softwareLinks=await page.locator('.software-list>li>a').evaluateAll(a=>a.map(x=>x.href));
+      if(JSON.stringify(softwareLinks)!==JSON.stringify(bibliography.software.map(s=>s.url)))throw new Error('Missing source credit');
+      const citationLinks=await page.locator('a.citation').evaluateAll(a=>a.map(x=>({href:x.hash,label:x.textContent,target:!!document.querySelector(x.hash),accessible:!!x.getAttribute('aria-label')})));
+      if(citationLinks.some(c=>!c.target||!c.accessible))throw new Error('Broken citation destination');
+      await page.locator('a.citation[href="#ref-panine2022"]').first().click();
+      if(new URL(page.url()).hash!=='#ref-panine2022')throw new Error('Citation navigation failed');
+      await page.locator('a[href="#project"]').last().click();
+      await page.locator('.project-links a[href="#references"]').click();
+      if(new URL(page.url()).hash!=='#references')throw new Error('References jump failed');
       if(await page.locator('#project .publication-status').innerText()!==project.status)throw new Error('Publication status drift');
       let genus=null;
       if(['cuboid','hominoids'].includes(key)){
@@ -100,6 +117,8 @@ fs.mkdirSync(output,{recursive:true});
       await page.locator('#zero-all').click();await step(30);await page.locator('#fit').click();await settle();
       await page.screenshot({path:path.join(output,key+'_desktop.png'),fullPage:true});
       await page.locator('#project').screenshot({path:path.join(output,key+'_project_desktop.png')});
+      await page.locator('#references').screenshot({path:path.join(output,key+'_references_desktop.png')});
+      await page.locator('#software').screenshot({path:path.join(output,key+'_software_desktop.png')});
       const heading=await page.locator('header').innerText();
       const links=await page.locator('nav[aria-label="Datasets"] a').evaluateAll(a=>a.map(x=>x.href));
       if(links.length!==4||links.some(x=>!x.startsWith(base)))throw new Error('Project-prefix navigation broken');
@@ -118,7 +137,9 @@ fs.mkdirSync(output,{recursive:true});
       }
       await page.screenshot({path:path.join(output,key+'_mobile.png'),fullPage:true});
       await page.locator('#project').screenshot({path:path.join(output,key+'_project_mobile.png')});
-      records.push({dataset:key,heading,scoreCount:count,frames,mobile,desktopPlots,mobilePlots,genus,sharedCopy:true,animation:true,scoreDownload:false});
+      await page.locator('#references').screenshot({path:path.join(output,key+'_references_mobile.png')});
+      await page.locator('#software').screenshot({path:path.join(output,key+'_software_mobile.png')});
+      records.push({dataset:key,heading,scoreCount:count,frames,mobile,desktopPlots,mobilePlots,genus,sharedCopy:true,references:bibliography.references.length,sourceRepositories:softwareLinks.length,citationLinks,animation:true,scoreDownload:false});
       console.log(key,'passed');
     }
     fs.writeFileSync(path.join(output,'browser_checks.json'),JSON.stringify({status:errors.length?'failed':'passed',base,release:release.release,records,errors},null,2));

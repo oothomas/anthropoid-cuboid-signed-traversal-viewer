@@ -14,10 +14,13 @@ Dedicated desktop/mobile captures of the project section accompany the full-page
 checks. The author should review scientific emphasis and wording, not merely
 confirm successful rendering.
 
-- Six automated boundary tests pass: scientific-array/score preservation against
+- Nine automated boundary tests pass: scientific-array/score preservation against
   the prior published commit; taxonomy joins and fossil-label exceptions; shared
   copy and links; preliminary-result numbers; release/privacy boundaries; and
-  deterministic, idempotent presentation generation.
+  deterministic, idempotent presentation generation; citation order, links and
+  software credits; malformed/missing-reference rejection and escaped HTML;
+  and the author-supplied README screenshot's exact hash, dimensions and caption
+  consistency with the exported model and geometry records.
 - All four datasets pass Chrome desktop (1500 x 1000) and mobile (390 x 844)
   checks for nonblank surfaces, framing, slider movement, animation, reset,
   display modes, navigation and absent score-download files/controls.
@@ -31,6 +34,26 @@ confirm successful rendering.
 - Source geometry, colors, scores, model identity, confirmation exclusions and
   scientific geometry warnings are unchanged. The fifth viewer is not simulated;
   actual joint inference remains the separately documented implementation task.
+
+Citation update: 13 numbered references and six source-repository credits are
+generated identically in all four pages and the README. Primary papers, official
+repositories and local implementation records support attribution. Robin Magnet's
+pyFM is cited as software rather than as an invented standalone article. The
+revised mandible method is explicitly distinguished from the Panine baseline;
+the prism decoder is credited to SNK without implying adoption of its pairwise
+zero-shot pipeline. Published sources are not attached as evidence for the new
+unpublished results. Dedicated reference/software screenshots on desktop and
+mobile show readable lists, wrapping long titles and no overlaps. Citation
+navigation and source links pass local browser checks; GitHub's Markdown API
+retains the numbered citations and custom reference anchors.
+
+README image: the author-selected 1692 x 1159 PNG is copied without pixel changes,
+cropping or hidden geometry warnings. Its SHA-256, caption and source metadata are
+under assets/readme/. The screenshot links to the current hominoid viewer and is
+not deployed as a new scientific figure. The caption states the independent
+single-PC interpretation, training-PCA sample size, mean-normal displacement
+definition and visible PC1 intersection warning. This is an illustrative image,
+not a publication-figure-quality or anatomical-validity certification.
 
 Salience self-audit: anatomy remains the first-viewport evidence; controls and
 the signed scale are subordinate to the meshes. Square plots preserve the score
