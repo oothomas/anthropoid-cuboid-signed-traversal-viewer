@@ -18,6 +18,10 @@ Three-dimensional scans capture detailed surfaces, but do not establish which lo
 
 Stage 1 builds dense correspondences across a sparse network of specimens and templates. Panine et al.'s method uses corresponding anatomical landmarks to construct spectral bases adapted to those anchors. It matches surface functions in these bases and iteratively refines dense point-to-point correspondences, accommodating differences in shape and proportions. [[5]](#ref-ovsjanikov2012) [[6]](#ref-panine2022) Correspondence is a methodological component in its own right because matching errors propagate into shape analysis.
 
+![Mouse mandible template 809_10 and its mapped specimen 158_56, with transferred surface colors and 14 matching numbered anatomical landmarks](assets/readme/mandible-correspondence.png)
+
+Revised correspondence between mouse mandibles: template 809_10 (left) and its vertices mapped to specimen 158_56 (right), retaining the template triangles. The 14 numbered landmarks mark corresponding anatomical anchors; dashed markers are viewed through the surface. Colors are transferred from the template and indicate location, not error. The right surface is the nearest-vertex target used by Stage 2, not a neural reconstruction. This example uses the revised adaptive-triangulation maps.
+
 Stage 2 uses functional-map networks and a limit-shape common basis to make surface features comparable across specimens. [[7]](#ref-huang2014) [[8]](#ref-huang2019) The autoencoder builds on DISCO-AE, with DiffusionNet surface layers and an SNK-inspired prism decoder adapted for reconstruction from a common latent code. [[9]](#ref-hahner2024) [[10]](#ref-sharp2022) [[11]](#ref-attaiki2023) Principal-component analysis (PCA) summarizes variation in those codes. Decoding along the axes reveals associated anatomical changes, linking statistical relationships among specimens to surface geometry.
 
 ## Study scope and initial results
@@ -81,25 +85,5 @@ Blue denotes inward and orange/red outward displacement along the decoded mean s
 Point colors identify genus from the reconciled project sampling labels; the same genus has the same color in both cuboid datasets. Circles are training specimens and triangles are projected tuning specimens. Counts in the genus legend include both partitions. Historical project taxonomic names are retained; this is not a taxonomic revision. KB3133 has no assigned genus and remains Unassigned.
 
 Display annotations are joined by exact specimen identifier. No scores are moved, PCA is not refitted, and no confirmation observations are added. The source hash and minimal public assignments are in `content/taxonomy.json`.
-
-## Joint-PC decoding
-
-The requested fifth panel will decode a single code with all four PC coordinates varied together. It is not yet implemented. An additive mesh approximation was explicitly declined. See [the exact-decoding implementation plan](EXACT_JOINT_DECODING.md). The four existing panels remain genuine single-axis decoder outputs.
-
-## Local review
-
-```bash
-python3 run_server.py
-```
-
-This serves `site/` on an available localhost port. Use HTTP rather than `file://`; binary assets are fetched and checksum-verified.
-
-## Reproducibility and publishing
-
-GitHub Actions publishes only `site/`. The historical root viewer and assets are preserved in the repository but are not deployed. Each dataset includes an editable geometry table, caption, quality note and sanitized provenance. `site/release.json` hashes every deployed asset.
-
-No checkpoints, raw latent codes, private filesystem paths, run logs, score CSVs or score-download controls are deployed. On-screen score values and identifiers remain public browser assets; removing downloads does not create access control.
-
-The shared scientific introduction is maintained in `content/project.json`; bibliographic records and software credits are in `content/references.json`. Citation markers are resolved in first-appearance order into this README and all four traversal pages. After a presentation edit, run `python3 scripts/refresh_presentation.py`. `scripts/package_current_traversals.py` creates the initial allowlisted scientific package from a verified local export; presentation refresh is a separate step. Read `PRESENTATION_BRIEF.md` and `DESIGN_AND_PROVENANCE.md` for the communication and scientific boundaries.
 
 Public project copy is a review-grade draft. The manuscript is in preparation; no publication, peer-review outcome or completed biological validation is implied.

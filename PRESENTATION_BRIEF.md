@@ -18,7 +18,7 @@ project identity and manuscript-in-preparation status. Retain dataset navigation
 signed scale, geometry warnings and existing controls. Follow surfaces with the
 two PCA plots, then the shared project introduction, methods, preliminary results,
 implications and interpretation limits. The README uses the identical project
-text, followed by repository-specific reproduction information.
+text, with approved illustrative screenshots and concise model/display notes.
 
 Use unframed full-width sections, restrained white/gray backgrounds, dark text,
 teal links and the existing blue-white-orange/red displacement scale. No marketing
@@ -70,14 +70,6 @@ Caption scaffold: Fig 1. Decoded shape variation and latent principal-component
 scores in [dataset]. Retain the existing model, template, sample-size, signed
 scale and geometry caveats; add genus colors, partition symbols and taxonomy
 source where applicable. No manuscript figure number is assigned to this website.
-
-## Exact Joint Traversal Decision
-
-The author selected exact joint decoding, not an additive surface approximation.
-Prepare a technical solution separately before adding the fifth panel. Do not
-mislabel sums of axis displacements as nonlinear decoder output, publish decoder
-weights, expose private compute, or start new training in this presentation task.
-See EXACT_JOINT_DECODING.md for the implementation and validation proposal.
 
 ## QA And Promotion
 
@@ -132,3 +124,22 @@ the local publication-review report. Refresh site/release.json after final edits
 Salience self-audit: anatomy first, PC controls second, plot grouping third;
 scientific context follows rather than obscures surfaces. Request author review
 of introductory claims and genus labels before calling this manuscript-ready.
+
+### Approved Mandible Correspondence Screenshot, 23 October 2026
+
+The author approved the reviewed pairs and authorized a screenshot for the
+two-stage approach section. Use template 809_10 and mapped specimen 158_56,
+between the Stage 1 and Stage 2 paragraphs. The paired surfaces answer how
+correspondence transfers locations between specimens. Transported spatial
+colors are not an error scale; the fourteen numbered landmarks provide a
+non-color correspondence cue. Dashed markers are seen through the surface.
+The caption distinguishes the revised adaptive-triangulation mapping branch
+and the actual nearest-vertex Stage 2 target from a neural reconstruction.
+
+Keep the 1568 x 578 image unmodified and proportionally displayed. Anatomy
+and matching landmarks should dominate, with the explanatory caption below.
+The raster, caption and sanitized provenance live under assets/readme/.
+No new mesh, map or landmark arrays are published. The local review viewer
+and its data remain private. Author screenshot approval is not scientific
+certification of map quality. The README omits operational review/publishing
+instructions and unpublished technical proposals as requested.

@@ -174,14 +174,19 @@ def overview_html(copy, citations):
 def readme(copy, site, citations):
     preview = read(ROOT / 'assets/readme/hominoid-traversals-provenance.json')
     assert sha(ROOT / preview['image']) == preview['sha256'], 'README screenshot changed'
+    mapping = read(ROOT / 'assets/readme/mandible-correspondence-provenance.json')
+    assert sha(ROOT / mapping['image']) == mapping['sha256'], 'Approved mapping screenshot changed'
     parts = [f'# {copy["title"]}', '', f'**{copy["status"]}**', '', citations.render(copy["introduction"]), '',
              '[Explore the results](https://oothomas.github.io/anthropoid-cuboid-signed-traversal-viewer/) | [Source software](#source-software-and-methodological-credit) | [References](#references)', '',
              f'[![{preview["alt"]}]({preview["image"]})]({preview["viewer_url"]})', '',
              (ROOT / preview['caption']).read_text().strip(), '']
     for section in copy["sections"]:
         parts += [f'## {section["heading"]}', '']
-        for p in section["paragraphs"]:
+        for index, p in enumerate(section["paragraphs"]):
             parts += [citations.render(p), '']
+            if section['heading'] == 'A two-stage approach' and index == 0:
+                parts += [f'![{mapping["alt"]}]({mapping["image"]})', '',
+                          (ROOT / mapping['caption']).read_text().strip(), '']
     parts += citations.sections_markdown()
     parts += ['## Models in this release', '',
               '| Dataset | Epoch | Common dimension | Training PCA | Projected tuning | Initial learning rate |',
@@ -196,14 +201,6 @@ def readme(copy, site, citations):
               'Blue denotes inward and orange/red outward displacement along the decoded mean surface normals, as a percentage of the mean bounding-box diagonal; white is zero. This is not reconstruction error, closest-surface distance or unmapped coverage. Tangential movement is not encoded. Dataset captions and geometry tables report local surface-quality flags; decoded anatomy remains subject to review.', '',
               '## Genus annotations', '', TAX_NOTE, '',
               'Display annotations are joined by exact specimen identifier. No scores are moved, PCA is not refitted, and no confirmation observations are added. The source hash and minimal public assignments are in `content/taxonomy.json`.', '',
-              '## Joint-PC decoding', '',
-              'The requested fifth panel will decode a single code with all four PC coordinates varied together. It is not yet implemented. An additive mesh approximation was explicitly declined. See [the exact-decoding implementation plan](EXACT_JOINT_DECODING.md). The four existing panels remain genuine single-axis decoder outputs.', '',
-              '## Local review', '', '```bash', 'python3 run_server.py', '```', '',
-              'This serves `site/` on an available localhost port. Use HTTP rather than `file://`; binary assets are fetched and checksum-verified.', '',
-              '## Reproducibility and publishing', '',
-              'GitHub Actions publishes only `site/`. The historical root viewer and assets are preserved in the repository but are not deployed. Each dataset includes an editable geometry table, caption, quality note and sanitized provenance. `site/release.json` hashes every deployed asset.', '',
-              'No checkpoints, raw latent codes, private filesystem paths, run logs, score CSVs or score-download controls are deployed. On-screen score values and identifiers remain public browser assets; removing downloads does not create access control.', '',
-              'The shared scientific introduction is maintained in `content/project.json`; bibliographic records and software credits are in `content/references.json`. Citation markers are resolved in first-appearance order into this README and all four traversal pages. After a presentation edit, run `python3 scripts/refresh_presentation.py`. `scripts/package_current_traversals.py` creates the initial allowlisted scientific package from a verified local export; presentation refresh is a separate step. Read `PRESENTATION_BRIEF.md` and `DESIGN_AND_PROVENANCE.md` for the communication and scientific boundaries.', '',
               'Public project copy is a review-grade draft. The manuscript is in preparation; no publication, peer-review outcome or completed biological validation is implied.', '']
     return '\n'.join(parts)
 
@@ -260,8 +257,7 @@ def refresh(site, ledger=None):
                                 'generator_sha256': sha(Path(__file__)),
                                 'shared_copy_sha256': sha(ROOT / 'content/project.json'),
                                 'references_sha256': sha(ROOT / 'content/references.json'),
-                                'scientific_arrays_changed': False,
-                                'joint_decoder_implemented': False}
+                                'scientific_arrays_changed': False}
         if dataset in ('cuboid', 'hominoids'):
             prov['presentation']['taxonomy'] = metadata['taxonomy']
             caption = folder / 'caption.txt'
@@ -275,7 +271,7 @@ def refresh(site, ledger=None):
         qa.write_text(previous.rstrip() + '\n\nPresentation update: shared project copy and genus annotations only. '
                       'Scientific meshes, displacement fields, score coordinates and PCA fits are unchanged. '
                       'Genus joins use exact published specimen identifiers; unassigned taxonomy remains explicit. '
-                      'Browser QA is recorded separately. Joint decoding remains a technical proposal, not a displayed approximation.\n')
+                      'Browser QA is recorded separately.\n')
     (ROOT / 'README.md').write_text(readme(copy, site, citations))
     release = read(site / 'release.json')
     release['presentation_revision'] = 'method-citations-and-software-credit-2026-10-14'

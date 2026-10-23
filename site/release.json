@@ -63,8 +63,8 @@
       "bytes": 0
     },
     "cuboid/traversals/QA.txt": {
-      "sha256": "0c901299d518ec4ce72dba8c7f494e432e578dd03fefc7f84fd831a1e3481f46",
-      "bytes": 1054
+      "sha256": "f146d5be63ee5ae91ebf8ae838fed49e907ebe03a1935a8f315298dbd29869de",
+      "bytes": 978
     },
     "cuboid/traversals/caption.txt": {
       "sha256": "2cfb2e21f419f1db942ca0e9b8b1cd6a7ffc40d3ab4e28331df35e9dadef777d",
@@ -91,8 +91,8 @@
       "bytes": 10217
     },
     "cuboid/traversals/provenance.json": {
-      "sha256": "5c27619a649d13cfcfcc49c8bd632c030e8b3c7b7f44b3d6f899f94c25c1fdd4",
-      "bytes": 2271
+      "sha256": "0810835833e7b348259d69f7b2943dfbc48238b8875713075127fc38109c618c",
+      "bytes": 2231
     },
     "cuboid/traversals/summary.json": {
       "sha256": "56bd310fc76edb7f2806e8aca2b88527d98fcfd3a75c228aadf4f3933229eb9f",
@@ -127,8 +127,8 @@
       "bytes": 670681
     },
     "hominoids/traversals/QA.txt": {
-      "sha256": "0c901299d518ec4ce72dba8c7f494e432e578dd03fefc7f84fd831a1e3481f46",
-      "bytes": 1054
+      "sha256": "f146d5be63ee5ae91ebf8ae838fed49e907ebe03a1935a8f315298dbd29869de",
+      "bytes": 978
     },
     "hominoids/traversals/caption.txt": {
       "sha256": "186e7ea86ec0e9fe2f169f75f7932ec08ac859a69b796ada97abf01bf2571e76",
@@ -155,8 +155,8 @@
       "bytes": 10244
     },
     "hominoids/traversals/provenance.json": {
-      "sha256": "84387bf21f50e6e4ecffeb3579477dbb718f6759de719f96f764f88e6feee42f",
-      "bytes": 2259
+      "sha256": "1a162d198820a5191c9979f53a668f43504d2b8f6cf1a017d7230f9d2621cfce",
+      "bytes": 2219
     },
     "hominoids/traversals/summary.json": {
       "sha256": "9df9743e2e8d4a8b9ac66371f7524892d39faf82af6e882d591e1652d5721bc6",
@@ -191,8 +191,8 @@
       "bytes": 670681
     },
     "humeri/traversals/QA.txt": {
-      "sha256": "0c901299d518ec4ce72dba8c7f494e432e578dd03fefc7f84fd831a1e3481f46",
-      "bytes": 1054
+      "sha256": "f146d5be63ee5ae91ebf8ae838fed49e907ebe03a1935a8f315298dbd29869de",
+      "bytes": 978
     },
     "humeri/traversals/caption.txt": {
       "sha256": "0ac03a93654613e528c8fe46ea6053386df8a094f6f46bfd8742b0a1c3a08723",
@@ -219,8 +219,8 @@
       "bytes": 10431
     },
     "humeri/traversals/provenance.json": {
-      "sha256": "b8178f5f46dd3c748cd4c6c254296f26f568c0ccec7841fe7cbce44beb49fa10",
-      "bytes": 1898
+      "sha256": "f5157a26dce4bcb165a7e60643b1a6d9a222d33e501eed55dd98213a9b131c09",
+      "bytes": 1858
     },
     "humeri/traversals/summary.json": {
       "sha256": "499dc5adf45e437200941366c8d7878dcfccec9ed6ed758e54c641bd08e6f4fe",
@@ -259,8 +259,8 @@
       "bytes": 319
     },
     "mandible/traversals/QA.txt": {
-      "sha256": "0c901299d518ec4ce72dba8c7f494e432e578dd03fefc7f84fd831a1e3481f46",
-      "bytes": 1054
+      "sha256": "f146d5be63ee5ae91ebf8ae838fed49e907ebe03a1935a8f315298dbd29869de",
+      "bytes": 978
     },
     "mandible/traversals/caption.txt": {
       "sha256": "7362356e280eb9b0c43d4bd58ed37479d48012a025f3701c0a994873fabe2cfb",
@@ -287,8 +287,8 @@
       "bytes": 10459
     },
     "mandible/traversals/provenance.json": {
-      "sha256": "3eddf0db3136f20280596bb172177368b5b6df074be3d03eb5d81f056bfe3e14",
-      "bytes": 1880
+      "sha256": "3b277cdcdbc699cd4bc8b55836837aadedd2b67b6a28406bf5389f20480eb626",
+      "bytes": 1840
     },
     "mandible/traversals/summary.json": {
       "sha256": "499dc5adf45e437200941366c8d7878dcfccec9ed6ed758e54c641bd08e6f4fe",

@@ -36,6 +36,29 @@ class Page(HTMLParser):
 
 
 class PresentationTests(unittest.TestCase):
+    def test_approved_mapping_screenshot_and_readme_scope(self):
+        preview = read(ROOT / 'assets/readme/mandible-correspondence-provenance.json')
+        png = (ROOT / preview['image']).read_bytes()
+        self.assertEqual(hashlib.sha256(png).hexdigest(), preview['sha256'])
+        self.assertEqual(png[:8], b'\x89PNG\r\n\x1a\n')
+        self.assertEqual(struct.unpack('>II', png[16:24]), (1568, 578))
+        self.assertEqual(preview['exact_discrete_anchor_assignments'], 14)
+        markdown = (ROOT / 'README.md').read_text()
+        image = f'![{preview["alt"]}]({preview["image"]})'
+        self.assertIn(image, markdown)
+        self.assertLess(markdown.index('Stage 1 builds'), markdown.index(image))
+        self.assertLess(markdown.index(image), markdown.index('Stage 2 uses'))
+        self.assertIn((ROOT / preview['caption']).read_text().strip(), markdown)
+        for title in ('Joint-PC decoding', 'Local review', 'Reproducibility and publishing'):
+            self.assertNotIn('## ' + title, markdown)
+        plan = 'EXACT_JOINT_DECODING.md'
+        self.assertFalse((ROOT / plan).exists())
+        for name in ('README.md', 'PRESENTATION_BRIEF.md', 'DESIGN_AND_PROVENANCE.md'):
+            self.assertNotIn(plan, (ROOT / name).read_text())
+        for path in (ROOT / 'assets/readme').glob('mandible-correspondence*.json'):
+            for private in ('/Users/', '/Volumes/', '/home/', 'localhost', '127.0.0.1'):
+                self.assertNotIn(private, path.read_text())
+
     def test_landmark_mapping_introduction(self):
         markdown = (ROOT / 'README.md').read_text()
         self.assertNotIn("The original screenshot retains the viewer's geometry warnings", markdown)

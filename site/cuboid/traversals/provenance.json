@@ -35,11 +35,10 @@
   "privacy_note": "Plot values are public browser assets; removing a download link is not access control.",
   "presentation": {
     "generator": "scripts/refresh_presentation.py",
-    "generator_sha256": "5635278fbaf38a087d3e0a044e80317732a0312f070102478eaecb7505df1e97",
+    "generator_sha256": "080391e5981ca5dd8395ad119ae1e14dd2bc8ff48e0f279e33d9a6988fe3d66f",
     "shared_copy_sha256": "6c6b18cc8f2c617984946602fe787a0e0b9d4820ebe7f14f79c982e75dba3e1a",
     "references_sha256": "e54b92602d0fdeed6723fa9581e3015e0423f10e42a95e8e80fdf9bdcb6da1b4",
     "scientific_arrays_changed": false,
-    "joint_decoder_implemented": false,
     "taxonomy": {
       "source": "specimen_ledger_publication_draft.csv",
       "source_sha256": "e065c0c6a7633738b80ff6da2b23e5ffa00af8ad1dd0db9d507a359b7d649e67",

@@ -19,9 +19,7 @@ names are retained. Source hash and public-only records: `content/taxonomy.json`
 Six boundary tests plus browser checks verify unchanged meshes, scalars, score
 coordinates, axes and exclusions; shared-copy equivalence; taxonomy joins; release
 hashes; and desktop/mobile rendering and interactions. See `PRESENTATION_BRIEF.md`
-for design intent. The author requested exact joint decoding; the fifth-panel
-implementation is deferred to the separately gated plan in
-`EXACT_JOINT_DECODING.md`. No additive approximation is presented as a model output.
+for design intent.
 
 The 14 October 2026 update displays the latest completed seed-2071 model for each
 of four current datasets, replacing the live historical epoch-150 anthropoid
