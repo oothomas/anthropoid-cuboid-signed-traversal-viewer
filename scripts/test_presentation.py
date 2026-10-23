@@ -53,8 +53,7 @@ class PresentationTests(unittest.TestCase):
             self.assertNotIn('## ' + title, markdown)
         plan = 'EXACT_JOINT_DECODING.md'
         self.assertFalse((ROOT / plan).exists())
-        for name in ('README.md', 'PRESENTATION_BRIEF.md', 'DESIGN_AND_PROVENANCE.md'):
-            self.assertNotIn(plan, (ROOT / name).read_text())
+        self.assertNotIn(plan, markdown)
         for path in (ROOT / 'assets/readme').glob('mandible-correspondence*.json'):
             for private in ('/Users/', '/Volumes/', '/home/', 'localhost', '127.0.0.1'):
                 self.assertNotIn(private, path.read_text())
@@ -208,6 +207,29 @@ class PresentationTests(unittest.TestCase):
                 text = path.read_text()
                 for forbidden in ('/Users/', '/home/ootho/', '/Volumes/', 'github_pat_', 'ghp_'):
                     self.assertNotIn(forbidden, text)
+
+    def test_public_repository_scope(self):
+        for name in ('DESIGN_AND_PROVENANCE.md', 'PRESENTATION_BRIEF.md',
+                     'PRESENTATION_QA.md', 'PUBLICATION_BRIEF.md',
+                     'index.html', '.nojekyll', 'assets/data', 'assets/vendor',
+                     'assets/viewer.js', 'assets/styles.css',
+                     'run_server.py', 'run_server.command'):
+            self.assertFalse((ROOT / name).exists(), name)
+        self.assertTrue((ROOT / 'site/index.html').exists())
+        self.assertTrue((ROOT / 'site/.nojekyll').exists())
+        for dataset in DATASETS:
+            root = ROOT / 'site' / dataset
+            self.assertFalse((root / 'traversals/QA.txt').exists())
+            summary = read(root / 'traversals/summary.json')
+            notes = (root / 'traversals/limitations.txt').read_text()
+            self.assertEqual(notes, presentation.limitations_text(summary))
+            self.assertIn(f'{summary["flagged_positions"]} have a flagged', notes)
+            page = (root / 'viewer/index.html').read_text()
+            self.assertIn('href="../traversals/limitations.txt"', page)
+            self.assertNotIn('../traversals/QA.txt', page)
+            for phrase in ('Browser QA', 'Presentation update:', 'Joint-PC decoding',
+                           'exact-decoding implementation plan'):
+                self.assertNotIn(phrase, notes)
 
     def test_generator_idempotence(self):
         paths = [ROOT / 'README.md', ROOT / 'site/release.json']

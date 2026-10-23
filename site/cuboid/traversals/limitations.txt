@@ -1,0 +1,9 @@
+Interpreting the decoded surfaces
+
+Each panel varies one principal component (PC) while holding the other components at the training-code mean. Axes are model-specific and are not aligned across datasets or seeds. The displayed seed is not a best-seed selection.
+
+Colors show inward or outward displacement along the decoded mean surface normal, as a percentage of its bounding-box diagonal. They do not show reconstruction error, closest-surface distance or tangential movement.
+
+Geometry checks cover 164 sampled surfaces; 18 have a flagged intersection or face-quality issue. The viewer and geometry measurements report these flags without hiding or repairing them. An unflagged surface is not proof of anatomical accuracy, and the checks do not certify unsampled positions between displayed steps.
+
+PCA is fitted to training codes; tuning specimens are projected where available. Reference templates and confirmation specimens are excluded from the score plots. The mouse datasets have no held-out test group. Shared correspondence construction limits claims of fully unseen-specimen performance. Latent grouping alone does not establish biological validity.

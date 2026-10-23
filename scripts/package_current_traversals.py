@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 import shutil
 from html.parser import HTMLParser
+from refresh_presentation import limitations_text
 
 DATASETS = ('cuboid', 'hominoids', 'mandible', 'humeri')
 VIEWER_FILES = ('index.html', 'traversals.css', 'traversals.js',
@@ -67,7 +68,10 @@ def package(source, output):
         html = html_path.read_text()
         link = '<a href="../traversals/scores.csv" download>Score data</a>'
         assert html.count(link) == 1
-        html_path.write_text(html.replace(link, ''))
+        html = html.replace(link, '')
+        html = html.replace('<a href="../traversals/QA.txt">Quality checks</a>',
+                            '<a href="../traversals/limitations.txt">Interpretation and limitations</a>')
+        html_path.write_text(html)
         metadata_path = inp / 'traversals/data.json'
         check(metadata_path)
         metadata = read(metadata_path)
@@ -102,16 +106,7 @@ def package(source, output):
                       score_download=False,
                       privacy_note='Plot values are public browser assets; removing a download link is not access control.')
         save(dest / 'traversals/provenance.json', public)
-        (dest / 'traversals/QA.txt').write_text(
-            'Review-grade draft, not manuscript adoption. Source checks passed for final '
-            'checkpoint identity, training-only PCA fitting, archived reconstruction replay, '
-            'unchanged weights, finite decoded output and payload hashes. Exact triangle '
-            'intersection and degeneracy audits cover all 164 sampled surfaces; flags remain '
-            'visible and are not repaired. Original desktop/mobile canvas, animation and '
-            'control checks passed. Publication packaging retains the same geometry, scalar '
-            'fields, axis definitions and appearance. No score CSV or download control is '
-            'published; on-screen plot data remain public. Anatomical and cross-seed review '
-            'are pending. These checks do not certify unsampled continuous surfaces.\n')
+        (dest / 'traversals/limitations.txt').write_text(limitations_text(summary))
         release['datasets'][key] = dict(epoch=receipt['epoch'], seed=2071,
                                         geometry=summary, viewer=key + '/viewer/')
     (output / '.nojekyll').write_text('')

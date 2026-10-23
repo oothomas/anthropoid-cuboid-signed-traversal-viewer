@@ -48,6 +48,28 @@ def save(path, value):
     path.write_text(json.dumps(value, indent=2, allow_nan=False) + "\n")
 
 
+def limitations_text(summary):
+    return (
+        'Interpreting the decoded surfaces\n\n'
+        'Each panel varies one principal component (PC) while holding the other '
+        'components at the training-code mean. Axes are model-specific and are not '
+        'aligned across datasets or seeds. The displayed seed is not a best-seed selection.\n\n'
+        'Colors show inward or outward displacement along the decoded mean surface '
+        'normal, as a percentage of its bounding-box diagonal. They do not show '
+        'reconstruction error, closest-surface distance or tangential movement.\n\n'
+        f'Geometry checks cover {summary["decoded_positions"]} sampled surfaces; '
+        f'{summary["flagged_positions"]} have a flagged intersection or face-quality issue. '
+        'The viewer and geometry measurements report these flags without hiding or '
+        'repairing them. An unflagged surface is not proof of anatomical accuracy, '
+        'and the checks do not certify unsampled positions between displayed steps.\n\n'
+        'PCA is fitted to training codes; tuning specimens are projected where '
+        'available. Reference templates and confirmation specimens are excluded '
+        'from the score plots. The mouse datasets have no held-out test group. '
+        'Shared correspondence construction limits claims of fully unseen-specimen '
+        'performance. Latent grouping alone does not establish biological validity.\n'
+    )
+
+
 def replace_block(text, start, end, block, before=None):
     if start in text:
         assert text.count(start) == text.count(end) == 1
@@ -250,6 +272,8 @@ def refresh(site, ledger=None):
             text = text.replace('class="scores"', 'class="scores genus-scores"', 1)
             text = text.replace('<p class="score-note">', '<p class="taxonomy-note">' + escape(TAX_NOTE) + '</p>\n    <p class="score-note">', 1)
         text = text.replace('<footer>\n    <p>', '<footer>\n    <h2>Dataset notes and provenance</h2>\n    <p>', 1)
+        text = text.replace('<a href="../traversals/QA.txt">Quality checks</a>',
+                            '<a href="../traversals/limitations.txt">Interpretation and limitations</a>')
         page.write_text(text)
         prov_path = folder / 'provenance.json'
         prov = read(prov_path)
@@ -266,15 +290,10 @@ def refresh(site, ledger=None):
                 existing = existing[:existing.index(TAX_START)].rstrip() + '\n'
             caption.write_text(existing.rstrip() + '\n\n' + TAX_START + '\n' + TAX_NOTE + '\n' + TAX_END + '\n')
         save(prov_path, prov)
-        qa = folder / 'QA.txt'
-        previous = qa.read_text().split('\nPresentation update:')[0]
-        qa.write_text(previous.rstrip() + '\n\nPresentation update: shared project copy and genus annotations only. '
-                      'Scientific meshes, displacement fields, score coordinates and PCA fits are unchanged. '
-                      'Genus joins use exact published specimen identifiers; unassigned taxonomy remains explicit. '
-                      'Browser QA is recorded separately.\n')
+        (folder / 'limitations.txt').write_text(limitations_text(read(folder / 'summary.json')))
     (ROOT / 'README.md').write_text(readme(copy, site, citations))
     release = read(site / 'release.json')
-    release['presentation_revision'] = 'method-citations-and-software-credit-2026-10-14'
+    release['presentation_revision'] = 'public-results-cleanup-2026-10-23'
     release['files'] = {str(p.relative_to(site)): {'sha256': sha(p), 'bytes': p.stat().st_size}
                         for p in sorted(site.rglob('*')) if p.is_file() and p != site / 'release.json'}
     save(site / 'release.json', release)
