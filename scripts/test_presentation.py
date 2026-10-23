@@ -36,6 +36,15 @@ class Page(HTMLParser):
 
 
 class PresentationTests(unittest.TestCase):
+    def test_landmark_mapping_introduction(self):
+        markdown = (ROOT / 'README.md').read_text()
+        self.assertNotIn("The original screenshot retains the viewer's geometry warnings", markdown)
+        self.assertNotIn('Anatomical anchors, surface diagnostics and targeted refinement', markdown)
+        self.assertNotIn('The revised mandible models shown here instead use', markdown)
+        self.assertIn('corresponding anatomical landmarks', markdown)
+        self.assertIn('point-to-point correspondences', markdown)
+        self.assertIn('Foundation for the revised mandible correspondence branch', markdown)
+
     def test_readme_screenshot(self):
         preview = read(ROOT / 'assets/readme/hominoid-traversals-provenance.json')
         png = (ROOT / preview['image']).read_bytes()

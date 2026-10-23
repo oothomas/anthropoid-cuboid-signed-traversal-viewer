@@ -8,7 +8,7 @@ Comparative skeletal biology seeks to relate anatomical variation to function an
 
 [![Four non-fossil hominoid cuboid PC traversals at +1.6 SD, colored by signed displacement from the decoded mean, with the scale and geometry warnings visible](assets/readme/hominoid-traversals.png)](https://oothomas.github.io/anthropoid-cuboid-signed-traversal-viewer/hominoids/viewer/)
 
-Non-fossil hominoid cuboids, seed 2071, epoch 350. PCA was fitted to 110 training specimens. Each panel independently varies one PC to +1.6 training-score standard deviations, holding the other components at their mean. Blue and orange/red show inward and outward displacement along the decoded mean surface normals, respectively, as a percentage of its bounding-box diagonal. These colors are not reconstruction errors. The original screenshot retains the viewer's geometry warnings, including the three flagged intersection pairs in PC1. Click the image to explore the interactive viewer.
+Non-fossil hominoid cuboids, seed 2071, epoch 350. PCA was fitted to 110 training specimens. Each panel independently varies one PC to +1.6 training-score standard deviations, holding the other components at their mean. Blue and orange/red show inward and outward displacement along the decoded mean surface normals, respectively, as a percentage of its bounding-box diagonal. These colors are not reconstruction errors. Click the image to explore the interactive viewer.
 
 ## The methodological gap
 
@@ -16,9 +16,9 @@ Three-dimensional scans capture detailed surfaces, but do not establish which lo
 
 ## A two-stage approach
 
-Stage 1 builds dense correspondences across a sparse network of specimens and templates. The functional-map formulation and Panine et al.'s landmark-adapted bases provide the initial matching framework. [[5]](#ref-ovsjanikov2012) [[6]](#ref-panine2022) Anatomical anchors, surface diagnostics and targeted refinement address discontinuities, collapse and incomplete coverage. The revised mandible models shown here instead use separately initialized maps based on Surface Maps via Adaptive Triangulations, with project-specific safeguards. [[7]](#ref-schmidt2023) Correspondence is a methodological component in its own right because matching errors propagate into shape analysis.
+Stage 1 builds dense correspondences across a sparse network of specimens and templates. Panine et al.'s method uses corresponding anatomical landmarks to construct spectral bases adapted to those anchors. It matches surface functions in these bases and iteratively refines dense point-to-point correspondences, accommodating differences in shape and proportions. [[5]](#ref-ovsjanikov2012) [[6]](#ref-panine2022) Correspondence is a methodological component in its own right because matching errors propagate into shape analysis.
 
-Stage 2 uses functional-map networks and a limit-shape common basis to make surface features comparable across specimens. [[8]](#ref-huang2014) [[9]](#ref-huang2019) The autoencoder builds on DISCO-AE, with DiffusionNet surface layers and an SNK-inspired prism decoder adapted for reconstruction from a common latent code. [[10]](#ref-hahner2024) [[11]](#ref-sharp2022) [[12]](#ref-attaiki2023) Principal-component analysis (PCA) summarizes variation in those codes. Decoding along the axes reveals associated anatomical changes, linking statistical relationships among specimens to surface geometry.
+Stage 2 uses functional-map networks and a limit-shape common basis to make surface features comparable across specimens. [[7]](#ref-huang2014) [[8]](#ref-huang2019) The autoencoder builds on DISCO-AE, with DiffusionNet surface layers and an SNK-inspired prism decoder adapted for reconstruction from a common latent code. [[9]](#ref-hahner2024) [[10]](#ref-sharp2022) [[11]](#ref-attaiki2023) Principal-component analysis (PCA) summarizes variation in those codes. Decoding along the axes reveals associated anatomical changes, linking statistical relationships among specimens to surface geometry.
 
 ## Study scope and initial results
 
@@ -35,10 +35,10 @@ The contribution is a connection between whole-surface measurement and anatomica
 These upstream projects underpin the methods and implementation. Our biological adaptations, quality controls and results are the responsibility of this study.
 
 - [Panine landmark-adapted matching](https://github.com/mpanine/DirichletSteklovLandmarkMatching): Stage 1 non-isometric functional matching with anatomical landmark constraints. [[6]](#ref-panine2022)
-- [Surface Maps via Adaptive Triangulations](https://github.com/patr-schm/surface-maps-via-adaptive-triangulations): Foundation for the revised mandible correspondence branch, with project-specific initialization, anchor, solver and export safeguards. [[7]](#ref-schmidt2023)
-- [DISCO-AE](https://github.com/Fraunhofer-SCAI/DISCO-AE): Common-basis autoencoding framework underlying Stage 2. [[10]](#ref-hahner2024)
-- [DiffusionNet](https://github.com/nmwsharp/diffusion-net): Surface-network layers used in the encoder and decoder. [[11]](#ref-sharp2022)
-- [SNK](https://github.com/pvnieo/SNK): Prism-decoder design adapted within our common-basis autoencoder, not an application of SNK's pairwise zero-shot matching procedure. [[12]](#ref-attaiki2023)
+- [Surface Maps via Adaptive Triangulations](https://github.com/patr-schm/surface-maps-via-adaptive-triangulations): Foundation for the revised mandible correspondence branch, with project-specific initialization, anchor, solver and export safeguards. [[12]](#ref-schmidt2023)
+- [DISCO-AE](https://github.com/Fraunhofer-SCAI/DISCO-AE): Common-basis autoencoding framework underlying Stage 2. [[9]](#ref-hahner2024)
+- [DiffusionNet](https://github.com/nmwsharp/diffusion-net): Surface-network layers used in the encoder and decoder. [[10]](#ref-sharp2022)
+- [SNK](https://github.com/pvnieo/SNK): Prism-decoder design adapted within our common-basis autoencoder, not an application of SNK's pairwise zero-shot matching procedure. [[11]](#ref-attaiki2023)
 - [Robin Magnet's pyFM](https://github.com/RobinMagnet/pyFM): Mesh, spectral and functional-map-network utilities used by the pipeline. Cited directly as software, following the author's attribution guidance. [[13]](#ref-magnetpyfm)
 
 ## References
@@ -49,12 +49,12 @@ These upstream projects underpin the methods and implementation. Our biological 
 4. <a id="ref-thomas2023"></a>Thomas OO, Shen H, Raaum RL, Harcourt-Smith WEH, Polk JD, Hasegawa-Johnson M. [Automated morphological phenotyping using learned shape descriptors and functional maps: A novel approach to geometric morphometrics](https://doi.org/10.1371/journal.pcbi.1009061). PLoS Comput Biol. 2023;19(1):e1009061.
 5. <a id="ref-ovsjanikov2012"></a>Ovsjanikov M, Ben-Chen M, Solomon J, Butscher A, Guibas L. [Functional maps: a flexible representation of maps between shapes](https://doi.org/10.1145/2185520.2185526). ACM Trans Graph. 2012;31(4):30:1-30:11.
 6. <a id="ref-panine2022"></a>Panine M, Kirgo M, Ovsjanikov M. [Non-isometric shape matching via functional maps on landmark-adapted bases](https://doi.org/10.1111/cgf.14579). Comput Graph Forum. 2022;41(6):394-417.
-7. <a id="ref-schmidt2023"></a>Schmidt P, Pieper D, Kobbelt L. [Surface Maps via Adaptive Triangulations](https://doi.org/10.1111/cgf.14747). Comput Graph Forum. 2023;42(2):103-117.
-8. <a id="ref-huang2014"></a>Huang Q, Wang F, Guibas L. [Functional map networks for analyzing and exploring large shape collections](https://doi.org/10.1145/2601097.2601111). ACM Trans Graph. 2014;33(4):36:1-36:11.
-9. <a id="ref-huang2019"></a>Huang R, Achlioptas P, Guibas L, Ovsjanikov M. [Limit Shapes: A Tool for Understanding Shape Differences and Variability in 3D Model Collections](https://doi.org/10.1111/cgf.13799). Comput Graph Forum. 2019;38(5):187-202.
-10. <a id="ref-hahner2024"></a>Hahner S, Attaiki S, Garcke J, Ovsjanikov M. [Unsupervised representation learning for diverse deformable shape collections](https://doi.org/10.1109/3DV62453.2024.00158). 2024 International Conference on 3D Vision (3DV). 2024. p. 1594-1604.
-11. <a id="ref-sharp2022"></a>Sharp N, Attaiki S, Crane K, Ovsjanikov M. [DiffusionNet: discretization agnostic learning on surfaces](https://doi.org/10.1145/3507905). ACM Trans Graph. 2022;41(3):1-16.
-12. <a id="ref-attaiki2023"></a>Attaiki S, Ovsjanikov M. [Shape Non-rigid Kinematics (SNK): A Zero-Shot Method for Non-Rigid Shape Matching via Unsupervised Functional Map Regularized Reconstruction](https://proceedings.neurips.cc/paper_files/paper/2023/hash/dd9b76f050a86a3ded6135ad3556e786-Abstract-Conference.html). Adv Neural Inf Process Syst. 2023;36.
+7. <a id="ref-huang2014"></a>Huang Q, Wang F, Guibas L. [Functional map networks for analyzing and exploring large shape collections](https://doi.org/10.1145/2601097.2601111). ACM Trans Graph. 2014;33(4):36:1-36:11.
+8. <a id="ref-huang2019"></a>Huang R, Achlioptas P, Guibas L, Ovsjanikov M. [Limit Shapes: A Tool for Understanding Shape Differences and Variability in 3D Model Collections](https://doi.org/10.1111/cgf.13799). Comput Graph Forum. 2019;38(5):187-202.
+9. <a id="ref-hahner2024"></a>Hahner S, Attaiki S, Garcke J, Ovsjanikov M. [Unsupervised representation learning for diverse deformable shape collections](https://doi.org/10.1109/3DV62453.2024.00158). 2024 International Conference on 3D Vision (3DV). 2024. p. 1594-1604.
+10. <a id="ref-sharp2022"></a>Sharp N, Attaiki S, Crane K, Ovsjanikov M. [DiffusionNet: discretization agnostic learning on surfaces](https://doi.org/10.1145/3507905). ACM Trans Graph. 2022;41(3):1-16.
+11. <a id="ref-attaiki2023"></a>Attaiki S, Ovsjanikov M. [Shape Non-rigid Kinematics (SNK): A Zero-Shot Method for Non-Rigid Shape Matching via Unsupervised Functional Map Regularized Reconstruction](https://proceedings.neurips.cc/paper_files/paper/2023/hash/dd9b76f050a86a3ded6135ad3556e786-Abstract-Conference.html). Adv Neural Inf Process Syst. 2023;36.
+12. <a id="ref-schmidt2023"></a>Schmidt P, Pieper D, Kobbelt L. [Surface Maps via Adaptive Triangulations](https://doi.org/10.1111/cgf.14747). Comput Graph Forum. 2023;42(2):103-117.
 13. <a id="ref-magnetpyfm"></a>Magnet R. [pyFM: Python implementation of Functional Maps](https://github.com/RobinMagnet/pyFM). GitHub [software]. Cited 2026 Oct 14.
 
 ## Models in this release

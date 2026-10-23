@@ -36,7 +36,7 @@
   "presentation": {
     "generator": "scripts/refresh_presentation.py",
     "generator_sha256": "5635278fbaf38a087d3e0a044e80317732a0312f070102478eaecb7505df1e97",
-    "shared_copy_sha256": "faae82d3a00f9a6a5f48a8cb92701b8bbee0edc34de33884343dd6f66f6ca900",
+    "shared_copy_sha256": "6c6b18cc8f2c617984946602fe787a0e0b9d4820ebe7f14f79c982e75dba3e1a",
     "references_sha256": "e54b92602d0fdeed6723fa9581e3015e0423f10e42a95e8e80fdf9bdcb6da1b4",
     "scientific_arrays_changed": false,
     "joint_decoder_implemented": false,
